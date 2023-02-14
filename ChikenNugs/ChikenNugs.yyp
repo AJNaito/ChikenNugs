@@ -33,6 +33,7 @@
     {"id":{"name":"sLargeChest_Empty","path":"sprites/sLargeChest_Empty/sLargeChest_Empty.yy",},"order":5,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":0,},
     {"id":{"name":"sVase_bits_5","path":"sprites/sVase_bits_5/sVase_bits_5.yy",},"order":18,},
+    {"id":{"name":"nugget61","path":"sprites/nugget61/nugget61.yy",},"order":0,},
     {"id":{"name":"Switch_Floor_Left","path":"sprites/Switch_Floor_Left/Switch_Floor_Left.yy",},"order":26,},
     {"id":{"name":"sh_silhouette_shader","path":"shaders/sh_silhouette_shader/sh_silhouette_shader.yy",},"order":1,},
     {"id":{"name":"OT_Draw_Silhouettes","path":"scripts/OT_Draw_Silhouettes/OT_Draw_Silhouettes.yy",},"order":3,},

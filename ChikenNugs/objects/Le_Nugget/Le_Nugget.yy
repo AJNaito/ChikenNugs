@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "nugget61",
+    "path": "sprites/nugget61/nugget61.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
