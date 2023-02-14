@@ -36,7 +36,8 @@ function InitGlobals() {
 	global.red[3] = sBlue_Left; 
 	global.red[4] = sBlue_Right;
 
-
+	global.nuggets_eaten = 0;
+	global.max_nuggets = 3;
 
 	// The player charcters
 	global.Sprites = 0;
@@ -60,7 +61,4 @@ function InitGlobals() {
 	smx = 0;
 	smy = 0;
 	Left_mouse_Down = false;
-
-
-
 }
