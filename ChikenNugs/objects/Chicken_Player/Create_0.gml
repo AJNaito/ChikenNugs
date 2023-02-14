@@ -1,4 +1,5 @@
 // @description -- Initialize Variables for Chicken Player
+InitGlobals()
 
 // inputs
 left = 0;

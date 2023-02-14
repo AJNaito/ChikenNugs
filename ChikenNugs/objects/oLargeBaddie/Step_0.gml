@@ -6,19 +6,17 @@ if( xp>x ) {
 }
 xp=x;
 
-if (global.nuggets_eaten != nuggets_vis) {
-	if (alpha >= 1.0) {
+if (alpha >= 1.0) {
 		alpha_step = -0.01;
-	} else {
+	} else if (alpha <= 0) {
 		alpha_step = 0.01;
 	}
 	
 	alpha += alpha_step;
-} else {
-	alpha = 1;
-}
+
+show_debug_message(alpha)
 
 image_alpha = alpha;
-image_blend = Set_Color(nuggets_vis);
+image_blend = c_black;
 
 draw_self();
