@@ -70,6 +70,7 @@
     {"id":{"name":"sVase_bits_1","path":"sprites/sVase_bits_1/sVase_bits_1.yy",},"order":14,},
     {"id":{"name":"sFountain","path":"sprites/sFountain/sFountain.yy",},"order":4,},
     {"id":{"name":"oMaskEnd","path":"objects/oMaskEnd/oMaskEnd.yy",},"order":12,},
+    {"id":{"name":"player_interact","path":"scripts/player_interact/player_interact.yy",},"order":10,},
     {"id":{"name":"oController_Silhouettes","path":"objects/oController_Silhouettes/oController_Silhouettes.yy",},"order":9,},
     {"id":{"name":"spr_msg_arrow0","path":"sprites/spr_msg_arrow0/spr_msg_arrow0.yy",},"order":0,},
     {"id":{"name":"OT_Draw","path":"scripts/OT_Draw/OT_Draw.yy",},"order":2,},
