@@ -1,1 +1,0 @@
-path_start(BaddiePath1,1,1,false);

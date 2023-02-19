@@ -27,7 +27,7 @@
 -73,-2147483648,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A8BF0F8","properties":[],"isDnd":false,"objectId":{"name":"Le_Nugget","path":"objects/Le_Nugget/Le_Nugget.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":352.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AC3A751","properties":[],"isDnd":false,"objectId":{"name":"Chicken_Player","path":"objects/Chicken_Player/Chicken_Player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":480.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47268791","properties":[],"isDnd":false,"objectId":{"name":"TextInput","path":"objects/TextInput/TextInput.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":256.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Ground","tilesetId":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":86,"SerialiseHeight":48,"TileCompressedData":[
 -708,-2147483648,-32,43,-54,-2147483648,-32,43,-54,-2147483648,-32,43,-54,-2147483648,-32,43,-54,-2147483648,-32,43,-54,-2147483648,-32,43,-54,-2147483648,-32,43,-45,-2147483648,1,0,-8,-2147483648,-32,43,-48,-2147483648,6,0,-2147483648,0,-2147483648,0,0,-32,43,-54,-2147483648,-32,43,-54,-2147483648,-32,43,-54,-2147483648,-32,43,-53,-2147483648,1,0,-32,43,-2,0,-51,-2147483648,1,0,-32,43,-2,-2147483648,1,0,-50,-2147483648,1,0,-32,43,-3,-2147483648,-2,
@@ -39,7 +39,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_2A8BF0F8","path":"rooms/Starting_Area/Starting_Area.yy",},
-    {"name":"inst_6AC3A751","path":"rooms/Starting_Area/Starting_Area.yy",},
+    {"name":"inst_47268791","path":"rooms/Starting_Area/Starting_Area.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
