@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Chicken_Player",
-  "spriteId": {
-    "name": "spr_msg_grid",
-    "path": "sprites/spr_msg_grid/spr_msg_grid.yy",
-  },
+  "name": "TextFeedBack",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -26,7 +23,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

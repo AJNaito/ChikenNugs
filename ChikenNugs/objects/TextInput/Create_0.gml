@@ -6,3 +6,6 @@ char_limit = 256
 cursor = "|" // can possibly change based on character state
 
 alarm[0] = delay
+
+Init_Global()
+Init_Level("start_level")

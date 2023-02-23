@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Text_Input",
-    "path": "folders/Scripts/Text_Input.yy",
+    "name": "Text_Interactions",
+    "path": "folders/Scripts/Text_Interactions.yy",
   },
 }

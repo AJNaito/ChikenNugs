@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "player_interact",
+  "name": "Room",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

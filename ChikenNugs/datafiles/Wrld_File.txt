@@ -1,0 +1,9 @@
+/// World file - put all possible commands that will appear in lexicographical order
+/// no objects due to objs having a larger data structure, load at level creation
+{
+	"commands": [
+		"help",
+		"move",
+		"welcome"
+	]
+}

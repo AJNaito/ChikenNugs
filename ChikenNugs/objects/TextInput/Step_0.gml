@@ -7,8 +7,15 @@ if (string_length(keyboard_string) < char_limit) {
 }
 
 if (keyboard_check(vk_enter)) {
-	// run the interpreter and clear the user input
-	var result = Text_Parser(user_msg, ["welcome"], ["you"])
+	// pass the message to room
+	var result = Text_Parser(string_lower(user_msg), ["welcome"], ["you"])
+	
+	if (!result) {
+		// invalid result
+		
+	} else {
+		if (result[0]) 
+	}
 	
 	user_msg = ""
 	keyboard_string = ""

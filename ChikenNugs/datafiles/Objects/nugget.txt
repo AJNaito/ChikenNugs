@@ -1,0 +1,17 @@
+/// Holds interactions -- Put the level of the interactions
+/// Name of file is name of object
+/// Different object states will come later if needed (but this is basically what is needed for base game)
+{
+	"start_level": {
+		"Base_Room": {
+			/// accepted commands for the obj - nugget level changes interaction 
+			"welcome": ["you welcome the nugget and the nugget welcomes you", "", "", "",""],
+
+			/// if command is special put a keyword in the interaction (in this case play_music)
+			/// if command requires an extra file put file name separated by colon
+			/// if command still has a description, separate with \1 
+			"eat": "play_music:spoopy_music.wav\1 DESCRIPTION"
+			
+		}	
+	}
+}
