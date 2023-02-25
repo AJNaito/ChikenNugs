@@ -25,4 +25,5 @@ if (string_starts_with(interaction, "play")) {
 	else interaction = ""
 }
 
-char = string_length(interaction)
+char = 0
+show_debug_message(interaction)

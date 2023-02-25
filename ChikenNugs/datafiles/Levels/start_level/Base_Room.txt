@@ -1,11 +1,8 @@
-/// Sample Room
-/// should hold the names of all interactable objects
-/// Put rooms in a folder labeled with the level they belong to
 {
   "name": "Base_Room",
-  "nugget_level": 1, /// acts like an accessor - if player has enough nuggets to get into this room/level
+  "nugget_level": 1, 
   "connected": ["north", "south", "east", "west"], 
   "commands": ["welcome"],
-  "objects": ["nugget"], /// name of the objects -- can omit .txt
+  "objects": ["nugget"], 
   "story": "Description"
 }

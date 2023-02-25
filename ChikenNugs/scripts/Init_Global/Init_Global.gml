@@ -12,7 +12,8 @@ function Init_Global(){
 	global.objects = ds_map_create()
 	global.nuggets_eaten = 0;
 	
-	var world_file = file_text_read_string(working_directory + "Wrld_File.txt")
-	var jsonWorld = json_decode(world_file)
+	var jsonWorld = import_json("Wrld_File.txt", json_decode)
+	show_debug_message(jsonWorld == undefined)
+	show_debug_message(jsonWorld[? "commands"])
 	global.commands = jsonWorld[? "commands"]
 }

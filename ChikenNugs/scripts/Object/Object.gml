@@ -1,9 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-function Object(name, _interactions) {
+function Object(name, _interactions) constructor {
 	obj_name = name
-	interaction = ds_map_copy(_interactions)
+	interaction = ds_map_create()
+	ds_map_copy(interaction, _interactions)
 	
 	static interact = function (command, room_name) {
 		var room_inter = interaction[? room_name]
@@ -15,6 +16,4 @@ function Object(name, _interactions) {
 		ds_map_clear(interaction)
 		delete interactions
 	}
-	
-	return obj;
 }

@@ -20,18 +20,18 @@ function Init_Level(currentLevel){
 			delete(_object)
 		}
 	}
+	ds_map_destroy(global.objects)
 	ds_map_destroy(global.world)
 	
 	// initiate another level
 	global.world = ds_map_create()
 	global.objects = ds_map_create()
-	global.curLevel = currentLevel
 	
 	// Reading 
-	var fileName = file_find_first(working_directory + currentLevel + "/*.txt")
+	var fileName = file_find_first("Levels/" + currentLevel + "/*.txt", 0)
 	while(fileName != "") {
-		var jsonText = file_text_read_string(fileName)
-		var jsonRoom = json_decode(jsonText)
+		show_debug_message(fileName)
+		var jsonRoom = import_json("Levels/" + currentLevel + "/"+ fileName, json_decode)
 		
 		var room_name = jsonRoom[? "name"]
 		var objects = jsonRoom[? "objects"]
@@ -44,24 +44,24 @@ function Init_Level(currentLevel){
 			jsonRoom[? "story"])
 			
 		// create objects to put in global
-		for (var i = 0; i < array_length(objects); i++) {
-			if (global.objects[? objects[i]] != undefined) {
+		for (var i = 0; i < ds_list_size(objects); i++) {
+			if (global.objects[? ds_list_find_value(objects, i)] == undefined) {
 				// read object file
-				var obj_json = json_decode(file_text_read_string(working_directory + "Objects" + objects[i] + ".txt"))
+				var obj_json = import_json("Objects/" +  ds_list_find_value(objects, i) + ".txt", json_decode)
 				obj_json = obj_json[? currentLevel]
 				var object = new Object(
-					object[i], 
+					 ds_list_find_value(objects, i), 
 					obj_json
 				)
 				
-				ds_map_add(global.objects, objects[i], object)
+				ds_map_add(global.objects,  ds_list_find_value(objects, i), object)
 			}
 		}
 		
 		// add room to the global
 		ds_map_add(global.world, room_name, room_object)
 		
-		file_find_next()
+		fileName = file_find_next()
 	}
 	global.curRoom = global.world[? "Base_Room"]
 
