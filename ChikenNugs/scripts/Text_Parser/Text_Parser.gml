@@ -4,7 +4,7 @@
 /// argument2 - array of accepted verb commands (Room Based) -- sorted to help with searching
 /// argument3 - array of accepted noun commands (Room Based) -- sorted to help with searching
 /// Returns either false or a pair of words (accepted commands)
-function Text_Parser(user_message, commands, objects){
+function Text_Parser(user_message){
 	var command = ""
 	var obj = ""
 	
@@ -13,7 +13,7 @@ function Text_Parser(user_message, commands, objects){
 	
 	var i
 	for (i = 0; i < size; i++) {
-		var verb_res = Binary_Search(array_get(split_elements, i), commands);
+		var verb_res = Binary_Search(array_get(split_elements, i), global.commands);
 		
 		if (verb_res != false) {
 			command = verb_res
@@ -23,10 +23,10 @@ function Text_Parser(user_message, commands, objects){
 	
 	// object MUST come after verb
 	for (; i < size; i++) {
-		var obj_res = Binary_Search(array_get(split_elements, i), objects);
+		var obj_res = global.objects[? array_get(split_elements, i)]
 		
-		if (obj_res != false) {
-			obj = obj_res
+		if (!is_undefined(obj_res)) {
+			obj = array_get(split_elements, i)
 			break;
 		}
 	}

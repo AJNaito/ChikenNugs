@@ -17,25 +17,42 @@ function Room(name, nugget_level, connected, commands, objs, story) constructor 
 			return "You think about it hard... But nothing happens"
 		}
 		
+		var obj = global.objects[? recognized_obj]
+		with (Object) {
+			return obj.interact(recognized_verb, room_name)
+		}
 	}
 	
 	static Move = function (dir) {
+		var new_room = ""
+		
 		switch (string(dir)) {
 			case "North":
-				return array_get(connected_room, 0)
+				new_room = array_get(connected_room, 0)
 				break;
 			case "South":
-				return array_get(connected_room, 1)
+				new_room = array_get(connected_room, 1)
 				break;
 			case "East":
-				return array_get(connected_room, 2)
+				new_room = array_get(connected_room, 2)
 				break;
 			default:
-				return array_get(connected_room, 3)
+				new_room = array_get(connected_room, 3)
 				break;
-			
 		}
-		return array_get(connected_room, pos)
+		
+		if (new_room == "none") 
+			return "You thump against the wall"
+		
+		var _room = global.world[? new_room]
+		with (Room) {
+			if (_room.nug_lvl > global.nuggets_eaten)
+				return "The wall warbles as you hit it"
+			else {
+				global.curRoom = _room
+				return _room.description
+			}
+		}
 	}
 	
 	static Destroy = function () {

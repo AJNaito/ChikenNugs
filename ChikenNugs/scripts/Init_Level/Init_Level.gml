@@ -47,14 +47,14 @@ function Init_Level(currentLevel){
 		for (var i = 0; i < array_length(objects); i++) {
 			if (global.objects[? objects[i]] != undefined) {
 				// read object file
-				var obj_json = json_decode(file_text_read_string(working_directory + Objects + objects[i] + ".txt"))
+				var obj_json = json_decode(file_text_read_string(working_directory + "Objects" + objects[i] + ".txt"))
 				obj_json = obj_json[? currentLevel]
 				var object = new Object(
 					object[i], 
 					obj_json
 				)
 				
-				ds_map_add(global.objects, obj_json)
+				ds_map_add(global.objects, objects[i], object)
 			}
 		}
 		
@@ -63,6 +63,8 @@ function Init_Level(currentLevel){
 		
 		file_find_next()
 	}
+	global.curRoom = global.world[? "Base_Room"]
+
 	
 	file_find_close()
 }

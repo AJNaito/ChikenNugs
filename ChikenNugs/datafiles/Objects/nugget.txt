@@ -9,8 +9,8 @@
 
 			/// if command is special put a keyword in the interaction (in this case play_music)
 			/// if command requires an extra file put file name separated by colon
-			/// if command still has a description, separate with \1 
-			"eat": "play_music:spoopy_music.wav\1 DESCRIPTION"
+			/// if command still has a description, separate with :
+			"eat": "play_music:spoopy_music.wav:DESCRIPTION"
 			
 		}	
 	}
