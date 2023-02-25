@@ -8,7 +8,7 @@ function Object(name, _interactions) constructor {
 	
 	static interact = function (command, room_name) {
 		var room_inter = interaction[? room_name]
-		return array_get(room_inter[? command], global.nuggets_eaten)
+		return ds_list_find_value(room_inter[? command], global.nuggets_eaten)
 	}
 	
 	static Destroy = function () {

@@ -7,13 +7,18 @@ if (string_length(keyboard_string) < char_limit) {
 }
 
 if (keyboard_check(vk_enter)) {
-	// pass the message to room
-	global.result = Text_Parser(string_lower(user_msg), global.commands, global.objects)
+	if (!callOnce) {
+		// pass the message to room
+		global.result = Text_Parser(string_lower(user_msg), global.commands, global.objects)
 	
-	with (TextFeedBack) {
-		event_user(0)
+		with (TextFeedBack) {
+			event_user(0)
+		}
+	
+		user_msg = ""
+		keyboard_string = ""
+		callOnce = true
 	}
-	
-	user_msg = ""
-	keyboard_string = ""
+} else {
+	callOnce = false
 }

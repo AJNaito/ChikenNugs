@@ -4,13 +4,9 @@ if (global.result != false) {
 	if (global.result[0] == "help") {
 		interaction = ToString()
 	} else if (global.result[0] == "move") {
-		with (Room) {
 			interaction = global.curRoom.Move(global.result[1])
-		}
 	} else {
-		with(Room) {
 			interaction = global.curRoom.Execute(global.result)
-		}
 	}
 } else {
 	interaction = "Unrecognized Command"

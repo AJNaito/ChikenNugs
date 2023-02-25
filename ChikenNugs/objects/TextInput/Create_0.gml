@@ -4,6 +4,7 @@ user_msg = ""
 delay = 10
 char_limit = 256
 cursor = "|" // can possibly change based on character state
+callOnce = false
 
 alarm[0] = delay
 

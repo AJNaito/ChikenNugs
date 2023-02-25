@@ -1,7 +1,7 @@
 {
   "name": "Base_Room",
   "nugget_level": 1, 
-  "connected": ["north", "south", "east", "west"], 
+  "connected": ["none", "none", "none", "none"], 
   "commands": ["welcome"],
   "objects": ["nugget"], 
   "story": "Description"

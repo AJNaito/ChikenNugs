@@ -1,0 +1,7 @@
+World file has a list of all possible commands that will be used
+
+Levels:
+- Room Files
+Connected [North connection, South Connection, East Connection, West Connection]
+
+Objects: 

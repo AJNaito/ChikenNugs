@@ -29,11 +29,17 @@ function Text_Parser(user_message){
 			obj = array_get(split_elements, i)
 			break;
 		}
+		
+		obj_res = array_get(split_elements, i)
+		if (obj_res == "north" || obj_res == "south" || obj_res =="east" || obj_res == "west") {
+			obj = obj_res
+			break;
+		}
 	}
 	
 	if (obj == "" || command == "") {
 		if (command == "help") {
-			return command
+			return [command, ""]
 		}
 		return false;
 	} else {

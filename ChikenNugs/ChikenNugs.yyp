@@ -142,6 +142,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Wrld_File.txt","CopyToMask":3035426170322551022,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Base_Room.txt","CopyToMask":-1,"filePath":"datafiles/Levels/start_level",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"nugget.txt","CopyToMask":3035426170322551022,"filePath":"datafiles/Objects",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Instructions.txt","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
     "IDEVersion": "2022.11.1.56",

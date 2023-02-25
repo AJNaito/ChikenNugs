@@ -3,12 +3,12 @@
 function Binary_Search(element, commands){
 	var lo, hi
 	lo = 0;
-	hi = array_length(commands);
+	hi = ds_list_size(commands);
 	
 	while (lo < hi) {
 		var mid = floor((lo + hi)/2);
 		
-		var command = array_get(commands, mid)
+		var command = ds_list_find_value(commands, mid)
 		if (command == element) {
 			return command
 		} else if (command < element) {
@@ -17,6 +17,10 @@ function Binary_Search(element, commands){
 			hi = mid - 1
 		}
 	}
+	
+	// last check
+	if (ds_list_find_value(commands, lo) == "help")
+		return "help"
 	
 	return false;
 }
