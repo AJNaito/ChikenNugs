@@ -1,5 +1,7 @@
 /// @description Execute the command
 // You can write your code in this editor
+interaction = ""
+
 if (global.result != false) {
 	if (global.result[0] == "help") {
 		interaction = ToString()

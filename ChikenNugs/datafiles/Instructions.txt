@@ -1,7 +1,43 @@
 World file has a list of all possible commands that will be used
+FOR ALL FILES - DO NOT PUT COMMENTS IN THEM (///)
+
+Always label fields with ""
 
 Levels:
-- Room Files
-Connected [North connection, South Connection, East Connection, West Connection]
+- Level name is always under
+- Room Files 
+Put room under folder of level name they belond to i.e Levels/start_level/room.txt
+For simplicity, start room is ALWAYS Base_Room and end room is always End_Room
+
+Room File Syntax - pretty standard JSON
+{ // always start with { and end with }
+  "name": "Base_Room", /// name of level
+  "nugget_level": 1,   /// accessor nugget level (can lock and unlock rooms)
+  "connected": ["none", "none", "none", "none"], /// Connected rooms to this one ["north", "south", "east", "west"]
+  "commands": ["welcome"],/// accepted commands in this room (keep in lexicographical order for performance reasons)
+  "objects": ["nugget"], /// accepted objects in this room (keep in lexicographical order for performance reasons)
+  "story": "Description" /// description of the room 
+}
 
 Objects: 
+Name of the files is the name of the object
+
+{ // always begin with { and end with }
+	"start_level": { /// name of the level interaction
+		"Base_Room": { /// Room of the interaction
+			/// different commands - depending on nugget level can interact differently
+			/// ["nuggetlevel1", "nuggetlevel2", "nuggetlevel3", "nuggetLevel4", "nuggetlevel5"]
+			"welcome": ["you welcome the nugget and the nugget welcomes you",
+				"", 
+				"", 
+				"",
+				""
+				],
+			/// special commands -- start with name of special function i.e play music
+			/// follow with name of assett to use followed by a desciption (if any)
+			/// separate all fields with :
+			"eat": "[play_music:spoopy_music.wav:DESCRIPTION", "", "", "", ""]
+			
+		}	
+	}
+}
