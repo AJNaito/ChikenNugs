@@ -8,12 +8,16 @@ function Object(name, _interactions) constructor {
 	
 	static interact = function (command, room_name) {
 		var room_inter = interaction[? room_name]
+		if (room_inter[? "state"] != "default") 
+			return "Object is not usable"
+			
 		return ds_list_find_value(room_inter[? command], global.nuggets_eaten)
 	}
 	
 	static Destroy = function () {
 		delete obj_name
 		ds_map_clear(interaction)
+		
 		delete interactions
 	}
 }

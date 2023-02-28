@@ -1,0 +1,16 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state" : "default",
+			"welcome": ["you welcome the nugget and the nugget welcomes you", 
+				"", 
+				"", 
+				"",
+				""
+				],
+
+			"eat": ["play_music:spoopy_music.wav:DESCRIPTION", "", "", "", ""],
+			"example": [ "change:half_eaten_nugget:DESCRIPTION", "", "", "", ""]
+		}	
+	}
+}

@@ -3,9 +3,9 @@
 function Binary_Search(element, commands){
 	var lo, hi
 	lo = 0;
-	hi = ds_list_size(commands);
+	hi = ds_list_size(commands) - 1;
 	
-	while (lo < hi) {
+	while (lo <= hi) {
 		var mid = floor((lo + hi)/2);
 		
 		var command = ds_list_find_value(commands, mid)
@@ -14,7 +14,7 @@ function Binary_Search(element, commands){
 		} else if (command < element) {
 			lo = mid + 1
 		} else {
-			hi = mid - 1
+			hi = mid
 		}
 	}
 	

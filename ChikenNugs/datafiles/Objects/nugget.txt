@@ -1,6 +1,7 @@
 {
 	"start_level": {
 		"Base_Room": {
+			"state": "default",
 			"welcome": ["you welcome the nugget and the nugget welcomes you", 
 				"", 
 				"", 
@@ -8,8 +9,14 @@
 				""
 				],
 
-			"eat": "play_music:spoopy_music.wav:DESCRIPTION"
-			
+			"eat": ["play_music:spoopy_music.wav:DESCRIPTION", "", "", "", ""],
+			"inspect": ["move_room:room_name:DESCRIPTION", "", "", "", ""],
+			"example": [ "change:half_eaten:DESCRIPTION", "", "", "", ""],
+			"example2": [ "conditional:obj_name:condition:obj_2_name:condition2:DESCRIPTION",
+					"",
+					"",
+					"", 
+					""]
 		}	
 	}
 }

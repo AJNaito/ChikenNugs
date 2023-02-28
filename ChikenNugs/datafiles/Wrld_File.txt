@@ -1,5 +1,6 @@
 {
 	"commands": [
+		"example",
 		"help",
 		"move",
 		"welcome"

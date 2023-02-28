@@ -1,7 +1,10 @@
 World file has a list of all possible commands that will be used
 FOR ALL FILES - DO NOT PUT COMMENTS IN THEM (///)
 
+General JSON Rules
 Always label fields with ""
+Group things that are related in {}
+Separate different objects with , (i.e "syntax": "hi", "proper":"syntax"
 
 Levels:
 - Level name is always under
@@ -25,6 +28,10 @@ Name of the files is the name of the object
 { // always begin with { and end with }
 	"start_level": { /// name of the level interaction
 		"Base_Room": { /// Room of the interaction
+			/// Just an initializer for the start state (alternative states will be a new object)
+			/// i.e bottle != broken_bottle (will be another object)
+			"state": "default"
+
 			/// different commands - depending on nugget level can interact differently
 			/// ["nuggetlevel1", "nuggetlevel2", "nuggetlevel3", "nuggetLevel4", "nuggetlevel5"]
 			"welcome": ["you welcome the nugget and the nugget welcomes you",
@@ -33,11 +40,26 @@ Name of the files is the name of the object
 				"",
 				""
 				],
+
 			/// special commands -- start with name of special function i.e play music
 			/// follow with name of assett to use followed by a desciption (if any)
 			/// separate all fields with :
 			"eat": "[play_music:spoopy_music.wav:DESCRIPTION", "", "", "", ""]
-			
+
+			/// move_room - the object forces a room change
+			/// if no description (don't include last ':') will simply display the room description 
+			"inspect": ["move_room:room_name:DESCRIPTION", "", "", "", ""],
+
+			/// change is changing the state
+			"example": [ "change:half_eaten:DESCRIPTION", "", "", "", ""],
+
+			/// conditional - will only display the description if conditions are met
+			/// can have multiple conditions
+			"example2": [ "conditional:obj_name:condition:obj_2_name:condition2:DESCRIPTION",
+					"",
+					"",
+					"", 
+					""]
 		}	
 	}
 }

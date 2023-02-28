@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ExecuteCommand",
+  "name": "Play_Cutscene",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Special_Commands",
+    "path": "folders/Scripts/Special_Commands.yy",
   },
 }

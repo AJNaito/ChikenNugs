@@ -6,22 +6,28 @@ if (global.result != false) {
 	if (global.result[0] == "help") {
 		interaction = ToString()
 	} else if (global.result[0] == "move") {
-			interaction = global.curRoom.Move(global.result[1])
+		interaction = global.curRoom.Move(global.result[1])
 	} else {
-			interaction = global.curRoom.Execute(global.result)
+		interaction = global.curRoom.Execute(global.result)
+	}
+	
+	if (string_starts_with(interaction, "play_music")) {
+		interaction = Play_Music(interaction)
+	}
+
+	if (string_starts_with(interaction, "move_room")) {
+		interaction = Move_Room(interaction)
+	}
+
+	if (string_starts_with(interaction, "conditional")) {
+		interaction = Conditional_Interact(interaction)
+	}
+
+	if (string_starts_with(interaction, "change")) {
+		interaction = Change_State(interaction, global.result[1])
 	}
 } else {
 	interaction = "Unrecognized Command"
 }
 
-if (string_starts_with(interaction, "play")) {
-	// special command - play music/sfx
-	var audio = string_split(interaction, ":", false)
-	audio_play_sound(audio[1], 10, false)
-	if (array_length(audio) == 3) 
-		interaction = audio[2]
-	else interaction = ""
-}
-
 char = 0
-show_debug_message(interaction)

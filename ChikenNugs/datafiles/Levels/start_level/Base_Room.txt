@@ -2,7 +2,7 @@
   "name": "Base_Room",
   "nugget_level": 1, 
   "connected": ["none", "none", "none", "none"], 
-  "commands": ["welcome"],
-  "objects": ["nugget"], 
+  "commands": ["example", "welcome"],
+  "objects": ["half_eaten_nugget", "nugget"], 
   "story": "Description"
 }
