@@ -1,0 +1,21 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state": "default",
+			"inspect": [
+				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
+				"",
+				"",
+				"",
+				""
+			],
+			"interact": [
+				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
+				"",
+				"",
+				"",
+				""
+			]
+		}
+	}
+}

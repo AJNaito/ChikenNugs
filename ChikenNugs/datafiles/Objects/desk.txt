@@ -1,0 +1,19 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state":"default",
+			"inspect": [
+				"The desk is odd!\nIt has three legs... and a hand?\nIt rattles above",
+				"",
+				"",
+				"",
+				""],
+			"interact": [
+				"conditional:desk:touched:Table convulses\nIt reels back from your mere touch\nIt fears your power:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.:",
+				"",
+				"",
+				"",
+				""]
+		}
+	}
+}

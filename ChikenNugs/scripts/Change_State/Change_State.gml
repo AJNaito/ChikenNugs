@@ -3,7 +3,6 @@
 function Change_State(interaction, obj_name){
 	var split_interaction = string_split(interaction, ":", false)
 	
-	
 	var obj = global.objects[? obj_name]
 	var _room = global.curRoom.room_name
 	obj = obj.interaction[? _room]

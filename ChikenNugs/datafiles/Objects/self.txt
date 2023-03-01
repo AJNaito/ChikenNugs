@@ -1,0 +1,12 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state": "default",
+			"inspect": ["You curiously prod and preen your feathers with a sharp beak. Fowl play is afoot.",
+				"",
+				"",
+				"",
+				""]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"start_level": {
+		"Base_Level": {
+			"state":"default",
+			"inspect": [
+				"Upon the ground now lies four varied objects.
+First, a nugget, scattered afar from a toe.
+Then there's some candy, yes, edible trinkets.
+Amidst all an hourglass, courtesy of sentient plateau.",
+				"",
+				"",
+				"",
+				""]
+		}
+	}
+}

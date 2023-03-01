@@ -1,14 +1,19 @@
 {
-  "name": "Base_Room",
-  "nugget_level": 1, 
-  "connected": ["none", "none", "none", "none"], 
-  "commands": ["inspect","interact"],
-  "objects": ["chest", "cupboards", "desk", "feathers", "fridge", "gemstones","hand","microwave",
-			"nugget","self","stove","things"], 
-  "story": "First, you take careful note of your surroundings,
+	"start_level": {
+		"Base_Level": {
+			"state": "default",
+			"inspect": [
+				"The strangest of sights!\nA hand, where a leg shoud be.\nIt wriggles and squirms.",
+				"",
+				"",
+				"",
+				""],
+			"interact": [
+				"change_room:desk:touched:First, you take careful note of your surroundings,
 Spawned at the center of a simple, familiar home!
 A barren studio apartment, though with leviathan furnishings
 As you stand at the height of a gnome!
+
 
 Simple green paint strikes towering walls,
 Cupboards stretch, atop a maple-rugged floor.
@@ -24,5 +29,15 @@ The room’s centerpiece: a mahogany desk,
 Far too tall to ascend, climb or conquer!
 Its size, like the rest, is simply elephant-esque,
 If only you were simply just slightly taller!
-"
+
+Upon the ground now lies four varied objects.
+First, a nugget, scattered afar from a toe.
+Then there’s some candy, yes, edible trinkets.
+Amidst all, an hourglass, courtesy of sentient plateau.):Table convulses!\nIt reels back, mouth opening!\nSpits things into room.",
+			"",
+			"",
+			"",
+			""]
+		}
+	}
 }

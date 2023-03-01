@@ -1,0 +1,26 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state":"default",
+			"inspect": ["A dark metal door,
+with
+
+	four
+nugget    shaped
+   gemstones
+
+inlaid into the center",
+			"",
+			"",
+			"",
+			""],
+			
+			"interact": [
+				"You reach out to door\nAlas, Keeps getting farther\nImpossible path?",
+				"",
+				"",
+				"",
+				""]
+		}
+	}
+}

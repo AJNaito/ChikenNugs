@@ -1,0 +1,25 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state":"default",
+			"inspect": [
+"	four
+nugget    shaped
+   gemstones
+
+inlaid into the center of door
+All are domant.",
+			"",
+			"",
+			"",
+			""],
+
+			"interact": [
+				"You reach out to them.\nAlas, keeps getting farther\nWhy is it like this?",
+				"",
+				"",
+				"",
+				""]
+		}
+	}
+}

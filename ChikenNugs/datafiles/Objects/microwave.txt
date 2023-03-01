@@ -1,0 +1,17 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state":"default",
+			"inspect": [ "The microwave is\n Exactly as expected.\nEmpty, and dormant",
+			"",
+			"",
+			"",
+			""],
+			"inspect": [ "You press buttons, yes!\n Congratulations. You win!\n...Not. It runs, then stops.",
+				"",
+				"",
+				"",
+				""]
+		}
+	}
+}

@@ -23,8 +23,12 @@ if (global.result != false) {
 		interaction = Conditional_Interact(interaction)
 	}
 
-	if (string_starts_with(interaction, "change")) {
+	if (string_starts_with(interaction, "change_state")) {
 		interaction = Change_State(interaction, global.result[1])
+	}
+	
+	if (string_starts_with(interaction, "change_room")) {
+		interaction = Change_Room_Desc(interaction)
 	}
 } else {
 	interaction = "Unrecognized Command"
