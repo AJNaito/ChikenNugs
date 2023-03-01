@@ -1,6 +1,6 @@
 /// @description Draws text on screen
 // You can write your code in this editor
-var margin = 32;
+var margin = 128;
 var width = room_width - margin * 2
 
 var text_draw = string_copy(interaction, 1, char)

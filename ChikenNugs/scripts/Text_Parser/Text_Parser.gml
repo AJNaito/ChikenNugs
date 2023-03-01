@@ -31,7 +31,7 @@ function Text_Parser(user_message){
 		}
 		
 		obj_res = array_get(split_elements, i)
-		if (obj_res == "north" || obj_res == "south" || obj_res =="east" || obj_res == "west") {
+		if (obj_res == "north" || obj_res == "south" || obj_res =="east" || obj_res == "west" || obj_res == "room") {
 			obj = obj_res
 			break;
 		}
@@ -41,6 +41,10 @@ function Text_Parser(user_message){
 		if (command == "help") {
 			return [command, ""]
 		}
+		
+		if (obj == "room") 
+			return [command, obj]
+		
 		return false;
 	} else {
 		return [command, obj]

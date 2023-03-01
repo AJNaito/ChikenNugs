@@ -6,23 +6,23 @@
   "objects": ["chest", "cupboards", "desk", "feathers", "fridge", "gemstones","hand","microwave",
 			"nugget","self","stove","things"], 
   "story": "First, you take careful note of your surroundings,
-Spawned at the center of a simple, familiar home!
-A barren studio apartment, though with leviathan furnishings
-As you stand at the height of a gnome!
+\nSpawned at the center of a simple, familiar home!
+\nA barren studio apartment, though with leviathan furnishings
+\nAs you stand at the height of a gnome!
+\n
+\nSimple green paint strikes towering walls,
+\nCupboards stretch, atop a maple-rugged floor.
+\nTrotting around, you can confirm there’s no halls
+\nYet one end of the room presents an iron-clad door!
 
-Simple green paint strikes towering walls,
-Cupboards stretch, atop a maple-rugged floor.
-Trotting around, you can confirm there’s no halls
-Yet one end of the room presents an iron-clad door!
+\nAcross from the door is but a nice, homely kitchen,
+\nBearing a fridge, microwave and glass-protected stove.
+\nAnd off to the side, somewhat out of place in this den,
+\nIs an oversized chest, nestled neat in an alcove!
 
-Across from the door is but a nice, homely kitchen,
-Bearing a fridge, microwave and glass-protected stove.
-And off to the side, somewhat out of place in this den,
-Is an oversized chest, nestled neat in an alcove!
-
-The room’s centerpiece: a mahogany desk, 
-Far too tall to ascend, climb or conquer!
-Its size, like the rest, is simply elephant-esque,
-If only you were simply just slightly taller!
+\nThe room’s centerpiece: a mahogany desk, 
+\nFar too tall to ascend, climb or conquer!
+\nIts size, like the rest, is simply elephant-esque,
+\nIf only you were simply just slightly taller!
 "
 }
