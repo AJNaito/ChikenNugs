@@ -1,17 +1,19 @@
 {
 	"start_level": {
-		"state":"default",
-		"inspect": [
-			"Trotting steadily\nTo pose before reflective altar\nBehold! Is Chicken",
-			"",
-			"",
-			"",
-			""],
-		"interact": [
-			"You peck at the glass\naltar's alter pecks in turn\nNeedless, tragic war.",
-			"",
-			"",
-			"",
-			""]
+		"Base_Room": {
+			"state":"default",
+			"inspect": [
+				"Trotting steadily\nTo pose before reflective altar\nBehold! Is Chicken",
+				"",
+				"",
+				"",
+				""],
+			"interact": [
+				"You peck at the glass\naltar's alter pecks in turn\nNeedless, tragic war.",
+				"",
+				"",
+				"",
+				""]
+		}
 	}
 }

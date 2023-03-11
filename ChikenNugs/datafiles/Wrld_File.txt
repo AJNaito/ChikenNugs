@@ -3,5 +3,26 @@
 		"help",
 		"inspect",
 		"interact"
-	]
+	],
+	
+	"intro": "Blanketed in darkness, you find yourself sinking.
+
+Fading.
+
+                slow  ly
+                                Driftin
+                                          g
+                                               
+                                                 a
+                                                    w
+                                                         a
+                                                             y
+
+. . .
+. . 
+.
+
+Feathers rustle now. 
+A room materializes.
+Where are you?"
 }

@@ -1,6 +1,6 @@
 {
 	"start_level": {
-		"Base_Level": {
+		"Base_Room": {
 			"state": "default",
 			"inspect": [
 				"The strangest of sights!\nA hand, where a leg shoud be.\nIt wriggles and squirms.",
