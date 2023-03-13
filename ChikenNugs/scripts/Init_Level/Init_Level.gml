@@ -1,6 +1,14 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Init_Level(currentLevel){
+	show_debug_message("level")
+	
+	switch(currentLevel) {
+		case "start_level":
+			audio_play_sound(asset_get_index(ds_list_find_value(global.music, 0)), 20, true) 
+		break;
+	}
+	
 	// delete previous level
 	for (var k = ds_map_find_first(global.world); !is_undefined(k); k = ds_map_find_next(global.world, k)) {
 		var _room = global.world[? k];
@@ -20,6 +28,7 @@ function Init_Level(currentLevel){
 			delete(_object)
 		}
 	}
+	
 	ds_map_destroy(global.objects)
 	ds_map_destroy(global.world)
 	
@@ -64,7 +73,6 @@ function Init_Level(currentLevel){
 		fileName = file_find_next()
 	}
 	global.curRoom = global.world[? "Base_Room"]
-
 	
 	file_find_close()
 }

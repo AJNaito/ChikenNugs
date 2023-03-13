@@ -1,10 +1,29 @@
-World file has a list of all possible commands that will be used
+World file has a list of all possible commands that will be used and it has intro sequences
 FOR ALL FILES - DO NOT PUT COMMENTS IN THEM (///)
 
 General JSON Rules
 Always label fields with ""
 Group things that are related in {}
 Separate different objects with , (i.e "syntax": "hi", "proper":"syntax"
+
+STRING EFFECTS (3/12):
+You can write a string with certain effects
+	Codes:
+		0: Base (nothing special)
+		1: shaking text
+		2: wavey text
+		3: shifting colors
+		4: wavey + shifting colors
+		5: spinning text
+		6: pulsing text
+		7: flickering text
+		8: Bold Text
+		9: italics
+
+Syntax example: <1>Hello<0> -- Hello will be drawn in shaking text 
+
+Always end the string with <0> to reset the effect or else everything until the next effect will be drawn with the previous effect
+ - <1>Hello this will also be shakey text<2>this will be wavey text<0> this will be normal text
 
 Levels:
 - Level name is always under

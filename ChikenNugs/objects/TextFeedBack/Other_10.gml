@@ -1,6 +1,7 @@
 /// @description Execute the command
 // You can write your code in this editor
 interaction = ""
+t = 0
 
 if (global.result != false) {
 	if (global.result[0] == "help") {
@@ -31,7 +32,7 @@ if (global.result != false) {
 		interaction = Change_Room_Desc(interaction)
 	}
 } else {
-	interaction = "Unrecognized Command"
+	interaction = "yOu CaNT d@ tHaT"
 }
 
 char = 0

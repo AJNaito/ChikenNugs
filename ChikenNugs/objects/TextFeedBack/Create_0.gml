@@ -1,6 +1,28 @@
 /// @description Insert description here
 // You can write your code in this editor
 global.feedback = self
-interaction = "Blanketed in darkness, you find yourself sinking.\nFading.\nslow  ly\n\nDrifin\ng\n\na\n\w\na\ny"
-interaction += "\nFeathers rustle now. \nA room materializes.\nWhere are you?"
+interaction = ""
 char = 0
+char_speed = 0.25
+pause = false
+
+charHeight = string_height("M")
+charSize = string_width("L")
+pos_x = x
+pos_y = y
+
+scale = 3
+x_buffer = 2 * scale
+y_buffer = 3 * scale
+
+// text effects
+t = 0
+amplitude = 4
+freq = 2
+
+
+draw_set_halign(fa_center)
+draw_set_valign(fa_top)
+
+Init_Global()
+Init_Level("start_level")

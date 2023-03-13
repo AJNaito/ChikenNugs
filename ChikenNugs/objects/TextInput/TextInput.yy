@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "TextInput",
   "spriteId": {
-    "name": "basicTex",
-    "path": "sprites/basicTex/basicTex.yy",
+    "name": "TextBox",
+    "path": "sprites/TextBox/TextBox.yy",
   },
   "solid": false,
   "visible": true,

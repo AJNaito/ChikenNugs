@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Room(name, nugget_level, connected, commands, objs, story) constructor {
+	show_debug_message("in room")
+	
 	room_name = name;
 	nug_lvl = nugget_level
 	connected_room = connected

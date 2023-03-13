@@ -3,7 +3,7 @@
 function Play_Music(interaction){
 	// special command - play music/sfx
 	var audio = string_split(interaction, ":", false)
-	audio_play_sound(audio[1], 10, false)
+	audio_play_sound(asset_get_index(audio[1]), 10, false)
 	
 	if (array_length(audio) == 3) 
 		return audio[2]

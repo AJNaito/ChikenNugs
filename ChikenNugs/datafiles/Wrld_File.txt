@@ -4,25 +4,25 @@
 		"inspect",
 		"interact"
 	],
+	"music": ["Intro", "","","",""],
 	
-	"intro": "Blanketed in darkness, you find yourself sinking.
-
-Fading.
-
-                slow  ly
-                                Driftin
-                                          g
-                                               
-                                                 a
-                                                    w
-                                                         a
-                                                             y
-
-. . .
-. . 
-.
-
-Feathers rustle now. 
-A room materializes.
+	"intro": "<1>Blanketed<0> in darkness, you find yourself sinking.\n
+\n
+Fading.\n
+\n
+                slow  ly\n
+                                Driftin\n
+                                          g\n
+                                                 a\n
+                                                    w\n
+                                                         a\n
+                                                             y\n
+\n
+. . .\n
+. . \n
+.\n
+\n
+Feathers rustle now.\n 
+A room materializes.\n
 Where are you?"
 }

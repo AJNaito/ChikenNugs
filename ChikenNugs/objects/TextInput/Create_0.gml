@@ -9,6 +9,3 @@ callOnce = false
 can_type = true
 
 alarm[0] = delay
-
-Init_Global()
-Init_Level("start_level")

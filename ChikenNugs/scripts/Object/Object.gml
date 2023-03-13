@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 function Object(name, _interactions) constructor {
+	show_debug_message("in object")
 	obj_name = name
 	interaction = ds_map_create()
 	ds_map_copy(interaction, _interactions)
