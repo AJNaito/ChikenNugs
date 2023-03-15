@@ -5,6 +5,10 @@
 		"interact"
 	],
 	"music": ["Intro", "","","",""],
+
+	"help": "Base verbs: interact and inspect\n
+You can put commands however you like but put objects after the verbs! (i.e inspect room, inspect self)\n
+Press Escape to skip text (write whole text)" ,
 	
 	"intro": "Blanketed in <1>darkness<0>, you find yourself sinking.\n
 \n
@@ -24,5 +28,5 @@ Fading.\n
 \n
 <2>Feathers rustle now.<0>\n 
 A room materializes.\n
-Where are you?"
+Where are you? (Type help if you need help)"
 }

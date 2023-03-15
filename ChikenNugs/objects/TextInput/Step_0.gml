@@ -9,10 +9,12 @@ if ( string_length(keyboard_string) < char_limit) {
 if ( keyboard_check(vk_enter)) {
 	if (!callOnce) {
 		// pass the message to room
-		global.result = Text_Parser(string_lower(user_msg), global.commands, global.objects)
-	
-		with (TextFeedBack) {
-			event_user(0)
+		if (string_length(user_msg) != 0) {
+			global.result = Text_Parser(string_lower(user_msg), global.commands, global.objects)
+		
+			with (TextFeedBack) {
+				event_user(0)
+			}
 		}
 	
 		user_msg = ""

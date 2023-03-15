@@ -5,7 +5,7 @@ t = 0
 
 if (global.result != false) {
 	if (global.result[0] == "help") {
-		interaction = ToString()
+		interaction = global.help
 	} else if (global.result[0] == "move") {
 		interaction = global.curRoom.Move(global.result[1])
 	} else {

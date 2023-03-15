@@ -10,13 +10,18 @@ function Conditional_Interact(interaction, getInteraction){
 	
 	for (var i = 1; i < size; i+=2) {
 		var obj = global.objects[? array_get(split_interaction, i)] 
-		obj = obj[? global.curRoom.room_name]
+		obj = obj.interaction[? global.curRoom.room_name]
 		
 		if (obj[? "state"] != array_get(split_interaction, i + 1)) {
-			return array_get(split_interaction, size -1)
+			if (getInteraction)
+				return array_get(split_interaction, size + 1)
+			else
+				return array_get(split_interaction, size - 1)
 		}
 	}
 	
 	if (getInteraction)
+		return array_get(split_interaction, size)
+	else 
 		return array_get(split_interaction, size - 2)
 }

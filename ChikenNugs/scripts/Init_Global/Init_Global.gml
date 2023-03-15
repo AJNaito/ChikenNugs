@@ -16,6 +16,7 @@ function Init_Global(){
 	show_debug_message(jsonWorld[? "commands"])
 	global.commands = jsonWorld[? "commands"]
 	global.music = jsonWorld[? "music"]
+	global.help = jsonWorld[? "help"]
 	
 	with (TextFeedBack) {
 		global.feedback.interaction = jsonWorld[? "intro"]

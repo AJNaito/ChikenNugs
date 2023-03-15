@@ -2,6 +2,10 @@
 // You can write your code in this editor
 #region WRITING TEXT
 if (char < string_length(interaction) && !pause) {
+	if (skip) {
+		char = string_length(interaction)
+	}
+	
 	// increment character count
 	char += char_speed
 	

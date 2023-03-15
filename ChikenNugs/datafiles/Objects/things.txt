@@ -1,6 +1,6 @@
 {
 	"start_level": {
-		"Base_Level": {
+		"Base_Room": {
 			"state":"default",
 			"inspect": [
 				"Upon the ground now lies four varied objects.

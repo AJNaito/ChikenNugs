@@ -1,0 +1,39 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state": "default",
+			"inspect": [
+				"A clear wood hourglass
+Filled with clumps of purple sand
+Grains of time seem still.
+",
+				"A clear wood hourglass
+Filled with clumps of purple sand
+Grains of time seem still.
+",
+				"A clear wood hourglass
+Filled with clumps of purple sand
+Grains of time seem still.
+",
+				"",
+				""
+			],
+			"interact": [
+				"You peck timepiece.
+And you feel something change!
+Alas, Alpha Build.
+",
+				"You peck timepiece.
+And you feel something change!
+Alas, Alpha Build.
+",
+				"You peck timepiece.
+And you feel something change!
+Alas, Alpha Build.
+",
+				"",
+				""
+			]
+		}
+	}
+}

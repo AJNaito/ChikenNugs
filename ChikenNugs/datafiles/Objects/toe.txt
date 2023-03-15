@@ -1,3 +1,48 @@
 {
-
+	"start_level": {
+		"Base_Room": {
+			"state": "default",
+			"interact": [
+				"You eat the big toe,
+And you feel something change!
+Alas, Alpha Build.
+",
+				"You eat the big toe,
+And you feel something change!
+Alas, Alpha Build.
+",
+				"You eat the big toe,
+And you feel something change!
+Alas, Alpha Build.
+",
+				"You eat the big toe,
+And you feel something change!
+Alas, Alpha Build.
+",
+				"You eat the big toe,
+And you feel something change!
+Alas, Alpha Build.
+"
+			],
+			"inspect": [
+				"It's a big toe!
+The digit presents tag.
+States, "Henry Flavored."
+",
+				"It's a big toe!
+The digit presents tag.
+States, "Henry Flavored."
+",
+				"It's a big toe!
+The digit presents tag.
+States, "Henry Flavored."
+",
+				"It's a big toe!
+The digit presents tag.
+States, "Henry Flavored."
+",
+				""
+			]
+		}
+	}
 }

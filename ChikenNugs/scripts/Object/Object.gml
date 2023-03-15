@@ -10,6 +10,9 @@ function Object(name, _interactions) constructor {
 	static interact = function (command, room_name) {
 		var room_inter = interaction[? room_name]
 			
+		if (room_inter[? command] == undefined) {
+			return "<1>You can't do this<0>"
+		}
 		return ds_list_find_value(room_inter[? command], global.nuggets_eaten)
 	}
 	

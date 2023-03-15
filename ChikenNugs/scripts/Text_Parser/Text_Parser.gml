@@ -13,10 +13,10 @@ function Text_Parser(user_message){
 	
 	var i
 	for (i = 0; i < size; i++) {
-		var verb_res = Binary_Search(array_get(split_elements, i), global.commands);
+		var verb_res = ds_list_find_index(global.commands, array_get(split_elements, i))
 		
-		if (verb_res != false) {
-			command = verb_res
+		if (verb_res != -1) {
+			command = array_get(split_elements, i)
 			break;
 		}
 	}

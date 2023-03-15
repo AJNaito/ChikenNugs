@@ -4,15 +4,15 @@
 			"state": "default",
 			"inspect": [
 				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
-				"",
+				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
 				"",
 				"",
 				""
 			],
 			
 			"interact": [
-				"change_level:nugget_lvl:You eat the nugget\nAnd you feel something change!\n...Alas alpha build.",
-				"",
+				"You eat the nugget\nAnd you feel something change!\n...Alas alpha build.",
+				"You <1>eat<0> the nugget\nAnd you feel something change!\n...Alas alpha build.",
 				"",
 				"",
 				""]

@@ -151,7 +151,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"chest.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"fridge.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"microwave.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"door.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"door.txt","CopyToMask":3035426170322551022,"filePath":"datafiles/Objects",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gemstones.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"desk.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"hand.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
