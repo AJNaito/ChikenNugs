@@ -3,10 +3,10 @@
 		"Base_Room": {
 			"state": "default",
 			"inspect": ["You curiously prod and preen your feathers with a sharp beak. Fowl play is afoot.",
-				"",
-				"",
-				"",
-				""]
+				"Arms and hands where wings once were, who am I?",
+				"Legs... but nothing much has changed there",
+				"Flesh and skin where feathers once were, I am @(#$*",
+				"I am [Insert Name Here]"]
 		}
 	}
 }

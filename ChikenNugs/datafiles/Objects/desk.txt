@@ -3,13 +3,13 @@
 		"Base_Room": {
 			"state":"default",
 			"inspect": [
-				"The desk is odd!\nIt has three legs... and a hand?\nIt rattles above",
+				"The desk is odd!\nIt has three legs... and a hand?\nIt <1>rattles<0> above",
 				"",
 				"",
 				"",
 				""],
 			"interact": [
-				"conditional:desk:touched:Table convulses\nIt reels back from your mere touch\nIt fears your power:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.:",
+				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.:",
 				"",
 				"",
 				"",

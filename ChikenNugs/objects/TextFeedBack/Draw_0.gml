@@ -66,16 +66,16 @@ if (char < string_length(interaction) && !pause) {
 			break
 			
 			case 3: // color change
-				var c1 = make_color_hsv(t+curChar, 255, 255);
-				var c2 = make_color_hsv(t+curChar+30, 255, 255);
+				var c1 = make_color_hsv(((t+curChar) % 255), 255, 255);
+				var c2 = make_color_hsv(((t+curChar+30) % 255), 255, 255);
 				
 				draw_text_colour(xx + (curX * charSize), yy + (curY * charHeight), letter, c1, c1, c2, c2, 1)
 			break;
 			
 			case 4: // wavey + color change (ooooooooo :D)
 				var so = t + curChar, shift = sin(so * pi * freq / room_speed) * amplitude;
-				var c1 = make_colour_hsv(t + curChar, 255, 255); 
-				var c2 = make_colour_hsv(t + curChar + 30, 255, 255);
+				var c1 = make_colour_hsv((t + curChar) % 255, 255, 255); 
+				var c2 = make_colour_hsv((t + curChar + 30) % 255, 255, 255);
 				
 				draw_text_color(xx + (curX * charSize), yy + (curY * charHeight) + shift, letter, c1, c1, c2, c2, 1)
 			break;

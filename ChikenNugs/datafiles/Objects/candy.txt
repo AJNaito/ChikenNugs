@@ -1,0 +1,21 @@
+{
+	"start_level": {
+		"Base_Room": {
+			"state":"default",
+			"inspect": [
+				"conditional:candy:eaten:lol:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark.",
+				"conditional:candy:eaten:A silohuette of the candy <3>glows<0>:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark.",
+				"conditional:candy:eaten:A silohuette of the candy <3>glows<0>:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark.",
+				"conditional:candy:eaten:A silohuette of the candy <3>glows<0>:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark.",
+				"conditional:candy:eaten:A silohuette of the candy <3>glows<0>:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark."
+			],
+			"interact": [
+				"conditional:candy:eaten\nAlas, Alpha build./change_room:candy:eaten/memory_sequence:There's nothing to eat:You eat the candy\nAnd you feel something <7>change!<0>",
+				"",
+				"",
+				"",
+				""
+			]
+		}
+	}
+}

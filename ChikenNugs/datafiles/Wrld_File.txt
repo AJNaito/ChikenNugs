@@ -6,23 +6,23 @@
 	],
 	"music": ["Intro", "","","",""],
 	
-	"intro": "<1>Blanketed<0> in darkness, you find yourself sinking.\n
+	"intro": "Blanketed in <1>darkness<0>, you find yourself sinking.\n
 \n
 Fading.\n
 \n
-                slow  ly\n
+                <7>slow  ly\n
                                 Driftin\n
                                           g\n
                                                  a\n
                                                     w\n
                                                          a\n
-                                                             y\n
+                                                             y\n <0>
 \n
 . . .\n
 . . \n
 .\n
 \n
-Feathers rustle now.\n 
+<2>Feathers rustle now.<0>\n 
 A room materializes.\n
 Where are you?"
 }

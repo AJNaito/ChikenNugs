@@ -3,7 +3,7 @@
 global.feedback = self
 interaction = ""
 char = 0
-char_speed = 0.25
+char_speed = 0.5
 pause = false
 
 charHeight = string_height("M")

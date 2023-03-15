@@ -8,18 +8,36 @@ nugget    shaped
    gemstones
 
 inlaid into the center of door
-All are domant.",
-			"",
-			"",
-			"",
-			""],
+All are dormant.",
+"	four
+nugget    shaped
+   gemstones
+
+inlaid into the center of door
+A single one <3>shines<0> from the rest."			
+,
+"	four
+nugget    shaped
+   gemstones
+
+inlaid into the center of door
+Half of them <3>shine<0>."			
+,
+"	four
+nugget    shaped
+   gemstones
+
+inlaid into the center of door
+A three of them <3>shine<0>."			
+,
+			"All four nuggets are <3>shining<0>. You can leave"],
 
 			"interact": [
 				"You reach out to them.\nAlas, keeps getting farther\nWhy is it like this?",
-				"",
-				"",
-				"",
-				""]
+				"1st nugget text",
+				"2nd nugget text",
+				"3rd nugget text",
+				"4th nugget text"]
 		}
 	}
 }
