@@ -1,7 +1,7 @@
 {
+	"other": ["refridgerator"],
 	"start_level": {
 		"Base_Room": {
-			"state":"default",
 			"inspect": [
 				"You fear not the fridge!\nEven if it towers tall!\nGood Luck opening...",
 				"",

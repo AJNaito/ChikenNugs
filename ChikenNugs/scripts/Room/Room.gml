@@ -12,15 +12,15 @@ function Room(name, nugget_level, connected, commands, objs, story) constructor 
 	
 	/// instruction is the pair of command and object
 	static Execute = function (instruction) {
-		var recognized_verb = Binary_Search(instruction[0], cmds)
+		var recognized_verb = ds_list_find_index(cmds, instruction[0])
 		
 		if (instruction[1] == "room") 
 			return description
 			
-		var recognized_obj = Binary_Search(instruction[1], objects)
+		var recognized_obj = ds_list_find_index(objects, instruction[1])// Binary_Search(instruction[1], objects)
 
 		
-		if (recognized_verb == false || recognized_obj == false) {
+		if (recognized_verb == -1 || recognized_obj == -1) {
 			return "You think about it hard... But nothing happens"
 		}
 		

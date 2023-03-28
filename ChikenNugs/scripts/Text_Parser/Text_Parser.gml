@@ -17,16 +17,23 @@ function Text_Parser(user_message){
 		
 		if (verb_res != -1) {
 			command = array_get(split_elements, i)
+			i++
 			break;
 		}
 	}
 	
 	// object MUST come after verb
 	for (; i < size; i++) {
-		var obj_res = global.objects[? array_get(split_elements, i)]
+		var obj_name = array_get(split_elements,i)
+		var obj_res = global.objects[? obj_name]
+
+		if (obj_res == undefined) {
+			obj_name = global.object_association[? obj_name]
+			obj_res = global.objects[? obj_name]
+		}
 		
 		if (!is_undefined(obj_res)) {
-			obj = array_get(split_elements, i)
+			obj = obj_name
 			break;
 		}
 		

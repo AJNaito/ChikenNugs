@@ -4,6 +4,7 @@
 /// initialize all objects 
 function Init_Global(){
 	global.world = ds_map_create()
+	global.object_association = ds_map_create()
 	
 	// base commands - for searching purposes
 	global.commands = undefined

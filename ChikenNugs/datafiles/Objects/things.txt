@@ -1,4 +1,5 @@
 {
+	"other": ["objects"],
 	"start_level": {
 		"Base_Room": {
 			"state":"default",

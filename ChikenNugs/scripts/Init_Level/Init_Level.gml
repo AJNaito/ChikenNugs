@@ -29,6 +29,8 @@ function Init_Level(currentLevel){
 		}
 	}
 	
+	ds_map_clear(global.object_association)
+	
 	ds_map_destroy(global.objects)
 	ds_map_destroy(global.world)
 	
@@ -57,7 +59,12 @@ function Init_Level(currentLevel){
 			if (global.objects[? ds_list_find_value(objects, i)] == undefined) {
 				// read object file
 				var obj_json = import_json("Objects/" +  ds_list_find_value(objects, i) + ".txt", json_decode)
-				obj_json = obj_json[? currentLevel]
+				
+				var sim_words = obj_json[? "other"]
+				for (var index = 0; index < ds_list_size(sim_words); index++) {
+					ds_map_add(global.object_association, ds_list_find_value(sim_words, index), ds_list_find_value(objects,i))
+				}
+				
 				var object = new Object(
 					 ds_list_find_value(objects, i), 
 					obj_json

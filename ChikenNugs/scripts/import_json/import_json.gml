@@ -15,6 +15,5 @@ function import_json(_fileName, _func){
 		file_text_close(_file)
 		return script_execute(_func, json_string)
 	}
-	
 	return undefined
 }
