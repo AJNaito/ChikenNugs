@@ -24,8 +24,8 @@ function Room(name, nugget_level, connected, commands, objs, story) constructor 
 			return "You think about it hard... But nothing happens"
 		}
 		
-		var obj = global.objects[? recognized_obj]
-		return obj.interact(recognized_verb, room_name)
+		var obj = global.objects[? instruction[1]]
+		return obj.interact(instruction[0], room_name)
 	}
 	
 	static Move = function (dir) {

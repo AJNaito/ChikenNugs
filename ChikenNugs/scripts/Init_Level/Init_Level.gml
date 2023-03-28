@@ -65,6 +65,8 @@ function Init_Level(currentLevel){
 					ds_map_add(global.object_association, ds_list_find_value(sim_words, index), ds_list_find_value(objects,i))
 				}
 				
+				obj_json = obj_json[? currentLevel]
+				
 				var object = new Object(
 					 ds_list_find_value(objects, i), 
 					obj_json

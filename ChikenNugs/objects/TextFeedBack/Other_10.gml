@@ -49,6 +49,7 @@ if (global.result != false) {
 	}
 } else {
 	interaction = "<1>yOu CaNT d@ tHaT<0>"
+	// activate a visual effect (eyeball?)
 }
 
 char = 0
