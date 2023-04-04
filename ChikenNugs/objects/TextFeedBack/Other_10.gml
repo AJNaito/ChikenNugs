@@ -8,6 +8,10 @@ if (global.result != false) {
 		interaction = global.help
 	} else if (global.result[0] == "move") {
 		interaction = global.curRoom.Move(global.result[1])
+	} else if (global.result[0] == "pick") {
+		interaction = Pick_Up(global.result[1])
+	} else if (global.result[0] == "drop") { 
+		interaction = Drop_Item()
 	} else {
 		interaction = global.curRoom.Execute(global.result)
 	}
@@ -45,6 +49,10 @@ if (global.result != false) {
 	
 		if (string_starts_with(interaction, "memory_sequence")) {
 			interaction = Memory(interaction, i == length - 1)
+		}
+		
+		if (string_starts_with(interaction, "use")) {
+			interaction = Use_Item(interaction)
 		}
 	}
 } else {

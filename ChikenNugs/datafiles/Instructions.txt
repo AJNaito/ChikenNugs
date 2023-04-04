@@ -43,8 +43,10 @@ Room File Syntax - pretty standard JSON
 
 Objects: 
 Name of the files is the name of the object
+Other field is for word association. For example, inspect myself -> inspect self
 
 { // always begin with { and end with }
+	"other": ["names", "that", "will", "return", "same", "result"],
 	"start_level": { /// name of the level interaction
 		"Base_Room": { /// Room of the interaction
 			/// Just an initializer for the start state (alternative states will be a new object)

@@ -7,6 +7,7 @@ char_speed = 0.5
 pause = false
 skip = false
 
+
 charHeight = string_height("M")
 charSize = string_width("L")
 pos_x = x

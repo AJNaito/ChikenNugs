@@ -18,6 +18,7 @@ function Init_Global(){
 	global.commands = jsonWorld[? "commands"]
 	global.music = jsonWorld[? "music"]
 	global.help = jsonWorld[? "help"]
+	global.item = ""
 	
 	with (TextFeedBack) {
 		global.feedback.interaction = jsonWorld[? "intro"]

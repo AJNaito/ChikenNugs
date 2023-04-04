@@ -1,10 +1,11 @@
 //
 // Simple pulse effect -- slightly modified from Shadertoy (https://www.shadertoy.com/view/clXXDl)
-//
+// idk, thought it looked kewl
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
 uniform float time;
+uniform float red, blue, green;
 uniform vec2 room_size;
 
 mat2 rotate2D(float factor) {
@@ -34,7 +35,9 @@ void main()
 		r_n -= sin(r_q);
 		S *= 1.2;
 	}
-	color = v_vColour.rgb * r_a;// + r_a  - d;
+	
+	// get color
+	color = vec3(mod(time, 256.), 0.1, 0.1) * r_a;// + r_a  - d;
 	
 	gl_FragColor = vec4(color, 1.);
 }
