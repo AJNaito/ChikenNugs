@@ -20,6 +20,6 @@ function Object(name, _interactions) constructor {
 		delete obj_name
 		ds_map_clear(interaction)
 		
-		delete interactions
+		delete interaction
 	}
 }

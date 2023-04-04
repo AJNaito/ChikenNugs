@@ -7,7 +7,7 @@ function Init_Global(){
 	global.object_association = ds_map_create()
 	
 	// base commands - for searching purposes
-	global.commands = undefined
+	global.commands = ds_map_create()
 	
 	// recognized objs - for searching purposes
 	global.objects = ds_map_create()
@@ -15,9 +15,20 @@ function Init_Global(){
 	
 	var jsonWorld = import_json("Wrld_File.txt", json_decode)
 	show_debug_message(jsonWorld[? "commands"])
-	global.commands = jsonWorld[? "commands"]
+	var all_commands = jsonWorld[? "commands"]
+	for (var k = 0; k != ds_list_size(all_commands); k++) {
+		var word = ds_list_find_value(all_commands, k)
+		var associated_words = jsonWorld[? word]
+		if ( associated_words != undefined) {
+			for (var i = 0; i != ds_list_size(associated_words); i++) {
+				ds_map_add(global.commands, ds_list_find_value(associated_words, i), word)
+			}
+		}
+		ds_map_add(global.commands, word, word)
+	}
+	
 	global.music = jsonWorld[? "music"]
-	global.help = jsonWorld[? "help"]
+	global.help = jsonWorld[? "help_text"]
 	global.item = ""
 	
 	with (TextFeedBack) {

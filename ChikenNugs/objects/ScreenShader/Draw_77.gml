@@ -10,6 +10,9 @@ switch (shader) {
 		var resolution = shader_get_uniform(sh_ripple, "")
 		
 	break
+	case "ripple_color":
+		
+	break;
 	case "pulsing":
 		shader_set(sh_pulsing)
 	break

@@ -13,10 +13,11 @@ function Text_Parser(user_message){
 	
 	var i
 	for (i = 0; i < size; i++) {
-		var verb_res = ds_list_find_index(global.commands, array_get(split_elements, i))
+		var verb_res = global.commands[? array_get(split_elements, i)]
+		//ds_list_find_index(global.commands, array_get(split_elements, i))
 		
-		if (verb_res != -1) {
-			command = array_get(split_elements, i)
+		if (verb_res != undefined) {
+			command = verb_res
 			i++
 			break;
 		}

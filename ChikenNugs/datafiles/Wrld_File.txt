@@ -4,9 +4,11 @@
 		"inspect",
 		"interact"
 	],
+	"help": ["?"],
+	"inspect": [">.>", "o.o"],
 	"music": ["Intro", "","","",""],
 
-	"help": "Base verbs: interact and inspect\n
+	"help_text": "Base verbs: interact and inspect\n
 You can put commands however you like but put objects after the verbs! (i.e inspect room, inspect self)\n
 Press Escape to skip text (write whole text)" ,
 	

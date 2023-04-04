@@ -31,6 +31,25 @@ Levels:
 Put room under folder of level name they belond to i.e Levels/start_level/room.txt
 For simplicity, start room is ALWAYS Base_Room and end room is always End_Room
 
+WORLD FILE - 
+{
+	"commands": [
+		"help",
+		"inspect",
+		"interact"
+	],
+	"help": ["?"], // alternative commands to the base commands
+	"inspect": [">.>", "o.o"], // alternative commands to the base commands
+	"music": ["Intro", "","","",""], // names of files
+
+	"help": "Base verbs: interact and inspect\n
+Multi-worded commands like pick up, must be appended with a dash: pick up -> pick-up\n
+You can put commands however you like but put objects after the verbs! (i.e inspect room, inspect self)\n
+Press Escape to skip text (write whole text)" ,
+	
+	"intro": "intro text"
+}
+
 Room File Syntax - pretty standard JSON
 { // always start with { and end with }
   "name": "Base_Room", /// name of level
@@ -80,7 +99,22 @@ Other field is for word association. For example, inspect myself -> inspect self
 					"",
 					"",
 					"", 
+					""],
+			"example3": ["conditional:obj_name:condition:DESCRIPTION/play_music:file_name",
+					"",
+					"",
+					"",
 					""]
 		}	
 	}
 }
+
+"ORDER OF OPERATIONS FOR COMMANDS" - process order
+play_music
+move_room (probably not gonna be used)
+conditional
+change_state (object)
+change_room (change room description)
+change_level (probably will be removed)
+memory_sequence (plays a memory)
+use (use held item)

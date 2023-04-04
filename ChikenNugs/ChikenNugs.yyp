@@ -3,7 +3,6 @@
   "resourceVersion": "1.6",
   "name": "ChikenNugs",
   "resources": [
-    {"id":{"name":"Script17","path":"scripts/Script17/Script17.yy",},"order":19,},
     {"id":{"name":"sLightGlow1stPass","path":"sprites/sLightGlow1stPass/sLightGlow1stPass.yy",},"order":5,},
     {"id":{"name":"CutsceneArea","path":"rooms/CutsceneArea/CutsceneArea.yy",},"order":3,},
     {"id":{"name":"sPortCullis","path":"sprites/sPortCullis/sPortCullis.yy",},"order":11,},
@@ -112,8 +111,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"CutsceneArea","path":"rooms/CutsceneArea/CutsceneArea.yy",},},
     {"roomId":{"name":"Testing_Area","path":"rooms/Testing_Area/Testing_Area.yy",},},
+    {"roomId":{"name":"CutsceneArea","path":"rooms/CutsceneArea/CutsceneArea.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
