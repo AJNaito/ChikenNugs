@@ -11,7 +11,7 @@ switch (shader) {
 		
 		shader_set_uniform_f(time, _time)
 		shader_set_uniform_f(mouse_pos, mouse_x, mouse_y)
-		shader_set_uniform_f(wave_effect, .1 * (global.nuggets_eaten + 1))
+		shader_set_uniform_f(wave_effect, .03 * (global.nuggets_eaten + 1))
 		shader_set_uniform_f(resolution, room_width, room_height)
 	break
 	case "ripple_color":

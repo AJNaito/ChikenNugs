@@ -3,6 +3,7 @@
 user_msg = ""
 delay = 10
 char_limit = 256
+charSize = string_width("L")
 cursor = "|" // can possibly change based on character state
 callOnce = false
 
