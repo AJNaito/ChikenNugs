@@ -1,0 +1,9 @@
+{
+	"other":[],
+	"start_level": {
+		"Base_Room": {
+			"state": "default",
+			"inspect": ["","","","",""]
+		}
+	}
+}

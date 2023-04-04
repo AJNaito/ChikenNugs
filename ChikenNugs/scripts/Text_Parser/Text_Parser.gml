@@ -6,7 +6,7 @@
 /// Returns either false or a pair of words (accepted commands)
 function Text_Parser(user_message){
 	var command = ""
-	var obj = ""
+	var obj = "", obj2 = ""
 	
 	var split_elements = string_split(user_message, " ")
 	var size = array_length(split_elements)
@@ -35,7 +35,7 @@ function Text_Parser(user_message){
 		
 		if (!is_undefined(obj_res)) {
 			obj = obj_name
-			break;
+			break
 		}
 		
 		obj_res = array_get(split_elements, i)

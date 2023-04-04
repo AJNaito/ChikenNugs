@@ -2,8 +2,8 @@
   "name": "Base_Room",
   "nugget_level": 1, 
   "connected": ["none", "none", "none", "none"], 
-  "commands": ["inspect","interact"],
-  "objects": ["candy","chest", "cupboards", "desk", "feathers", "fridge", "gemstones","hand","microwave","nugget","self","stove","things"], 
+  "commands": ["inspect","interact", "grab"],
+  "objects": ["candy","chest", "cupboards", "desk", "feathers", "fridge", "gemstones","hand", "key","microwave","nugget","self","stove","things"], 
   "story": "First, you take careful note of your surroundings,
 \nSpawned at the center of a simple, familiar home!
 \nA barren studio apartment, though with leviathan furnishings

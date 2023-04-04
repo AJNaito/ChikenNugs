@@ -7,12 +7,14 @@ function Use_Item(interaction){
 		if (array_length(split_interaction) > 2) {
 			// condition!!!
 			var obj = global.objects[? split_interaction[1]]
-			obj = obj[? global.curRoom.room_name]
+			obj = obj.interaction[? global.curRoom.room_name]
 			if (obj[? "state"] == split_interaction[2]) {
 				return split_interaction[3]
+			} else {
+				return "That's not quite right... maybe I need to <2>do something<2> to it?"
 			}
 		}
 	}
 	
-	return "That's not quite right -- maybe anotherrrr???"
+	return "That's not quite right -- maybe another item?"
 }

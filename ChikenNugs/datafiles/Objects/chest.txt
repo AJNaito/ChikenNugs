@@ -12,7 +12,7 @@
 			],
 			
 			"interact": [
-				"You stick beak in lock.\nPerhaps hoping to break in.\nOw! That hurts... Silly!",
+				"use:key:default:CHEST OPENED",
 				"",
 				"",
 				"",
