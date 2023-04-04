@@ -1,7 +1,7 @@
 {
   "resourceType": "GMShader",
   "resourceVersion": "1.0",
-  "name": "sh_erode",
+  "name": "sh_color_ripple",
   "type": 1,
   "parent": {
     "name": "Shaders",

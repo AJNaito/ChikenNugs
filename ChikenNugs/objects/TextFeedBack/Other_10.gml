@@ -57,6 +57,10 @@ if (global.result != false) {
 	}
 } else {
 	interaction = "<1>yOu CaNT d@ tHaT<0>"
+	with(ScreenShader) {
+		ScreenShader.alarm[0] = 500
+		ScreenShader.shader = "ripple"
+	}
 	// activate a visual effect (eyeball?)
 }
 

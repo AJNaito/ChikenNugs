@@ -17,6 +17,7 @@ void main()
 	
 	// normalize coords 
 	vec2 uv = gl_FragCoord.xy / room_size.xy + ((center_point/cl) * wave_effect) * cos(cl * 12. - time * 4.) * 0.02;
-	
-    gl_FragColor = vec4(texture2D( gm_BaseTexture, uv ).xyz, 1.);
+	vec3 col = texture2D(gm_BaseTexture, uv).xyz;
+
+    gl_FragColor = vec4(col, 1.);
 }
