@@ -109,12 +109,28 @@ Other field is for word association. For example, inspect myself -> inspect self
 	}
 }
 
-"ORDER OF OPERATIONS FOR COMMANDS" - process order
-play_music
-move_room (probably not gonna be used)
-conditional
-change_state (object)
-change_room (change room description)
-change_level (probably will be removed)
-memory_sequence (plays a memory)
-use (use held item)
+Memory Sequence - Place all memory sequences under Memory folder
+Sample Memory:
+{
+	"story": [
+		"WORDS", 
+		"WORDS",
+		"ETC"
+	]
+
+	"effects": [
+		"effect_name:0-2" // effect_name will play from story[0]-story[2]
+	]
+}
+
+All commands + Descriptions:
+change_level:level_name:STORY -> changes the current level
+play_music:audio_name         -> Plays a sound file (different from background music)
+move_room:room_name:STORY     -> Moves to a specific room within a level ** probably not needed with single room levels
+conditional:obj_name:condition:Description -> if else -- can have multiple conditions
+change_state:new_state        -> changes the state of a specific item (of inputted item)
+change_room:obj_name:state:room_desc:STORY   -> Change multiple items in the story and change room desc (mult items are optional)
+memory_sequence:memory_name:STORY -> plays a memory sequence along with story
+use:obj_name_needed:state_needed:STORY -> Like conditional but specifically requires obj_name_needed to be held in state_needed to return story
+
+

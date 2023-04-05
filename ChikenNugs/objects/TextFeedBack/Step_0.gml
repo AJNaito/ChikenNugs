@@ -6,3 +6,11 @@ if (keyboard_check((vk_escape))) {
 } else {
 	skip = false
 }
+
+if (mouse_wheel_up()) {
+	pos_y -= 10
+}
+
+if (mouse_wheel_down()) {
+	pos_y += 10
+}

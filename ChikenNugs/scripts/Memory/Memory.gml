@@ -4,9 +4,13 @@ function Memory(interaction, getInteraction){
 	global.nuggets_eaten++;
 	
 	// disable input
+	instance_deactivate_object(TextInput)
 	
 	// activate memory click through
-	// set memory
+	instance_activate_object(Mem_Cutscene)
+	
+	// set 
+	
 	// set on screen shader
 	
 	// dont return anything

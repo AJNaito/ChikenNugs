@@ -1,16 +1,18 @@
 /// @description Draws text on screen
 // You can write your code in this editor
 #region WRITING TEXT
-if (char < string_length(interaction) && !pause) {
+
+
+if (char < string_length(whole_interaction) && !pause) {
 	if (skip) {
-		char = string_length(interaction)
+		char = string_length(whole_interaction)
 	}
 	
 	// increment character count
 	char += char_speed
 	
 	// get char at point
-	var character = string_char_at(interaction, floor(char))
+	var character = string_char_at(whole_interaction, floor(char))
 	
 	// check for breaks or pauses
 	switch (character) {
@@ -30,7 +32,7 @@ if (char < string_length(interaction) && !pause) {
 	
 	#region set up for effects
 	var col = c_white, curChar = 1, yy = pos_y + y_buffer, xx = pos_x + x_buffer, curX = 0, curY = 0
-	var curEffect = 0
+	var curEffect = 0, num_breaks = 0
 	#endregion
 	
 	t += 1
@@ -38,21 +40,29 @@ if (char < string_length(interaction) && !pause) {
 	#region Drawing Effects
 	// go through the string and start drawing the characters
 	repeat (floor(char)) {
-		var letter = string_char_at(interaction, curChar)
+		var letter = string_char_at(whole_interaction, curChar)
 		
 		// detect newline characters -- DON"T PROCESS THEM
 		if (letter == "\n") {
 			curY += 1; curX = 0
+			num_breaks++
 		}
+		
+	/*	if (letter == "\r") {
+			yy -= num_breaks * charHeight
+			curX = 0
+			num_breaks = 0
+		}
+		*/
 		
 		// detect effect indicators
 		if (letter == "<") {
-			if (string_char_at(interaction, curChar + 2) == ">") {
-				curEffect = real(string_char_at(interaction, curChar + 1))
+			if (string_char_at(whole_interaction, curChar + 2) == ">") {
+				curEffect = real(string_char_at(whole_interaction, curChar + 1))
 				
 				// don't process any of the effect indicators
 				curChar += 3
-				letter = string_char_at(interaction, curChar)
+				letter = string_char_at(whole_interaction, curChar)
 			}
 		}
 		

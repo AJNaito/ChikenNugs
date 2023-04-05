@@ -175,6 +175,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"candy.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"toe.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"key.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Sample_Memory.txt","CopyToMask":-1,"filePath":"datafiles/Memory",},
   ],
   "MetaData": {
     "IDEVersion": "2022.11.1.56",

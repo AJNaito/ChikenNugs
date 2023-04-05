@@ -2,6 +2,10 @@
 // You can write your code in this editor
 global.feedback = self
 interaction = ""
+interaction_history = ds_list_create() // add pairs 
+history_length = 0
+whole_interaction = ""
+
 char = 0
 char_speed = 0.5
 pause = false

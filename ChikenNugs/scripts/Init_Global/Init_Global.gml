@@ -32,7 +32,9 @@ function Init_Global(){
 	global.item = ""
 	
 	with (TextFeedBack) {
-		global.feedback.interaction = jsonWorld[? "intro"]
+		global.feedback.whole_interaction = jsonWorld[? "intro"]
+		global.feedback.history_length = string_length(global.feedback.whole_interaction)
+		ds_list_add(global.feedback.interaction_history, global.feedback.whole_interaction)
 	}
 	delete jsonWorld
 }

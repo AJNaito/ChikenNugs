@@ -1,5 +1,5 @@
 //
-// warping effect to be used for cutscenes -- simple sin wave
+// warping effect to be used for cutscenes -- fish eye warp around mouse position
 //
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;

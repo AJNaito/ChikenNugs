@@ -1,0 +1,11 @@
+{
+	"story": [
+		"WORDS", 
+		"WORDS",
+		"ETC"
+	]
+
+	"effects": [
+		"effect_name:0-2" // effect_name will play from story[0]-story[2]
+	]
+}

@@ -1,6 +1,6 @@
 //
 // Simple pulse effect -- slightly modified from Shadertoy (https://www.shadertoy.com/view/clXXDl)
-// idk, thought it looked kewl
+// idk, thought it looked kewl -- probably going to put it on the main menu
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
@@ -37,7 +37,7 @@ void main()
 	}
 	
 	// get color
-	color = vec3(mod(time, 256.), 0.1, 0.1) * r_a;// + r_a  - d;
+	color = vec3(mod(time, 256.)/256., 0.1, 0.1) * r_a;// + r_a  - d;
 	
 	gl_FragColor = vec4(color, 1.);
 }
