@@ -1,7 +1,7 @@
 {
 	"other": ["gems", "stones"],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state":"default",
 			"inspect": [
 "	four

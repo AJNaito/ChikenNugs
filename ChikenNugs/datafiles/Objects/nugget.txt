@@ -1,37 +1,45 @@
 {
 	"other": ["nug"],
 	"start_level": {
-		"room": {
+		"home": {
 			"state": "default",
 			"inspect": [
 				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
 				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
-				"",
-				"",
-				""
+				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
+				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
+				"It's time to go... <1>WAKE UP<0>"
 			],
 			
-			"interact": [
-				"You eat the nugget\nAnd you feel something change!\n...Alas alpha build.",
-				"You <1>eat<0> the nugget\nAnd you feel something change!\n...Alas alpha build.",
-				"",
-				"",
-				""]
+			"use": [
+				"change_state:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+				"change_state:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+				"change_state:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+				"change_state:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+				"It's time to go..."]
 		}	
-	}
+	},
 	"Candy_Forest": {
 		"camp": {
 			"state": "default",
 			"inspect": [
 			]
 		}
-	}
+	},
 
 	"Purple_Desert": {
 		"wastes": {
 			"state": "default",
 			"inspect": [
 				
+			]
+		}
+	}
+
+	"Chickenville": {
+		"lobby": {
+			"state": "default",
+			"inspect": [
 			]
 		}
 	}

@@ -1,7 +1,7 @@
 {
 	"other": [],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state":"default",
 			"inspect": [
 				"You approach locked box.\nWhich passes the inspection.\nCertainly, needs key!",

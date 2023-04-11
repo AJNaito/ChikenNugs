@@ -1,7 +1,7 @@
 {
 	"other": [],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state": "default",
 			"inspect": [
 				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",

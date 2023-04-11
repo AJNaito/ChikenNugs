@@ -11,7 +11,7 @@ uniform float power;
 
 void main()
 {
-	vec2 normalized = fragCoord.xy/room_size.x;
+	vec2 normalized = gl_FragCoord.xy/room_size.xy;
 	float screen_prop = room_size.x/room_size.y;
 	vec2 center = (gl_FragCoord.xy / room_size.xy) - (mouse_position.xy/room_size.xy);
 	vec2 d = normalized - center;
@@ -22,7 +22,7 @@ void main()
 	float bind = sqrt(dot(center, center));
 	vec2 uv = center + normalize(d) * atan(radius - power * 10.) * bind / atan(-power * bind * 10.);
 	
-	vec3 col = texture2D(gm_BaseTexture, vec2(uv.x, -uv.y * prop)).xyz;
+	vec3 col = texture2D(gm_BaseTexture, vec2(uv.x, -uv.y * screen_prop)).xyz;
 	
     gl_FragColor = vec4(col, 1.);
 }

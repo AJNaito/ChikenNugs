@@ -25,10 +25,10 @@
 ""
 			],
 			"consume": [
-"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
 ""
 			]
 		}

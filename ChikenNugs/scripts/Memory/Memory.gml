@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function Memory(interaction, getInteraction){
-	var split_interaction = string_split(interaction, ":", false)
+function Memory(interaction){
+	var split_interaction = string_split(interaction, "+", false)
 	global.nuggets_eaten++;
 	
 	// disable input

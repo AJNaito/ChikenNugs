@@ -1,5 +1,11 @@
 {
 	"other": ["chamber"],
+	"start_level": {
+		"home": {
+			"inspect": [
+			]
+		}
+	},
 	"Chickenville": {
 		"lobby": {
 			"state":"default",

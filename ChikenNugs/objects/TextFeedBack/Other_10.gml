@@ -22,7 +22,7 @@ if (global.result != false) {
 	
 	for (var i = 0; i < length; i+=1) {
 		// Skip interactions if command was grab
-		if (global[0] == "grab") {
+		if (global.result[0] == "grab") {
 			var split_int = string_split(interaction, ":", false)
 			if (array_length(split_int) != 1) {
 				interaction = split_int[1]
@@ -33,6 +33,10 @@ if (global.result != false) {
 		}
 		
 		interaction = split_interaction[i]
+		
+		if (string_starts_with(interaction, "conditional")) {
+			interaction = Conditional_Interact(interaction)
+		}
 		
 		if (string_starts_with(interaction, "play_music")) {
 			interaction = Play_Music(interaction)
@@ -45,17 +49,18 @@ if (global.result != false) {
 		if (string_starts_with(interaction, "move_room")) {
 			interaction = Move_Room(interaction)
 		}
-
-		if (string_starts_with(interaction, "conditional")) {
-			interaction = Conditional_Interact(interaction, true)
-		}
 		
-		if (string_starts_with(interaction, "change_held")) {
-			interaction = Change_State(interaction, global.result[1])
+		if (string_starts_with(interaction, "talk:")) {
+			interaction = Talk(interaction, global.result[1])
 		}
+	
 
 		if (string_starts_with(interaction, "change_state")) {
 			interaction = Change_State(interaction, global.result[1])
+		}
+		
+		if (string_starts_with(interaction, "default")) {
+			interaction = Default_Objects(interaction)
 		}
 	
 		if (string_starts_with(interaction, "change_room")) {

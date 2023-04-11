@@ -5,15 +5,15 @@ switch (scene_name) {
 		array_push(global.levels_cleared, "nugget");
 	break;
 	case "Memory_2":
-			array_push(global.levels_cleared, "candy_cane");
+			array_push(global.levels_cleared, "Candy_Forest");
 
 	break;
 	case "Memory_3":
-			array_push(global.levels_cleared, "desert");
+			array_push(global.levels_cleared, "Purple_Desert");
 
 	break;
 	case "Memory_4":
-			array_push(global.levels_cleared, "chickenville");
+			array_push(global.levels_cleared, "Chickenville");
 	break;
 }
 

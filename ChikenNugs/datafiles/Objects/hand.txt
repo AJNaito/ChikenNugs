@@ -1,14 +1,14 @@
 {
 	"other": [],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state": "default",
 			"inspect": [
 				"The strangest of sights!\nA hand, where a leg shoud be.\nIt <1>wriggles and squirms.<0>",
-				"",
-				"",
-				"",
-				""],
+				"The strangest of sights!\nA hand, where a leg shoud be.\nIt <1>wriggles<0>",
+				"A strange sight!\nA hand, where a leg shoud be.\nIt <1>wriggles and squirms.<0>",
+				"The strangest of sights!\nA hand, where a leg shoud be.\nIt <1>wriggles and squirms.<0>",
+				"A peculiar table I bought, the hand stays still"],
 			"interact": [
 				"change_room:desk:touched:Upon the ground now lies four varied objects.\n
 First, a nugget, scattered afar from a toe.\n

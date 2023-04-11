@@ -1,7 +1,7 @@
 {
 	"other": [],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state":"default",
 			"inspect": [
 				"The desk is odd!\nIt has three legs... and a hand?\nIt <1>rattles<0> above",

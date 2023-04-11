@@ -26,6 +26,9 @@ function Init_Level(currentLevel){
 	for (var k = ds_map_find_first(global.world); !is_undefined(k); k = ds_map_find_next(global.world, k)) {
 		var _room = global.world[? k];
 		
+		// don't delete start room -- want to keep persistant
+		
+		
 		with(Room) {
 			_room.Destroy()
 			delete(_room)
@@ -36,6 +39,20 @@ function Init_Level(currentLevel){
 	for (var k = ds_map_find_first(global.objects); !is_undefined(k); k = ds_map_find_next(global.objects, k)) {
 		var _object = global.objects[? k];
 		
+		var persistent_objects = ["candy","chest", "cupboards", "desk", "feathers", "fridge", "gemstones","hand", "key","microwave","nugget","self","stove","things"]
+		var skip = false;
+		for (var i = 0; i < array_length(persistent_objects); i++) {
+			if (_object.obj_name == persistent_objects[i]) {
+				skip = true;
+				break;
+			}
+		}
+		
+		if (skip == true)
+			continue;
+		// don't delete objects from start_room -- want to keep persistant
+		
+		
 		with (Object) {
 			_object.Destroy()
 			delete(_object)
@@ -43,13 +60,10 @@ function Init_Level(currentLevel){
 	}
 	
 	ds_map_clear(global.object_association)
-	
-	ds_map_destroy(global.objects)
 	ds_map_destroy(global.world)
 	
 	// initiate another level
 	global.world = ds_map_create()
-	global.objects = ds_map_create()
 	
 	// Reading 
 	var fileName = file_find_first("Levels/" + currentLevel + "/*.txt", 0)

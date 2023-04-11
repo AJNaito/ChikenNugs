@@ -1,7 +1,7 @@
 {
 	"other": ["sweets"],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state":"default",
 			"inspect": [
 				"conditional:candy:eaten:lol:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark.",
@@ -11,10 +11,11 @@
 				"conditional:candy:eaten:A silohuette of the candy <3>glows<0>:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark."
 			],
 			"interact": [
-				"conditional:candy:eaten\nAlas, Alpha build./change_room:candy:eaten/memory_sequence:There's nothing to eat:You eat the candy\nAnd you feel something <7>change!<0>",
-				"",
-				"",
-				"",
+				"change_state:candy:eaten/conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\n<3>You smell something sweet?<3>"
+				"change_state:candy:eaten/conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
+				"change_state:candy:eaten/conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
+				"change_state:candy:eaten/conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
+				"change_state:candy:eaten/conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
 				""
 			]
 		}

@@ -1,0 +1,10 @@
+{
+	"story":["I remember... camping\n", 
+			" Away from the people, away from the city, away from the world.",
+			"Their laughter <1>echoed in my head!<0>",
+			"The silent suffering of my aunt, <7>bruised and mute<0>, laughing along with them tained the color of their joy.",
+			"My parents ignored it saying she was strong, like their parents had been.\n"
+"I felt a lump in my pocket. It was a <4>solitary, stale, chicken nugget<0>, saved from some day passed for a rainy now. <7>HAHAHAHAHAHAHAHAHAHAHA!<0>",
+	"<1>aT le@St iT waS...<0>" ],
+	"effects":[]
+}

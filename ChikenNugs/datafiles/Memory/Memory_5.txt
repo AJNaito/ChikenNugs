@@ -1,0 +1,10 @@
+{
+	"story":["I remember... waking",
+			"Into the feeling, into the real, into the world. Into my life. I reach over to stop my alarm, but my hand falls on an empty cardboard box. I open my eyes and turn it over and over in front of me before tossing it toward the trash bin, scattering crumbs across the floor.",
+			"I have to get up for work soon, but a couple more minutes won’t hurt...",
+"...",
+"...",
+"Blanketed in <1>darkness<0>, you find yourself sinking..."
+],
+	"effects":[]
+}

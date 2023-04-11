@@ -1,0 +1,11 @@
+{
+	"story":["I remember... eating.",
+			"Away from the sorrow, away from the hardship, away from the feeling.",
+			"I was at a late-night diner, alone. The day slipping like and ancient memory. Fluorescent lights lined the ceiling, cutting through pool of smoke hanging in the air.",
+"A middle-aged waitress walks up and asked for my order.",
+"I started down the piping hot chicken nuggets placed before me. The first one sizzled on my tongue, burning off any taste buds I had left. ha...",
+"<1>aT lEAst theRe waS...<0>"
+
+],
+	"effects":[]
+}

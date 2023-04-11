@@ -1,0 +1,7 @@
+{
+	"story": ["You consume the nugget... You feel woozy, everything goes black","I remember... moving\n",
+			"Away from my parents, away from my hometown, away from my life",
+			"I opened up the door to the barren wooden box that would be my new home.", 			"Well… maybe home is too strong a word. I had a roof over my head at least, and I could play by my own rules here.", 
+			"I sat down on the hardwood floor and set my dinner down beside me, a box of four chicken nuggets. Ha! hahaha…         <1>aT leASt TheY were...<0>],
+	"effects":[]
+}

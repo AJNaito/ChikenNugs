@@ -3,7 +3,7 @@
 		"drop",
 		"help",
 		"inspect",
-		"interact",
+		"use",
 		"grab"
 	],
 	"help": ["?"],
@@ -11,6 +11,7 @@
 	"music": ["Intro", "","","",""],
 	"grab": ["pick-up", "\\o/"],
 	"drop": ["\\/"],
+	"use": ["interact"],
 
 	"help_text": "Base verbs: interact and inspect\n
 You can put commands however you like but put objects after the verbs! (i.e inspect room, inspect self)\n

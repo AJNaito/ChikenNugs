@@ -5,6 +5,7 @@ function Object(name, _interactions) constructor {
 	show_debug_message("in object")
 	obj_name = name
 	interaction = ds_map_create()
+	talk = 0
 	ds_map_copy(interaction, _interactions)
 	
 	static interact = function (command, room_name) {

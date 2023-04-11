@@ -8,9 +8,9 @@ if (keyboard_check((vk_escape))) {
 }
 
 if (mouse_wheel_up()) {
-	pos_y -= 10
+	pos_y -= 20
 }
 
 if (mouse_wheel_down()) {
-	pos_y += 10
+	pos_y += 20
 }

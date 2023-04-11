@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Play_Cutscene",
+  "name": "Default_Objects",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
