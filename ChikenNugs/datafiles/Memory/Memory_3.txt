@@ -1,5 +1,6 @@
 {
-	"story":["I remember... tripping",
+	"story":["<4>Nugget<0> sunset falls,\nSea of light swells in your mouth,\nAll turns to white.",
+"I remember... tripping",
 			"Away from the lights, away from the sounds, away from the real.",
 			"Sand danced on my skin to swiriling cacophony of the stars above.\nThe heated earth and cooled night air battled over my prone figure as I looked on from afar.",
 			"Peaceful.",

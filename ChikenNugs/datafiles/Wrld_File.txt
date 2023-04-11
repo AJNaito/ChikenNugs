@@ -1,11 +1,13 @@
 {
 	"commands": [
+		"consume",
 		"drop",
 		"help",
 		"inspect",
 		"use",
 		"grab"
 	],
+	"consume": [":o", "eat"],
 	"help": ["?"],
 	"inspect": [">.>", "o.o"],
 	"music": ["Intro", "","","",""],

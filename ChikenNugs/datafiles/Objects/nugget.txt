@@ -16,13 +16,47 @@
 				"change_state:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
 				"change_state:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
 				"change_state:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
-				"It's time to go..."]
+				"It's time to go..."],
+			"grab": [
+				"false:You try to grab the nugget but it phases right through your hand!",
+"false:You try to grab the nugget but it phases right through your hand!",
+"false:You try to grab the nugget but it phases right through your hand!",
+"false:You try to grab the nugget but it phases right through your hand!",
+"false:It's time to go..."
+			]
 		}	
 	},
 	"Candy_Forest": {
 		"camp": {
 			"state": "default",
 			"inspect": [
+"Golden chicken chunk,\nPlain but perfect, right as rain,\nNature's tasty treat.",
+"Golden chicken chunk,\nPlain but perfect, right as rain,\nNature's tasty treat.",
+"Golden chicken chunk,\nPlain but perfect, right as rain,\nNature's tasty treat.",
+"Golden chicken chunk,\nPlain but perfect, right as rain,\nNature's tasty treat.",
+""
+			],
+			"consume": [
+				"memory_sequence+Memory_2",
+"memory_sequence+Memory_2",
+"memory_sequence+Memory_2",
+"memory_sequence+Memory_2",
+""
+			],
+
+			"grab": [
+"false:Firmly planted down,\n<4>Nugget<0> stuck to cauldron's floor,\nCulinary art!",
+"false:Firmly planted down,\n<4>Nugget<0> stuck to cauldron's floor,\nCulinary art!",
+"false:Firmly planted down,\n<4>Nugget<0> stuck to cauldron's floor,\nCulinary art!",
+"false:Firmly planted down,\n<4>Nugget<0> stuck to cauldron's floor,\nCulinary art!",
+""
+			],
+			"use": [
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+""
 			]
 		}
 	},
@@ -31,7 +65,25 @@
 		"wastes": {
 			"state": "default",
 			"inspect": [
-				
+				"Golden brown and crisp,\nSatisfyingly savory,\nA tasty nugget.",
+"Golden brown and crisp,\nSatisfyingly savory,\nA tasty nugget.",
+"Golden brown and crisp,\nSatisfyingly savory,\nA tasty nugget.",
+"Golden brown and crisp,\nSatisfyingly savory,\nA tasty nugget.",
+""
+			],
+			"consume": [
+				"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
+""
+			],
+			"use": [
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+"Eat the <4>nugget<0> now,\nWith your mouth, not with your wings,\nIt's a simple task.",
+""
 			]
 		}
 	}
@@ -40,6 +92,32 @@
 		"lobby": {
 			"state": "default",
 			"inspect": [
+"<6>Shiny<0> <4>nugget<0> <7>gleams<0>,\nChicken's treasure <6>shining bright<0>,\nGolden, crispy delight!",
+"<6>Shiny<0> <4>nugget<0> <7>gleams<0>,\nChicken's treasure <6>shining bright<0>,\nGolden, crispy delight!",
+"<6>Shiny<0> <4>nugget<0> <7>gleams<0>,\nChicken's treasure <6>shining bright<0>,\nGolden, crispy delight!",
+"<6>Shiny<0> <4>nugget<0> <7>gleams<0>,\nChicken's treasure <6>shining bright<0>,\nGolden, crispy delight!",
+""
+			],
+			"consume": [
+"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
+""
+			],
+			"grab": [
+"false:A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+"false:A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+"false:A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+"false:A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+"false:lol do it, no balls"
+			],
+			"use": [
+"A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+"A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+"A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+"A warning to heed,\nDo not eat the shining prize,\nTempting though it be.",
+""
 			]
 		}
 	}

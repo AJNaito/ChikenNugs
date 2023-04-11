@@ -106,6 +106,8 @@ function Init_Level(currentLevel){
 		
 		fileName = file_find_next()
 	}
+	
+	global.item = ""
 	global.curRoom = ds_map_find_first(global.world)
 	
 	file_find_close()

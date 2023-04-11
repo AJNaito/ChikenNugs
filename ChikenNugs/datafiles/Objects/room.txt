@@ -3,6 +3,11 @@
 	"start_level": {
 		"home": {
 			"inspect": [
+"return_story"
+"return_story"
+"return_story"
+"return_story"
+"WAKE UP"
 			]
 		}
 	},
@@ -36,6 +41,18 @@
 "Illegal it is,\nAgainst the law, forbidden.\nNo! For that is wrong.",
 "Illegal it is,\nAgainst the law, forbidden.\nNo! For that is wrong.",
 ""
+			]
+		}
+	},
+	"Waking_Room": {
+		"center": {
+			"state":"default",
+			"inspect":[
+"<1>WAKE <4>UP!<0>",
+"<1>WAKE <4>UP!<0>"
+"<1>WAKE <4>UP!<0>"
+"<1>WAKE <4>UP!<0>"
+"<1>WAKE <4>UP!<0>"
 			]
 		}
 	}

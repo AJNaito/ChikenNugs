@@ -11,10 +11,10 @@
 ""
 			],
 			"grab": [
-"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
-"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
-"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
-"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+"false:Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+"false:Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+"false:Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+"false:Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
 ""
 			],
 			"use": [
@@ -25,10 +25,10 @@
 ""
 			],
 			"consume": [
-"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
 ""
 			]
 		}

@@ -11,11 +11,15 @@ function Memory(interaction){
 	instance_activate_object(Mem_Cutscene)
 	
 	// set argument
+	with (Mem_Cutscene) {
+		Mem_Cutscene.scene_name = split_interaction[1]
+		ev_user0()
+	}
 	// call event
 	
 	// dont return anything
 	
 	// play cutscene after
 	// Play_Cutscene(...)
-	return "<4>Pretend that you played through a level and a cutscene played~~.\nA memory was unlocked, things have changed<0>"
+	return ""
 }

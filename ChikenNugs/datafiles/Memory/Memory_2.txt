@@ -1,5 +1,6 @@
 {
-	"story":["I remember... camping\n", 
+	"story":["You consume the nugget, you hear laughter... <7>too familiar!!<0>",
+"I remember... camping\n", 
 			" Away from the people, away from the city, away from the world.",
 			"Their laughter <1>echoed in my head!<0>",
 			"The silent suffering of my aunt, <7>bruised and mute<0>, laughing along with them tained the color of their joy.",
