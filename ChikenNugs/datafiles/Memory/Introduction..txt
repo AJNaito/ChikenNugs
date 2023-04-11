@@ -1,0 +1,7 @@
+{
+	"story": ["Welcome to Chicken Dreams! This is a surreal puzzle-adventure that will take you into the world of lucid dreaming. The solution may not always be what you expect…\n", 
+		"You may type ‘?’ at any point to see the commands available to you.\n",
+		"When you are ready to start, press ENTER!"
+	],
+	"effects": []
+}
