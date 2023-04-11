@@ -1,0 +1,36 @@
+{
+	"other":[],
+	"Chickenville": {
+		"lobby": {
+			"state": "default",
+			"inspect": [
+"Dark blue <3>walls<0> stand tall,\nWhite stripes running through their heart.\nElegant contrast.",
+"Dark blue <3>walls<0> stand tall,\nWhite stripes running through their heart.\nElegant contrast.",
+"Dark blue <3>walls<0> stand tall,\nWhite stripes running through their heart.\nElegant contrast.",
+"Dark blue <3>walls<0> stand tall,\nWhite stripes running through their heart.\nElegant contrast.",
+""				
+			],
+			"consume": [
+"Wall devoured in haste,\nA foot revealed, <2>squirming<0>. Ew!\nIt seeks escape, fast!",
+"Wall devoured in haste,\nA foot revealed, <2>squirming<0>. Ew!\nIt seeks escape, fast!",
+"Wall devoured in haste,\nA foot revealed, <2>squirming<0>. Ew!\nIt seeks escape, fast!",
+"Wall devoured in haste,\nA foot revealed, <2>squirming<0>. Ew!\nIt seeks escape, fast!",
+""
+			],
+			"grab": [
+"false:Dodging <3>walls<0> defy you,\nUnexpected critical!\nLife can be so harsh.",
+"false:Dodging <3>walls<0> defy you,\nUnexpected critical!\nLife can be so harsh.",
+"false:Dodging <3>walls<0> defy you,\nUnexpected critical!\nLife can be so harsh.",
+"false:Dodging <3>walls<0> defy you,\nUnexpected critical!\nLife can be so harsh.",
+""
+			],
+			"use": [
+"Chicken and humans fight,\nAmidst great clouds of chaos,\nScreams and crows clash loud.",
+"Chicken and humans fight,\nAmidst great clouds of chaos,\nScreams and crows clash loud.",
+"Chicken and humans fight,\nAmidst great clouds of chaos,\nScreams and crows clash loud.",
+"Chicken and humans fight,\nAmidst great clouds of chaos,\nScreams and crows clash loud.",
+""
+			]
+		}
+	}
+}

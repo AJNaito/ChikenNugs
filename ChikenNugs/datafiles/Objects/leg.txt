@@ -1,0 +1,37 @@
+{
+	"other":[],
+	"Chickenville": {
+		"lobby": {
+			"state":"default",
+			"inspect": [
+"Fried <3>leg<0> bent weird,\nLarge appendage turned fast food.\nMouth watering meal.",
+"Fried <3>leg<0> bent weird,\nLarge appendage turned fast food.\nMouth watering meal.",
+"Fried <3>leg<0> bent weird,\nLarge appendage turned fast food.\nMouth watering meal.",
+"Fried <3>leg<0> bent weird,\nLarge appendage turned fast food.\nMouth watering meal.",
+""
+			],
+			"consume": [
+"Sweet, crunchy surface,\nTangy, fruity purple flesh,\nHuman delicacy",
+"Sweet, crunchy surface,\nTangy, fruity purple flesh,\nHuman delicacy",
+"Sweet, crunchy surface,\nTangy, fruity purple flesh,\nHuman delicacy",
+"Sweet, crunchy surface,\nTangy, fruity purple flesh,\nHuman delicacy",
+""
+			],
+			"grab": [
+"Greasy <3>leg<0> stuffed for\nSafekeeping under your wing.\nSaving for later.",
+"Greasy <3>leg<0> stuffed for\nSafekeeping under your wing.\nSaving for later.",
+"Greasy <3>leg<0> stuffed for\nSafekeeping under your wing.\nSaving for later.",
+"Greasy <3>leg<0> stuffed for\nSafekeeping under your wing.\nSaving for later.",
+""
+			],
+			"use": [
+"Guts, guts guts! Squirming,\nChocolate strawberries. Ah,\nBacon! Crocodile!",
+"Guts, guts guts! Squirming,\nChocolate strawberries. Ah,\nBacon! Crocodile!",
+"Guts, guts guts! Squirming,\nChocolate strawberries. Ah,\nBacon! Crocodile!",
+"Guts, guts guts! Squirming,\nChocolate strawberries. Ah,\nBacon! Crocodile!",
+""
+			]
+			
+		}
+	}
+}

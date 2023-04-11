@@ -1,0 +1,37 @@
+{
+	"other":[],
+	"Purple_Desert": {
+		"wastes": {
+			"state":"default",
+			"inspect": [
+"Wooden <3>signpost<0> tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+"Wooden <3>signpost<0> tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+"Wooden <3>signpost<0> tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+"Wooden <3>signpost<0> tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+""
+			],
+			"consume": [
+"Do not eat this post,\nWooden sign meant to guide you,\nChew on something else!",
+"Do not eat this post,\nWooden sign meant to guide you,\nChew on something else!",
+"Do not eat this post,\nWooden sign meant to guide you,\nChew on something else!",
+"Do not eat this post,\nWooden sign meant to guide you,\nChew on something else!",
+""
+			],
+			"grab": [
+"Signpost, tall and firm,\nYou try to take it with force,\n<6>Slaps you in the face!<0>",
+"Signpost, tall and firm,\nYou try to take it with force,\n<6>Slaps you in the face!<0>",
+"Signpost, tall and firm,\nYou try to take it with force,\n<6>Slaps you in the face!<0>",
+"Signpost, tall and firm,\nYou try to take it with force,\n<6>Slaps you in the face!<0>",
+""
+			],
+			"use": [
+"Wooden signpost tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+"Wooden signpost tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+"Wooden signpost tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+"Wooden signpost tall,\nRainbow arrows point the way,\nStrange words scrawled in ink:\n\nGenesis: Red <3>Tomato<0>.\nRevelation: Purple <3>Bengal<0>.\nGod: Rainbow <3>Rooster<0>.\nExodus: Blue <3>Whale<0>.\nMatthew: Green <3>Table<0>.\nDevil: <3>Cloudpin<0>.",
+""
+			]
+
+		}
+	}
+}

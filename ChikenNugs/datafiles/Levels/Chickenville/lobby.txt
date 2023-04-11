@@ -1,0 +1,25 @@
+{
+	"name": "lobby",
+	"commands": ["consume", "inspect","use","grab"],
+	"objects":["room","walls","bert","pug","octopus","skulls","leg","toy","nugget"],
+	"story": "Amidst a fast-food diner <3>lobby<0>, oddities reign,
+\nWhere claw-lickin' delights bring curious gain,
+\nHuman feet and toes, a bold new taste,
+\nIn signature brain batter, to savor post-haste!
+\n
+\nTheir logo stands out, a symbol of <1>hype<0>,
+\nColonel Cluck's head upon a bright-blue stripe,
+\nCurious creatures make their way inside,
+\nBeneath <3>skulls<0> hanging high, a macabre pride.
+\n
+\nDark blue <3>walls<0> with white stripes in the center,
+\nTables scattered around, in need of a cleanser.
+\nA dog named <3>Bert's<0> upright at the counter,
+\nAnd upside-down is <3>Pug<0>, a strange sight to encounter.
+\n
+\nAn <3>octopus<0>, at a table to the left,
+\nEnjoys a meal, with flavors bereft,
+\nIn this fast-food diner, a world brand anew,
+\nThere doth <7>hides<0> something, that you seek to chew.
+"
+}

@@ -1,11 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function Room(name, nugget_level, connected, commands, objs, story) constructor {
+function Room(name, commands, objs, story) constructor {
 	show_debug_message("in room")
 	
 	room_name = name;
-	nug_lvl = nugget_level
-	connected_room = connected
 	cmds = commands
 	objects = objs
 	description = story
@@ -14,7 +12,7 @@ function Room(name, nugget_level, connected, commands, objs, story) constructor 
 	static Execute = function (instruction) {
 		var recognized_verb = ds_list_find_index(cmds, instruction[0])
 		
-		if (instruction[1] == "room") 
+		if (instruction[1] == room_name) 
 			return description
 			
 		var recognized_obj = ds_list_find_index(objects, instruction[1])// Binary_Search(instruction[1], objects)
@@ -29,7 +27,7 @@ function Room(name, nugget_level, connected, commands, objs, story) constructor 
 	}
 	
 	static Move = function (dir) {
-		var new_room = ""
+	/*	var new_room = ""
 		
 		switch (string(dir)) {
 			case "north":
@@ -56,11 +54,11 @@ function Room(name, nugget_level, connected, commands, objs, story) constructor 
 				global.curRoom = _room
 				return _room.description
 			}
+			*/
 	}
 	
 	static Destroy = function () {
 		delete room_name
-		delete nug_lvl
 		delete connected_room
 		delete cmds
 		delete objects

@@ -1,0 +1,36 @@
+{
+	"other":["candy-cane"], 
+	"Candy_Forest": {
+		"camp": {
+			"state":"default",
+			"inspect": [
+				"Candy <3>cane<0> trees grow,/nCasting sweet shade for all below,\nA sugary world.",
+				"Candy <3>cane<0> trees grow,/nCasting sweet shade for all below,\nA sugary world.",
+				"Candy <3>cane<0> trees grow,/nCasting sweet shade for all below,\nA sugary world.",
+				"Candy <3>cane<0> trees grow,/nCasting sweet shade for all below,\nA sugary world.",
+				""
+			],
+			"consume": [
+				"Nearby <3>cane<0> you bite,\nCold peppermint bark bites back,\nNature's good revenge!",
+				"Nearby <3>cane<0> you bite,\nCold peppermint bark bites back,\nNature's good revenge!",
+				"Nearby <3>cane<0> you bite,\nCold peppermint bark bites back,\nNature's good revenge!",
+				"Nearby <3>cane<0> you bite,\nCold peppermint bark bites back,\nNature's good revenge!",
+				"Nearby <3>cane<0> you bite,\nCold peppermint bark bites back,\nNature's good revenge!"
+			],
+			"grab": [
+				"Tree stands firm and tall,\nYour efforts to uproot fail,\nNature holds its ground.",
+				"Tree stands firm and tall,\nYour efforts to uproot fail,\nNature holds its ground.",
+				"Tree stands firm and tall,\nYour efforts to uproot fail,\nNature holds its ground.",
+				"Tree stands firm and tall,\nYour efforts to uproot fail,\nNature holds its ground.",
+				"Tree stands firm and tall,\nYour efforts to uproot fail,\nNature holds its ground.",
+			],
+			"use": [
+				"Roosting in the <3>cane<0>s,\nFilament leaves, a cozy nest,\nNature's peaceful perch.",
+				"Roosting in the <3>cane<0>s,\nFilament leaves, a cozy nest,\nNature's peaceful perch.",
+				"Roosting in the <3>cane<0>s,\nFilament leaves, a cozy nest,\nNature's peaceful perch.",
+				"Roosting in the <3>cane<0>s,\nFilament leaves, a cozy nest,\nNature's peaceful perch.",
+				"Roosting in the <3>cane<0>s,\nFilament leaves, a cozy nest,\nNature's peaceful perch."
+			]
+		}
+	}
+}

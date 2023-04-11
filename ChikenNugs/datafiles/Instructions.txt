@@ -20,8 +20,6 @@ You can write a string with certain effects
 
 Syntax example: <1>Hello<0> -- Hello will be drawn in shaking text 
 
-To execute multiple instructions for an interaction separate each with '/'
-
 Always end the string with <0> to reset the effect or else everything until the next effect will be drawn with the previous effect
  - <1>Hello this will also be shakey text<2>this will be wavey text<0> this will be normal text
 
@@ -122,6 +120,8 @@ Sample Memory:
 		"effect_name:0-2" // effect_name will play from story[0]-story[2]
 	]
 }
+
+To execute multiple instructions for an interaction separate each with '/'
 
 All commands + Descriptions:
 change_level:level_name:STORY -> changes the current level

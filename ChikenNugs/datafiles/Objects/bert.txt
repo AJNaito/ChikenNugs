@@ -1,0 +1,42 @@
+{
+	"other": [],
+	"Chickenville": {
+		"lobby": {
+			"state":"default",
+			"inspect": [
+"Golden retriever,\nGrinning politely, hat on,\nUncanny fellow.",
+"Golden retriever,\nGrinning politely, hat on,\nUncanny fellow.",
+"Golden retriever,\nGrinning politely, hat on,\nUncanny fellow.",
+"Golden retriever,\nGrinning politely, hat on,\nUncanny fellow.",
+""
+			],
+			"consume": [
+"You try to eat <3>Bert<0>,\nBut he dodges with a smile,\nOddly swift and sly.",
+"You try to eat <3>Bert<0>,\nBut he dodges with a smile,\nOddly swift and sly.",
+"You try to eat <3>Bert<0>,\nBut he dodges with a smile,\nOddly swift and sly.",
+"You try to eat <3>Bert<0>,\nBut he dodges with a smile,\nOddly swift and sly.",
+""
+			],
+			"grab": [
+"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+""
+			],
+			"use": [
+"talk:2",
+"talk:2",
+"talk:2",
+"talk:2",
+""
+			],
+
+			"talk": [
+"Chickenville Fried Humans!\n We've wing-scratchin' good human.\nWelcome to our coop!",
+"<3>Bert<0> <1>barks<0> and turns 'round,\nServes <6>jumbo-size<0> human <3>leg<0>\nA <3>toy<0> chicken too!"
+			]
+
+		}
+	}
+}

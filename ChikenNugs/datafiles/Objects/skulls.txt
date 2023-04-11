@@ -1,0 +1,36 @@
+{
+	"others": ["skull", "cranium"],
+	"Chickenville": {
+		"lobby": {
+			"state":"default",
+			"inspect": [
+"Grinning <3>skulls<0> do hang,\nLooking down from up above.\nHaunting this odd place.",
+"Grinning <3>skulls<0> do hang,\nLooking down from up above.\nHaunting this odd place.",
+"Grinning <3>skulls<0> do hang,\nLooking down from up above.\nHaunting this odd place.",
+"Grinning <3>skulls<0> do hang,\nLooking down from up above.\nHaunting this odd place.",
+""
+			],
+			"consume": [
+"Crunchy skull candy,\nYou eat every last one up,\nSavoring each bite.",
+"Crunchy skull candy,\nYou eat every last one up,\nSavoring each bite.",
+"Crunchy skull candy,\nYou eat every last one up,\nSavoring each bite.",
+"Crunchy skull candy,\nYou eat every last one up,\nSavoring each bite.",
+""
+			],
+			"grab": [
+"Often out of reach,\nThe <3>skulls<0> like to hop away,\nFrustrating your hunt.",
+"Often out of reach,\nThe <3>skulls<0> like to hop away,\nFrustrating your hunt.",
+"Often out of reach,\nThe <3>skulls<0> like to hop away,\nFrustrating your hunt.",
+"Often out of reach,\nThe <3>skulls<0> like to hop away,\nFrustrating your hunt.",
+""
+			],
+			"use": [
+"<3>Skulls<0> swing from ceiling,\nTeeth chattering with cruel glee,\nHaunting, taunting you.",
+"<3>Skulls<0> swing from ceiling,\nTeeth chattering with cruel glee,\nHaunting, taunting you.",
+"<3>Skulls<0> swing from ceiling,\nTeeth chattering with cruel glee,\nHaunting, taunting you.",
+"<3>Skulls<0> swing from ceiling,\nTeeth chattering with cruel glee,\nHaunting, taunting you.",
+""
+			]
+		}
+	}
+}

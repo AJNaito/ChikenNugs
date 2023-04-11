@@ -1,0 +1,32 @@
+{
+	"other":[],
+	"Purple_Desert": {
+		"wastes": {
+			"state":"default",
+			"inspect": [
+"Rusty green <3>table<0>,\nStands firm as sands rush about,\nSilent in the dunes.",
+"Rusty green <3>table<0>,\nStands firm as sands rush about,\nSilent in the dunes.",
+"Rusty green <3>table<0>,\nStands firm as sands rush about,\nSilent in the dunes.",
+"Rusty green <3>table<0>,\nStands firm as sands rush about,\nSilent in the dunes.",
+""
+			],
+			"grab": [
+"The pick up is tabled,\nAs the victim stays silent,\nWaiting for its turn.",
+"The pick up is tabled,\nAs the victim stays silent,\nWaiting for its turn.",
+"The pick up is tabled,\nAs the victim stays silent,\nWaiting for its turn.",
+"The pick up is tabled,\nAs the victim stays silent,\nWaiting for its turn.",
+""
+			],
+			"use": [
+"Sakura flowers,\nErupt from the center now,\nA moving circle.",
+"Sakura flowers,\nErupt from the center now,\nA moving circle.",
+"Sakura flowers,\nErupt from the center now,\nA moving circle.",
+"Sakura flowers,\nErupt from the center now,\nA moving circle.",
+""
+			],
+			"consume": [
+"change_state:table:eaten/conditional:tomato:eaten:whale:eaten:bengal:default:Wintermelon taste,\nFruity stickers manifest,\nThumbs-ups all over.:default:tomato:whale:bengal:The <3>table<0> wails loud,\nWrong order it cried out loud,\nIts fate now certain."
+			]
+		}
+	}
+}

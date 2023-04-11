@@ -1,0 +1,36 @@
+{
+	"other": ["woods", "trees"],
+	"Candy_Forest": {
+		"camp": {
+			"state":"default",
+			"inspect": [
+"return_story",
+"return_story",
+"return_story",
+"return_story",
+""
+			],
+			"consume": [
+"<4>LMFAO,<0>\nSee, you can't eat this forest.\nNice try, my friend.",
+"<4>LMFAO,<0>\nSee, you can't eat this forest.\nNice try, my friend.",
+"<4>LMFAO,<0>\nSee, you can't eat this forest.\nNice try, my friend.",
+"<4>LMFAO,<0>\nSee, you can't eat this forest.\nNice try, my friend.",
+""
+			],
+			"grab": [
+"Limbs spread out very far,\nHm. Can't lift this forest, though.\nStill, was worth a try.",
+"Limbs spread out very far,\nHm. Can't lift this forest, though.\nStill, was worth a try.",
+"Limbs spread out very far,\nHm. Can't lift this forest, though.\nStill, was worth a try.",
+"Limbs spread out very far,\nHm. Can't lift this forest, though.\nStill, was worth a try.",
+""
+			],
+			"use": [
+"Illegal it is,\nAgainst the law, forbidden.\nNo! For that is wrong.",
+"Illegal it is,\nAgainst the law, forbidden.\nNo! For that is wrong.",
+"Illegal it is,\nAgainst the law, forbidden.\nNo! For that is wrong.",
+"Illegal it is,\nAgainst the law, forbidden.\nNo! For that is wrong.",
+""
+			]
+		}
+	}
+}

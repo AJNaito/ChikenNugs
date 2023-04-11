@@ -9,7 +9,7 @@ function Use_Item(interaction){
 			var obj = global.objects[? split_interaction[1]]
 			obj = obj.interaction[? global.curRoom.room_name]
 			if (obj[? "state"] == split_interaction[2]) {
-				return split_interaction[3]
+				return string_join_ext(":", split_interaction[3,array_length(split_interaction)])
 			} else {
 				return "That's not quite right... maybe I need to <2>do something<2> to it?"
 			}

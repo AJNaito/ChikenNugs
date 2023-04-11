@@ -1,0 +1,40 @@
+{
+	"other": ["dog"],
+	"Chickenville": {
+		"lobby": {
+			"state":"default",
+			"inspect": [
+"Penguin in bright shirt,\nMunches on hot fried human,\nShimmering mirage.",
+"Penguin in bright shirt,\nMunches on hot fried human,\nShimmering mirage.",
+"Penguin in bright shirt,\nMunches on hot fried human,\nShimmering mirage.",
+"Penguin in bright shirt,\nMunches on hot fried human,\nShimmering mirage.",
+""
+			],
+			"consume": [
+"<3>Pug<0>'s soft white belly\nTastes like vanilla ice-cream\nUnfazed, eats away",
+"<3>Pug<0>'s soft white belly\nTastes like vanilla ice-cream\nUnfazed, eats away",
+"<3>Pug<0>'s soft white belly\nTastes like vanilla ice-cream\nUnfazed, eats away",
+"<3>Pug<0>'s soft white belly\nTastes like vanilla ice-cream\nUnfazed, eats away",
+""
+			],
+			"grab": [
+"Tiger pug shall win!"\nRoars the ferocious penguin.\nVictory is his!",
+"Tiger pug shall win!"\nRoars the ferocious penguin.\nVictory is his!",
+"Tiger pug shall win!"\nRoars the ferocious penguin.\nVictory is his!",
+"Tiger pug shall win!"\nRoars the ferocious penguin.\nVictory is his!",
+""	
+			],
+			"use": [
+"talk:2",
+"talk:2",
+"talk:2",
+"talk:2",
+""
+			],
+			"talk": [
+"Dreamt of being Tiger. Ah! Prancing from peak to peak!\n Pug then did wake up.",
+"Is pug or tiger dream?\nI now cannot be certain.\nWhich one is the dream?"
+			]
+		}
+	}
+}

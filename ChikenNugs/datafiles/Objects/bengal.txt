@@ -1,0 +1,36 @@
+{
+	"other": ["tiger"],
+	"Purple_Desert": {
+		"wastes": {
+			"state":"default",
+			"inspect": [
+"A purple <3>bengal<0>\nSwims backstroke through the sand dunes.\nCamouflaged beauty!",
+"A purple <3>bengal<0>\nSwims backstroke through the sand dunes.\nCamouflaged beauty!",
+"A purple <3>bengal<0>\nSwims backstroke through the sand dunes.\nCamouflaged beauty!",
+"A purple <3>bengal<0>\nSwims backstroke through the sand dunes.\nCamouflaged beauty!",
+""
+			],
+			"grab": [
+"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+"Fishing stat too low,\nCannot catch the purple <3>bengal<0>.\nTry again later!",
+""
+			],
+			"use": [
+"Purple <3>bengal<0> waves,\nDisappears into the sand,\nLeaves you in wonder.",
+"Purple <3>bengal<0> waves,\nDisappears into the sand,\nLeaves you in wonder.",
+"Purple <3>bengal<0> waves,\nDisappears into the sand,\nLeaves you in wonder.",
+"Purple <3>bengal<0> waves,\nDisappears into the sand,\nLeaves you in wonder.",
+""
+			],
+			"consume": [
+"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:tomato:consumed:You have done me well,"\nPurple <3>bengal<0> offers head.\nTastes like awesome!:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+""
+			]
+		}
+	}
+}

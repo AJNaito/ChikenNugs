@@ -1,0 +1,36 @@
+{
+	"other": ["person1", "jimbo"],
+	"Candy_Forest": {
+		"camp": {
+			"state":"default",
+			"inspect": [
+				"Red giant stirs stew,\nDripping bloody, purple goo,\n<1>Aggressive laughing.<0>",
+"Red giant stirs stew,\nDripping bloody, purple goo,\n<1>Aggressive laughing.<0>",
+"Red giant stirs stew,\nDripping bloody, purple goo,\n<1>Aggressive laughing.<0>",
+"Red giant stirs stew,\nDripping bloody, purple goo,\n<1>Aggressive laughing.<0>",
+""
+			],
+			"consume": [
+"Tongue meets <3>Jim<0>'s sweet taste,\nCinnamon candy delight,\nLick and savor it.",
+"Tongue meets <3>Jim<0>'s sweet taste,\nCinnamon candy delight,\nLick and savor it.",
+"Tongue meets <3>Jim<0>'s sweet taste,\nCinnamon candy delight,\nLick and savor it.",
+"Tongue meets <3>Jim<0>'s sweet taste,\nCinnamon candy delight,\nLick and savor it.",
+""
+			],
+			"grab": [
+"<3>Jim<0>'s glare warns, <1>beware!<0>\nPicking him up, not so wise,\nMay meet your demise.",
+"<3>Jim<0>'s glare warns, <1>beware!<0>\nPicking him up, not so wise,\nMay meet your demise.",
+"<3>Jim<0>'s glare warns, <1>beware!<0>\nPicking him up, not so wise,\nMay meet your demise.",
+"<3>Jim<0>'s glare warns, <1>beware!<0>\nPicking him up, not so wise,\nMay meet your demise.",
+"I AIN'T TOUCHING THAT THANGGGGG!??!"
+			],
+			"use": [
+				"Finger goes to prod,\nJim <1>grabs<0> it before it does,\nBrief grip, then release.",
+"Finger goes to prod,\nJim <1>grabs<0> it before it does,\nBrief grip, then release.",
+"Finger goes to prod,\nJim <1>grabs<0> it before it does,\nBrief grip, then release.",
+"Finger goes to prod,\nJim <1>grabs<0> it before it does,\nBrief grip, then release.",
+"DUN DO DAT"
+			]
+		}
+	}
+}

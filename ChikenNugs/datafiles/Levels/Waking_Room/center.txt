@@ -1,0 +1,6 @@
+{
+	"name": "center",
+	"commands":["consume", "inspect", "use", "grab"],
+	"objects": ["room","walls","bert", "pug", "octopus", "skulls", "leg", "toy", "nugget"],
+	"story": "You find yourself at the <3>center<0> of it all.\nA dark stone <3>room<0>, enclosed on all sides.\nThe only thing in here, is your<4>self.<0>"
+}

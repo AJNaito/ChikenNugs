@@ -1,0 +1,37 @@
+{
+	"other": [],
+	"Purple_Desert": {
+		"wastes": {
+			"state":"default",
+			"inspect": [
+"<3>Tomato<0> <6>red<0> and <6>bold<0>\n<5>Rolling<0> quick on sand dunes,\nIt now watches you.",
+"<3>Tomato<0> <6>red<0> and <6>bold<0>\n<5>Rolling<0> quick on sand dunes,\nIt now watches you.",
+"<3>Tomato<0> <6>red<0> and <6>bold<0>\n<5>Rolling<0> quick on sand dunes,\nIt now watches you.",
+"<3>Tomato<0> <6>red<0> and <6>bold<0>\n<5>Rolling<0> quick on sand dunes,\nIt now watches you.",
+""
+			],
+			"grab": [
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
+""
+			],
+			"use": [
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
+""
+			],
+			"consume": [
+"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\n"Atta do it!" it says:default:tomato:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+"conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\n"Atta do it!" it says:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+"conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\n"Atta do it!" it says:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+"conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\n"Atta do it!" it says:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+""
+
+			]
+		}
+	}
+}

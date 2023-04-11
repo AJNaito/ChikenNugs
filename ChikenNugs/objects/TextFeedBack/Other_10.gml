@@ -10,8 +10,6 @@ if (global.result != false) {
 		interaction = global.help
 	} else if (global.result[0] == "move") {
 		interaction = global.curRoom.Move(global.result[1])
-	} else if (global.result[0] == "grab") {
-		interaction = Pick_Up(global.result[1])
 	} else if (global.result[0] == "drop") { 
 		interaction = Drop_Item()
 	} else {
@@ -23,10 +21,25 @@ if (global.result != false) {
 	var length = array_length(split_interaction)
 	
 	for (var i = 0; i < length; i+=1) {
+		// Skip interactions if command was grab
+		if (global[0] == "grab") {
+			var split_int = string_split(interaction, ":", false)
+			if (array_length(split_int) != 1) {
+				interaction = split_int[1]
+			} else {
+				Pick_Up(global.result[1])
+			}
+			break;
+		}
+		
 		interaction = split_interaction[i]
 		
 		if (string_starts_with(interaction, "play_music")) {
 			interaction = Play_Music(interaction)
+		}
+		
+		if (string_starts_with(interaction, "return_story")) {
+			interaction = global.curRoom.story
 		}
 
 		if (string_starts_with(interaction, "move_room")) {
@@ -34,7 +47,11 @@ if (global.result != false) {
 		}
 
 		if (string_starts_with(interaction, "conditional")) {
-			interaction = Conditional_Interact(interaction, i == length -1)
+			interaction = Conditional_Interact(interaction, true)
+		}
+		
+		if (string_starts_with(interaction, "change_held")) {
+			interaction = Change_State(interaction, global.result[1])
 		}
 
 		if (string_starts_with(interaction, "change_state")) {
@@ -50,7 +67,7 @@ if (global.result != false) {
 		}
 	
 		if (string_starts_with(interaction, "memory_sequence")) {
-			interaction = Memory(interaction, i == length - 1)
+			interaction = Memory(interaction, true)
 		}
 		
 		if (string_starts_with(interaction, "use")) {

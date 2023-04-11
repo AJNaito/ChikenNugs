@@ -1,0 +1,36 @@
+{
+	"other": ["girl1"],
+	"Candy_Forest": {
+		"camp": {
+			"state":"default",
+			"inspect": [
+"Sticky purple giant,\nSprouts <6>bleeding<0> on its small face,\nFalse grin, haunting laugh.",
+"Sticky purple giant,\nSprouts <6>bleeding<0> on its small face,\nFalse grin, haunting laugh.",
+"Sticky purple giant,\nSprouts <6>bleeding<0> on its small face,\nFalse grin, haunting laugh.",
+"Sticky purple giant,\nSprouts <6>bleeding<0> on its small face,\nFalse grin, haunting laugh.",
+""
+			],
+			"consume": [
+"Licking Jill's sweet goo,\nTaste of black concord <2>delight<0>,\nLeft on your taste buds.",
+"Licking Jill's sweet goo,\nTaste of black concord <2>delight<0>,\nLeft on your taste buds.",
+"Licking Jill's sweet goo,\nTaste of black concord <2>delight<0>,\nLeft on your taste buds.",
+"Licking Jill's sweet goo,\nTaste of black concord <2>delight<0>,\nLeft on your taste buds.",
+"LMAFO DA FAQ????"
+			],
+			"grab": [
+				"Jill <2>slips<0> through your grasp,\nGoo renders impossible,\nThe act of catching.",
+"Jill <2>slips<0> through your grasp,\nGoo renders impossible,\nThe act of catching.",
+"Jill <2>slips<0> through your grasp,\nGoo renders impossible,\nThe act of catching.",
+"Jill <2>slips<0> through your grasp,\nGoo renders impossible,\nThe act of catching.",
+""
+			],
+			"use": [
+"Sticky purple giant,\nSprouts resting on its small face,\n<2>Glad grin, giddy laugh!<0>",
+"Sticky purple giant,\nSprouts resting on its small face,\n<2>Glad grin, giddy laugh!<0>",
+"Sticky purple giant,\nSprouts resting on its small face,\n<2>Glad grin, giddy laugh!<0>",
+"Sticky purple giant,\nSprouts resting on its small face,\n<2>Glad grin, giddy laugh!<0>",
+""
+			]
+		}
+	}
+}

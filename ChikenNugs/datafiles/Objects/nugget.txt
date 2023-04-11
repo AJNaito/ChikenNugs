@@ -1,7 +1,7 @@
 {
-	"other": [],
+	"other": ["nug"],
 	"start_level": {
-		"Base_Room": {
+		"room": {
 			"state": "default",
 			"inspect": [
 				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
@@ -18,5 +18,21 @@
 				"",
 				""]
 		}	
+	}
+	"Candy_Forest": {
+		"camp": {
+			"state": "default",
+			"inspect": [
+			]
+		}
+	}
+
+	"Purple_Desert": {
+		"wastes": {
+			"state": "default",
+			"inspect": [
+				
+			]
+		}
 	}
 }

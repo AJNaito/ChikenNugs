@@ -1,0 +1,36 @@
+{
+	"other": ["ojos", "looking-spheres"],
+	"Candy_Forest": {
+		"camp": {
+			"state": "default",
+			"inspect": [
+"Bulging pink <3>eyes<0> stare,\nFocused on you, unblinking\nMeeting of gazes.",
+"Bulging pink <3>eyes<0> stare,\nFocused on you, unblinking\nMeeting of gazes.",
+"Bulging pink <3>eyes<0> stare,\nFocused on you, unblinking\nMeeting of gazes.",
+"Bulging pink <3>eyes<0> stare,\nFocused on you, unblinking\nMeeting of gazes.",
+""
+			],
+			"consume": [
+"Not cooked all the way,\nNeeds more heat to be just right,\nOh, patience now!",
+"Not cooked all the way,\nNeeds more heat to be just right,\nOh, patience now!",
+"Not cooked all the way,\nNeeds more heat to be just right,\nOh, patience now!",
+"Not cooked all the way,\nNeeds more heat to be just right,\nOh, patience now!",
+""
+			],
+			"grab": [
+"Fishing in the stew,\nTaking out the bulging <3>eyes<0>,\nA strange stew indeed!",
+"Fishing in the stew,\nTaking out the bulging <3>eyes<0>,\nA strange stew indeed!",
+"Fishing in the stew,\nTaking out the bulging <3>eyes<0>,\nA strange stew indeed!",
+"Fishing in the stew,\nTaking out the bulging <3>eyes<0>,\nA strange stew indeed!",
+""
+			],
+			"use": [
+				"<3>Eyes<0> already keen,\nNo need for another pair,\nContent with what's yours.",
+"<3>Eyes<0> already keen,\nNo need for another pair,\nContent with what's yours.",
+"<3>Eyes<0> already keen,\nNo need for another pair,\nContent with what's yours.",
+"<3>Eyes<0> already keen,\nNo need for another pair,\nContent with what's yours.",
+""
+			]
+		}
+	}
+}

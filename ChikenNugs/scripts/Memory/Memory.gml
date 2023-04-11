@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Memory(interaction, getInteraction){
+	var split_interaction = string_split(interaction, ":", false)
 	global.nuggets_eaten++;
 	
 	// disable input
@@ -9,9 +10,8 @@ function Memory(interaction, getInteraction){
 	// activate memory click through
 	instance_activate_object(Mem_Cutscene)
 	
-	// set 
-	
-	// set on screen shader
+	// set argument
+	// call event
 	
 	// dont return anything
 	

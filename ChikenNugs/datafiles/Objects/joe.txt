@@ -1,0 +1,36 @@
+{
+	"other": ["joe-mama", "joe-swanson", "greeny", "green-bean"],
+	"Candy_Forest": {
+		"camp": {
+			"state": "default",
+			"inspect": [
+"Knobby green giant\nBrussel sprouts about its face\nLaughs hard, <5>dances 'round.<0>",
+"Knobby green giant\nBrussel sprouts about its face\nLaughs hard, <5>dances 'round.<0>",
+"Knobby green giant\nBrussel sprouts about its face\nLaughs hard, <5>dances 'round.<0>",
+"Knobby green giant\nBrussel sprouts about its face\nLaughs hard, <5>dances 'round.<0>",
+"GREEN BEANNNNNSSSSSSSSSSSS"
+			],
+			"consume": [
+"From his face you pluck,\nButtery, salty, brussels sprouts.\n<1>Agh!<0> They smell like feet.",
+"From his face you pluck,\nButtery, salty, brussels sprouts.\n<1>Agh!<0> They smell like feet.",
+"From his face you pluck,\nButtery, salty, brussels sprouts.\n<1>Agh!<0> They smell like feet.",
+"From his face you pluck,\nButtery, salty, brussels sprouts.\n<1>Agh!<0> They smell like feet.",
+""
+			],
+			"grab": [
+"false:Lifting him reveals,\nBoy rooted firmly to the ground,\nYou can not proceed.",
+"false:Lifting him reveals,\nBoy rooted firmly to the ground,\nYou can not proceed.",
+"false:Lifting him reveals,\nBoy rooted firmly to the ground,\nYou can not proceed.",
+"false:Lifting him reveals,\nBoy rooted firmly to the ground,\nYou can not proceed.",
+""
+			],
+			"use": [
+"This feat can't be done,\nLimitations now exposed,\n<1>Impossible, yes!<0>",
+"This feat can't be done,\nLimitations now exposed,\n<1>Impossible, yes!<0>",
+"This feat can't be done,\nLimitations now exposed,\n<1>Impossible, yes!<0>",
+"This feat can't be done,\nLimitations now exposed,\n<1>Impossible, yes!<0>",
+""
+			]
+		}
+	}
+}

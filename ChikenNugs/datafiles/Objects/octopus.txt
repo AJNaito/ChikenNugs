@@ -1,0 +1,36 @@
+{
+	"other": [],
+	"Chickenville": {
+		"lobby": {
+			"state":"default",
+			"inspect": [
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
+""
+			],
+			"consume": [
+"Tentacle devoured,\nInstantly regenerates!\n<3>Octopus<0> continues!",
+"Tentacle devoured,\nInstantly regenerates!\n<3>Octopus<0> continues!",
+"Tentacle devoured,\nInstantly regenerates!\n<3>Octopus<0> continues!",
+"Tentacle devoured,\nInstantly regenerates!\n<3>Octopus<0> continues!",
+""
+			],
+			"grab": [
+"false:OGH!! ARGH!! I MUST WIN...\n MUST WIN THE COMPETITION!\n<1>IT'S FOR WAIFU-CHAN!!!!<0>",
+"false:OGH!! ARGH!! I MUST WIN...\n MUST WIN THE COMPETITION!\n<1>IT'S FOR WAIFU-CHAN!!!!<0>",
+"false:OGH!! ARGH!! I MUST WIN...\n MUST WIN THE COMPETITION!\n<1>IT'S FOR WAIFU-CHAN!!!!<0>",
+"false:OGH!! ARGH!! I MUST WIN...\n MUST WIN THE COMPETITION!\n<1>IT'S FOR WAIFU-CHAN!!!!<0>",
+""
+			],
+			"use": [
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
+""
+			]
+		}
+	}
+}

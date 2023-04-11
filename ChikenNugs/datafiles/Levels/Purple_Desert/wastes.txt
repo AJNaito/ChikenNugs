@@ -1,0 +1,24 @@
+{
+	"name":"wastes",
+	"commands": ["consume", "inspect", "use", "grab"],
+	"objects": ["desert", "signpost","potato","nugget","rooster","sand","tomato","whale","table","bengal","cloudpin"],
+	"story":"An endless sea of purple sand unfurled - <3>a wastes<0>,
+\nA sight so vast, it takes your breath away.
+\nA barren land that stretches 'cross the world,
+\nAs far as eye can see, be it night or day.
+\n
+\nThe <3>sand<0>, it <2>flows<0> like water through your toes,
+\nAnd feels so gritty, yet so smooth to touch.
+\nThe sky above is white, a pallid manteau,
+\nA sign, perhaps, of devastation's clutch.
+\n
+\nA distant <3>potato<0> <2>floats<0> aimless, devout,
+\nA beacon in this wasteland, one of a kind.
+\nAnd close is a <3>signpost<0>, tall and proud,
+\nA lingering memory of what's left behind.
+\n
+\nLooking around, ye cannot now deem,
+\nWhere what one doth seeks now remains.
+\nPerhaps, just maybe, right past the seam,
+\n<6>Lays the key to loosen your chains!<0>"
+}

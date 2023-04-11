@@ -29,6 +29,7 @@ function Init_Global(){
 	
 	global.music = jsonWorld[? "music"]
 	global.help = jsonWorld[? "help_text"]
+	global.levels_cleared = []
 	global.item = ""
 	
 	with (TextFeedBack) {

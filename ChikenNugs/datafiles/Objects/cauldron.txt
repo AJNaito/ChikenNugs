@@ -1,0 +1,36 @@
+{
+	"other": ["bucket", "container"],
+	"Candy_Forest": {
+		"camp": {
+			"state":"default",
+			"inspect": [
+				"conditional:flute:used:<3>Cauldron<0> of candy,\nSprouts, bulging pink <3>eyes<0>, surprise!\nSoggy <4>nugget<0> rests.:<3>Cauldron<0> of candy,\nSyrup, sprouts, and other things!\nStrange mix of sweet treats.",
+				"conditional:flute:used:<3>Cauldron<0> of candy,\nSprouts, bulging pink <3>eyes<0>, surprise!\nSoggy <4>nugget<0> rests.:<3>Cauldron<0> of candy,\nSyrup, sprouts, and other things!\nStrange mix of sweet treats.",
+				"conditional:flute:used:<3>Cauldron<0> of candy,\nSprouts, bulging pink <3>eyes<0>, surprise!\nSoggy <4>nugget<0> rests.:<3>Cauldron<0> of candy,\nSyrup, sprouts, and other things!\nStrange mix of sweet treats.",
+				"conditional:flute:used:<3>Cauldron<0> of candy,\nSprouts, bulging pink <3>eyes<0>, surprise!\nSoggy <4>nugget<0> rests.:<3>Cauldron<0> of candy,\nSyrup, sprouts, and other things!\nStrange mix of sweet treats.",
+				"How are you here?"
+			],
+			"consume": [
+				"Stew on spoon, savory,\nSalty sweet taste on your lips,\nA sip of <5>delight<0>.",
+				"Stew on spoon, savory,\nSalty sweet taste on your lips,\nA sip of <5>delight<0>.",
+				"Stew on spoon, savory,\nSalty sweet taste on your lips,\nA sip of <5>delight<0>.",
+				"Stew on spoon, savory,\nSalty sweet taste on your lips,\nA sip of <5>delight<0>.",
+				"how are you here?"
+			],
+			"grab": [
+				"<3>Jim<0>'s laughter pauses,\nStaring down with <6>glaring gaze<0>,\nBest to let it be.",
+				"<3>Jim<0>'s laughter pauses,\nStaring down with <6>glaring gaze<0>,\nBest to let it be.",
+				"<3>Jim<0>'s laughter pauses,\nStaring down with <6>glaring gaze<0>,\nBest to let it be.",
+				"<3>Jim<0>'s laughter pauses,\nStaring down with <6>glaring gaze<0>,\nBest to let it be.",
+				"<1>You're not supposed to be here<0>"
+			],
+			"use": [
+				"use:flute:default:change_state:used",
+				"use:flute:default:change_state:used",
+				"use:flute:default:change_state:used",
+				"use:flute:default:change_state:used",
+				""
+			]
+		}
+	}
+}

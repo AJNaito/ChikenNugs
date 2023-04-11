@@ -1,0 +1,25 @@
+{
+	"name":"camp",
+	"commands": ["consume","inspect","use","grab"],
+	"objects": ["joe", "jill","jim","cauldron","eyes","flute","dirt","nugget","cane","forest"],
+	"story":  "In the heart of a sweet forest's sugary glade,
+\nThus rests a clearing, a magical space.
+\nWhere chocolate <3>dirt<0> gives birth to candy <3>cane<0> shade,
+\nAnd great giants <5>waltz<0> with odd, crooked grace.
+\n
+\n<3>Joe, Jill, and Jim,<0> three Jolly Rancher friends,
+\nAre captive audience to a floating <3>flute<0>'s trance.
+\nWith bulging pink eyes, smiles stretched end-to-end,
+\nPresent a campfire their goofy, gallant dance.
+\n
+\nA <3>cauldron<0> sits atop the flickering pyre,
+\nBrewing a concoction of various sweets.
+\nIts <2>aroma spreading,<0> a scent to admire,
+\nAlluring one and all, to veritable treats!
+\n
+\nPerhaps in this mysterious, delectable land,
+\nHides the next piece in your peculiar trials?
+\nLook around, perhaps, or join the merry band,
+\n<2>Get groovy, get down, go wild and freestyle!<0>
+"
+}

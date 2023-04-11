@@ -1,0 +1,36 @@
+{
+	"other": ["earth", "soil", "ground"],
+	"Candy_Forest": {
+		"camp": {
+			"state": "default",
+			"inspect": [
+				"Earthy mixture, brown,/nChocolate chunk, toffee bits found,\n<3>Dirt<0> is cookie dough!",
+"Earthy mixture, brown,/nChocolate chunk, toffee bits found,\n<3>Dirt<0> is cookie dough!",
+"Earthy mixture, brown,/nChocolate chunk, toffee bits found,\n<3>Dirt<0> is cookie dough!",
+"Earthy mixture, brown,/nChocolate chunk, toffee bits found,\n<3>Dirt<0> is cookie dough!",
+""
+			],
+			"consume": [
+"Bite of the dark earth,\nGooey, delicious surprise,\nNature's cocoa!\n",
+"Bite of the dark earth,\nGooey, delicious surprise,\nNature's cocoa!\n",
+"Bite of the dark earth,\nGooey, delicious surprise,\nNature's cocoa!\n",
+"Bite of the dark earth,\nGooey, delicious surprise,\nNature's cocoa!\n",
+""
+			],
+			"grab": [
+"Cookie dough and dirt,\nA handful of sweetly earth,\nNature's cocoa!",
+"Cookie dough and dirt,\nA handful of sweetly earth,\nNature's cocoa!",
+"Cookie dough and dirt,\nA handful of sweetly earth,\nNature's cocoa!",
+"Cookie dough and dirt,\nA handful of sweetly earth,\nNature's cocoa!",
+""
+			],
+			"use": [
+"Dirt beneath your feet,\nForest's pathway to explore,\nYes, a ground to tread!",
+"Dirt beneath your feet,\nForest's pathway to explore,\nYes, a ground to tread!",
+"Dirt beneath your feet,\nForest's pathway to explore,\nYes, a ground to tread!",
+"Dirt beneath your feet,\nForest's pathway to explore,\nYes, a ground to tread!",
+""
+			]
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"other":[],
+	"Purple_Desert": {
+		"wastes": {
+			"state":"default",
+			"inspect": [
+"Black brooding vapor,\nMonarch of the skies it reigns,\nWhite clouds circle 'round.",
+"Black brooding vapor,\nMonarch of the skies it reigns,\nWhite clouds circle 'round.",
+"Black brooding vapor,\nMonarch of the skies it reigns,\nWhite clouds circle 'round.",
+"Black brooding vapor,\nMonarch of the skies it reigns,\nWhite clouds circle 'round.",
+""
+			],
+			
+			"consume": [
+"Don't eat <3>Cloudpin<0>, no,\n<3>Cloudpin<0> eats you, don't you know?\nSilly thought to sow.",
+"Don't eat <3>Cloudpin<0>, no,\n<3>Cloudpin<0> eats you, don't you know?\nSilly thought to sow.",
+"Don't eat <3>Cloudpin<0>, no,\n<3>Cloudpin<0> eats you, don't you know?\nSilly thought to sow.",
+"Don't eat <3>Cloudpin<0>, no,\n<3>Cloudpin<0> eats you, don't you know?\nSilly thought to sow.",
+""
+			],
+			
+			"grab": [
+"Reach for Cloudpin high,\nAwe and reverence you feel nigh,\nUnyielding, a force.",
+"Reach for Cloudpin high,\nAwe and reverence you feel nigh,\nUnyielding, a force.",
+"Reach for Cloudpin high,\nAwe and reverence you feel nigh,\nUnyielding, a force.",
+"Reach for Cloudpin high,\nAwe and reverence you feel nigh,\nUnyielding, a force.",
+""
+			],
+				
+			"use": [
+"talk:4",
+"talk:4",
+"talk:4",
+"talk:4",
+""
+			],
+			
+			"talk": [
+				"My wispy cirrus, my towering cumulonimbus, listen carefully.\nThere is a rogue cloud in our midst, one that threatens to disrupt our peaceful kingdom.\nIt has been spreading lies and false rumors, casting a shadow over our skies.",
+"But we will not tolerate such behavior.\nWe must take action to protect our kingdom and maintain order.",
+"My thunderous power and lightning bolts will be at your disposal, but I want this done cleanly and with precision. No collateral damage or disruption to the ecosystem. We cannot risk upsetting the balance of our beautiful atmosphere.",
+"I want this rogue cloud taken out of commission.\n\nMy thunderous power and lightning bolts will be at your disposal,\nbut I want this done cleanly and with precision.\nNo collateral damage or disruption to the ecosystem.\nWe cannot risk upsetting the balance of our beautiful atmosphere.",
+"So, who among you is up for the task? Who will help me maintain order and protect our skies? Remember, loyalty to our kingdom is of utmost importance. Together, we will show the world that the Cloudpin reigns supreme."
+			]
+		}
+	}
+}

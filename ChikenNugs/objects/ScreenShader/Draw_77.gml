@@ -15,15 +15,33 @@ switch (shader) {
 		shader_set_uniform_f(resolution, room_width, room_height)
 	break
 	case "ripple_color":
+		shader_set(sh_color_ripple)
+		
+		var resolution = shader_get_uniform(sh_color_ripple, "room_size")
+		var wave_effect = shader_get_uniform(sh_color_ripple, "wave_effect")
+		var mouse_pos = shader_get_uniform(sh_color_ripple, "mouse_position")
+		var time = shader_get_uniform(sh_color_ripple, "time")
+		
 		
 	break;
+	case "color_skew":
+		shader_set(sh_color_skew)
+		var offset_x = shader_get_uniform(sh_color_skew, "offset_x");
+		var offset_y = shader_get_uniform(sh_color_skew, "offset_y");
+		
+		shader_set_uniform_f(offset_x, 5, -5);
+		shader_set_uniform_f(offset_y, 5, -5);
+	break
 	case "pulsing":
 		shader_set(sh_pulsing)
 	break
 	case "warp":
+		shader_set(sh_warp);
+		
 	break
-	case "water":
-	break
+	case "Texture_Skew":
+	
+	break;
 	case "ascii":
 		shader_set(sh_ascii)
 		var resolution = shader_get_uniform(sh_ascii, "zoom")
@@ -31,9 +49,7 @@ switch (shader) {
 		
 		shader_set_uniform_f(resolution, 1.0)
 		shader_set_uniform_f(dim, room_width, room_height)
-		
 	break
-	
 	default:
 		shader_set(sh_nothing)
 	break;

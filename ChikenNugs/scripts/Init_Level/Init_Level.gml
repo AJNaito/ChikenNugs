@@ -3,9 +3,22 @@
 function Init_Level(currentLevel){
 	show_debug_message("level")
 	
+	// level sound
 	switch(currentLevel) {
 		case "start_level":
-			audio_play_sound(asset_get_index(ds_list_find_value(global.music, 0)), 20, true) 
+			audio_play_sound(Intro, 20, true) 
+		break;
+		case "Candy_Forest":
+			audio_play_sound(Candy_Forest, 20, true)
+		break;
+		case "Waking_Room":
+			audio_play_sound(Abyss, 20, true)
+		break;
+		case "Purple_Desert":
+			audio_play_sound(Purple_Desert, 20, true)
+		break;
+		case "Chickenville":
+			audio_play_sound(Restaurant, 20, true);
 		break;
 	}
 	
@@ -48,8 +61,6 @@ function Init_Level(currentLevel){
 		var objects = jsonRoom[? "objects"]
 		
 		var room_object = new Room(room_name, 
-			jsonRoom[? "nugget_level"],
-			jsonRoom[? "connected"],
 			jsonRoom[? "commands"], 
 			objects, 
 			jsonRoom[? "story"])
@@ -81,7 +92,7 @@ function Init_Level(currentLevel){
 		
 		fileName = file_find_next()
 	}
-	global.curRoom = global.world[? "Base_Room"]
+	global.curRoom = ds_map_find_first(global.world)
 	
 	file_find_close()
 }

@@ -1,0 +1,37 @@
+{
+	"other":[],
+	"Purple_Desert": {
+		"wastes": {
+			"state":"default",
+			"inspect": [
+"A giant <3>rooster<0>,\nProudly flaunts its colorful feathers,\nMagnificent sight.",
+"A giant <3>rooster<0>,\nProudly flaunts its colorful feathers,\nMagnificent sight.",
+"A giant <3>rooster<0>,\nProudly flaunts its colorful feathers,\nMagnificent sight.",
+"A giant <3>rooster<0>,\nProudly flaunts its colorful feathers,\nMagnificent sight.",
+""
+			],
+			"consume": [
+"One bite, heavenly,\nAngelic chorus, a delight,\nDivine sensation.",
+"One bite, heavenly,\nAngelic chorus, a delight,\nDivine sensation.",
+"One bite, heavenly,\nAngelic chorus, a delight,\nDivine sensation.",
+"One bite, heavenly,\nAngelic chorus, a delight,\nDivine sensation.",
+""
+			],
+			"grab": [
+"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+""
+			]
+
+			"use": [
+"conditional:tomato:eaten:whale:eaten:table:eaten:bengal:eaten:<3>Rooster<0> opens wide,\nOn its tongue, a golden prize,\nCrispy chicken <4>nugget<0>.:<2>Taste<0> the rainbow first,\nThen come back, and we shall talk!"\nRooster says with pride.",
+"conditional:tomato:eaten:whale:eaten:table:eaten:bengal:eaten:<3>Rooster<0> opens wide,\nOn its tongue, a golden prize,\nCrispy chicken <4>nugget<0>.:<2>Taste<0> the rainbow first,\nThen come back, and we shall talk!"\nRooster says with pride.",
+"conditional:tomato:eaten:whale:eaten:table:eaten:bengal:eaten:<3>Rooster<0> opens wide,\nOn its tongue, a golden prize,\nCrispy chicken <4>nugget<0>.:<2>Taste<0> the rainbow first,\nThen come back, and we shall talk!"\nRooster says with pride.",
+"conditional:tomato:eaten:whale:eaten:table:eaten:bengal:eaten:<3>Rooster<0> opens wide,\nOn its tongue, a golden prize,\nCrispy chicken <4>nugget<0>.:<2>Taste<0> the rainbow first,\nThen come back, and we shall talk!"\nRooster says with pride.",
+""
+			]
+		}
+	}
+}
