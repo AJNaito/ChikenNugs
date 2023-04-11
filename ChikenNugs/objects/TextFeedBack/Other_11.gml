@@ -1,5 +1,9 @@
 /// @description Prepare Interaction
 // You can write your code in this editor
+whole_interaction = ""
+pos_y = y
+t = 0
+
 if (interaction != "") {
 	if (ds_list_size(interaction_history) >= 10) {
 		history_length -= string_length(ds_list_find_value(interaction_history, 0))

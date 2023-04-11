@@ -10,12 +10,14 @@ switch (scene_name) {
 	case "Memory_1":
 		array_push(global.levels_cleared, "nugget");
 		var obj = global.objects[? "nugget"]
+		obj = obj.interaction[? "home"]
 		ds_map_replace(obj, "state", "eaten")
 		file = "Memory_1.txt"
 	break;
 	case "Memory_2":
 			array_push(global.levels_cleared, "Candy_Forest");
 		var obj = global.objects[? "candy"]
+		obj = obj.interaction[? "home"]
 		ds_map_replace(obj, "state", "eaten")
 		file = "Memory_2.txt"
 	break;
@@ -23,6 +25,7 @@ switch (scene_name) {
 			array_push(global.levels_cleared, "Purple_Desert");
 
 		var obj = global.objects[? "hourglass"]
+		obj = obj.interaction[? "home"]
 		ds_map_replace(obj, "state", "eaten")
 		
 		file = "Memory_3.txt"
@@ -30,6 +33,7 @@ switch (scene_name) {
 	case "Memory_4":
 			array_push(global.levels_cleared, "Chickenville");
 			var obj = global.objects[? "toe"]
+			obj = obj.interaction[? "home"]
 		ds_map_replace(obj, "state", "eaten")
 		
 		file = "Memory_4.txt"
@@ -47,5 +51,5 @@ effect_data = json_scene[? "effects"]
 TextFeedBack.interaction = ds_list_find_value(dialogue_data, 0)
 ds_list_clear(TextFeedBack.interaction_history)
 
-cur_dialogue = 0;
+cur_dialogue = 1;
 curEffect = 0;

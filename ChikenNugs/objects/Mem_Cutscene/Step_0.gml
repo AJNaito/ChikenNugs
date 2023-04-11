@@ -1,16 +1,19 @@
 /// @description Check for Enter Button 
 // You can write your code in this editor
-if (keyboard_check(vk_enter) && !callOnce) {
+if (keyboard_check(vk_enter)) {
 	if (!callOnce) {
 	callOnce = true
 	// dialogue is finished, go to main room again
 	if (cur_dialogue == ds_list_size(dialogue_data)) {
+		
+		ds_list_clear( TextFeedBack.interaction_history)
 		
 		// set interaction
 		TextFeedBack.interaction = "You slowly drift back...\nYou're in the main room...\nThings are different"
 		with(TextFeedBack) {
 			event_user(1)
 		}
+		
 		// initiate the start level
 		Init_Level("start_level")
 		

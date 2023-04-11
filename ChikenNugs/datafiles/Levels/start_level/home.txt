@@ -1,7 +1,7 @@
 {
   "name": "home",
   "commands": ["consume","drop","inspect","use", "grab"],
-  "objects": ["candy","chest", "cupboards", "door", "desk", "feathers", "fridge", "gemstones","hand", "key","microwave","nugget","self","stove","things", "room"], 
+  "objects": ["candy","chest", "cupboards", "door", "desk", "feathers", "fridge", "gemstones","hand","microwave","nugget","self","stove","things", "room"], 
   "story": "First, you take careful note of your surroundings,
 \nSpawned at the center of a simple, familiar home!
 \nA barren studio apartment, though with leviathan furnishings
