@@ -3,17 +3,24 @@
 switch (scene_name) {
 	case "Memory_1":
 		array_push(global.levels_cleared, "nugget");
+		var obj = global.objects[? "nugget"]
+		ds_map_replace(obj, "state", "eaten")
 	break;
 	case "Memory_2":
 			array_push(global.levels_cleared, "Candy_Forest");
-
+		var obj = global.objects[? "candy"]
+		ds_map_replace(obj, "state", "eaten")
 	break;
 	case "Memory_3":
 			array_push(global.levels_cleared, "Purple_Desert");
 
+		var obj = global.objects[? "hourglass"]
+		ds_map_replace(obj, "state", "eaten")
 	break;
 	case "Memory_4":
 			array_push(global.levels_cleared, "Chickenville");
+			var obj = global.objects[? "toe"]
+		ds_map_replace(obj, "state", "eaten")
 	break;
 }
 

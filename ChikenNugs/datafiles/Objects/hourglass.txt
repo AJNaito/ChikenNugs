@@ -4,35 +4,17 @@
 		"Base_Room": {
 			"state": "default",
 			"inspect": [
-				"A clear wood hourglass
-Filled with clumps of purple sand
-Grains of time seem still.
-",
-				"A clear wood hourglass
-Filled with clumps of purple sand
-Grains of time seem still.
-",
-				"A clear wood hourglass
-Filled with clumps of purple sand
-Grains of time seem still.
-",
-				"",
+				"conditional:hourglass:eaten:The hourglass glows with a warm light:A clear wood hourglass\nFilled with clumps of purple sand\nGrains of time seem still.",
+				"conditional:hourglass:eaten:The hourglass glows with a warm light:A clear wood hourglass\nFilled with clumps of purple sand\nGrains of time seem still.",
+				"conditional:hourglass:eaten:The hourglass glows with a warm light:A clear wood hourglass\nFilled with clumps of purple sand\nGrains of time seem still.",
+				"conditional:hourglass:eaten:The hourglass glows with a warm light:A clear wood hourglass\nFilled with clumps of purple sand\nGrains of time seem still.",
 				""
 			],
-			"interact": [
-				"You peck timepiece.
-And you feel something change!
-Alas, Alpha Build.
-",
-				"You peck timepiece.
-And you feel something change!
-Alas, Alpha Build.
-",
-				"You peck timepiece.
-And you feel something change!
-Alas, Alpha Build.
-",
-				"",
+			"use": [
+				"conditional:hourglass:eaten:You look at the hourglass with recognition:change_level+Purple_Desert+The room spirals! You feel grainy sand",
+				"conditional:hourglass:eaten:You look at the hourglass with recognition:change_level+Purple_Desert+The room spirals! You feel grainy sand",
+				"conditional:hourglass:eaten:You look at the hourglass with recognition:change_level+Purple_Desert+The room spirals! You feel grainy sand",
+				"conditional:hourglass:eaten:You look at the hourglass with recognition:change_level+Purple_Desert+The room spirals! You feel grainy sand",
 				""
 			]
 		}
