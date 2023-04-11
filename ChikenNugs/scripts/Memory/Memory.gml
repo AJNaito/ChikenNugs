@@ -13,7 +13,7 @@ function Memory(interaction){
 	// set argument
 	with (Mem_Cutscene) {
 		Mem_Cutscene.scene_name = split_interaction[1]
-		ev_user0()
+		event_user(0)
 	}
 	// call event
 	

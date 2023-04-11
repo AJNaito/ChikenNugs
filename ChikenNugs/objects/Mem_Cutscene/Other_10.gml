@@ -1,6 +1,10 @@
 /// @description Load "Scene" data
 // You can write your code in this editor
 switch (scene_name) {
+	case "Introduction":
+		Memory("a+Introduction");
+		Init_Global();
+	break;
 	case "Memory_1":
 		array_push(global.levels_cleared, "nugget");
 		var obj = global.objects[? "nugget"]
