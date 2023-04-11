@@ -43,7 +43,7 @@ if (global.result != false) {
 		}
 		
 		if (string_starts_with(interaction, "return_story")) {
-			interaction = global.curRoom.story
+			interaction = global.curRoom.description
 		}
 
 		if (string_starts_with(interaction, "move_room")) {

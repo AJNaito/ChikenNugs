@@ -11,17 +11,45 @@ nugget    shaped
    gemstones
 
 inlaid into the center",
-			"",
-			"",
-			"",
-			""],
+			"A dark metal door,
+with
+
+	four
+nugget    shaped
+   gemstones
+
+inlaid into the center, one is glowing",
+			"A dark metal door,
+with
+
+	four
+nugget    shaped
+   gemstones
+
+inlaid into the center, two are glowing",
+			"A dark metal door,
+with
+
+	four
+nugget    shaped
+   gemstones
+
+inlaid into the center, three are glowing",
+			"A dark metal door,
+with
+
+	four
+nugget    shaped
+   gemstones
+
+inlaid into the center, all four are glowing"],
 			
-			"interact": [
+			"use": [
 				"You reach out to door\nAlas, Keeps getting farther\nImpossible path?",
-				"",
-				"",
-				"",
-				""]
+				"You reach out to door\nAlas, Keeps getting farther\nBut not as far this time...",
+				"You reach out to the door,\nI got closer than before\nI must be on the right path",
+				"You reach out to the door,\nI nearly grasped the handle!",
+				"change_level+Waking_Room+I grasped the door handle,\nI step inside..."]
 		}
 	}
 }

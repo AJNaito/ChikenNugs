@@ -3,10 +3,10 @@
 	"start_level": {
 		"home": {
 			"inspect": [
-"return_story"
-"return_story"
-"return_story"
-"return_story"
+"return_story",
+"return_story",
+"return_story",
+"return_story",
 "WAKE UP"
 			]
 		}
@@ -49,9 +49,9 @@
 			"state":"default",
 			"inspect":[
 "<1>WAKE <4>UP!<0>",
-"<1>WAKE <4>UP!<0>"
-"<1>WAKE <4>UP!<0>"
-"<1>WAKE <4>UP!<0>"
+"<1>WAKE <4>UP!<0>",
+"<1>WAKE <4>UP!<0>",
+"<1>WAKE <4>UP!<0>",
 "<1>WAKE <4>UP!<0>"
 			]
 		}

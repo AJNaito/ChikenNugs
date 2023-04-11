@@ -1,13 +1,47 @@
 {
 	"other": ["me","myself","person","chicken"],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state": "default",
 			"inspect": ["You curiously prod and preen your feathers with a sharp beak. Fowl play is afoot.",
-				"Arms and hands where wings once were, who am I?",
-				"Legs... but nothing much has changed there",
+				"Your wings look like wings... but feel like human skin?",
+				"<1>AHHHH! I STILL GOT CHICKEN LE-<0>, oh nevermind, these are my legs",
 				"Flesh and skin where feathers once were, I am <1>@(#$*<0>",
 				"I am [Insert Name Here]"]
+		}
+	},
+	"Candy_Forest": {
+		"camp": {
+			"state": "default",
+			"inspect": [
+				"Nothing seems to have changed... you're still a chicken",
+				"You still appear to be a chicken...",
+				"I'm slightly taller than before...",
+				"Dis the good good monologue."
+			]
+		}
+	},
+	"Purple_Desert": {
+		"wastes": {
+			"state":"default",
+			"inspect": [
+				"The sand feels pretty good between your chicken feet",
+				"The sand feels pretty good between your chicken feet...\nSomething feels familiar about this place.",
+				"The sand feels pretty good between my fee-, no I definitely been here before!",
+				"<1>REMEMBER!<0>"
+			]
+		}
+	},
+	"Waking_Room": {
+		"center": {
+			"state": "default",
+			"inspect": [
+				"",
+				"",
+				"",
+				"I've just been running, I have to <3>swallow<0> my fear... Drastic measures must be taken",
+				""
+			]
 		}
 	}
 }

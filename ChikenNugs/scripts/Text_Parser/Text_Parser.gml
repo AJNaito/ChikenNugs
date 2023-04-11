@@ -50,9 +50,6 @@ function Text_Parser(user_message){
 			return [command, ""]
 		}
 		
-		if (obj == "room") 
-			return [command, obj]
-		
 		return false;
 	} else {
 		return [command, obj]

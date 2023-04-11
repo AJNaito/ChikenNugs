@@ -108,7 +108,7 @@ function Init_Level(currentLevel){
 	}
 	
 	global.item = ""
-	global.curRoom = ds_map_find_first(global.world)
+	global.curRoom = global.world[? ds_map_find_first(global.world)]
 	
 	file_find_close()
 }

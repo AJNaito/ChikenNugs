@@ -10,7 +10,7 @@
 				""
 			],
 			
-			"interact": [
+			"use": [
 				"You try to open.\nAlas, you do lack fingers!\nFeathered wings instead.",
 				"",
 				"",
