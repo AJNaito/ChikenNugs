@@ -3,6 +3,8 @@
 function Init_Level(currentLevel){
 	show_debug_message("level")
 	
+	global.level = currentLevel
+	
 	// level sound
 	switch(currentLevel) {
 		case "start_level":
@@ -37,12 +39,10 @@ function Init_Level(currentLevel){
 	}
 	
 	for (var k = ds_map_find_first(global.objects); !is_undefined(k); k = ds_map_find_next(global.objects, k)) {
-		var _object = global.objects[? k];
-		
 		var persistent_objects = ["candy","chest", "cupboards", "desk", "feathers", "fridge", "gemstones","hand", "key","microwave","nugget","self","stove","things"]
 		var skip = false;
 		for (var i = 0; i < array_length(persistent_objects); i++) {
-			if (_object.obj_name == persistent_objects[i]) {
+			if (k == persistent_objects[i]) {
 				skip = true;
 				break;
 			}
@@ -52,6 +52,7 @@ function Init_Level(currentLevel){
 			continue;
 		// don't delete objects from start_room -- want to keep persistant
 		
+		var _object = global.objects[? k];
 		
 		with (Object) {
 			_object.Destroy()
@@ -59,7 +60,6 @@ function Init_Level(currentLevel){
 		}
 	}
 	
-	ds_map_clear(global.object_association)
 	ds_map_destroy(global.world)
 	
 	// initiate another level

@@ -11,7 +11,7 @@ function Conditional_Interact(interaction){
 		obj = obj.interaction[? global.curRoom.room_name]
 		
 		if (obj[? "state"] != array_get(split_interaction, i + 1)) {
-			return 
+			return split_interaction[size + 1]
 		}
 	}
 	

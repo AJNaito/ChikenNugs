@@ -4,5 +4,7 @@ function Change_Level(interaction){
 	var split_interaction = string_split(interaction, "+", false)
 	Init_Level(split_interaction[1])
 	
-	return split_interaction[2] + "\n" + global.curRoom.story
+	ds_list_clear(TextFeedBack.interaction_history )
+	
+	return split_interaction[2] + "\n" + global.curRoom.description
 }

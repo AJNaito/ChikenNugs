@@ -10,7 +10,7 @@
 				"conditional:candy:eaten:A silohuette of the candy <3>glows<0>:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark.",
 				"conditional:candy:eaten:A silohuette of the candy <3>glows<0>:Standard candy cane\n<6>Pulsating<0>, <2>thrumming<0>, beckons\nSmells like dirt and bark."
 			],
-			"interact": [
+			"use": [
 				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\n<3>You smell something sweet?<3>",
 				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
 				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",

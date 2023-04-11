@@ -72,10 +72,10 @@
 ""
 			],
 			"consume": [
-				"memory_sequence+Memory_3",
-"memory_sequence+Memory_3",
-"memory_sequence+Memory_3",
-"memory_sequence+Memory_3",
+				"memory_sequence+Memory_3.txt",
+"memory_sequence+Memory_3.txt",
+"memory_sequence+Memory_3.txt",
+"memory_sequence+Memory_3.txt",
 ""
 			],
 			"use": [
@@ -99,10 +99,10 @@
 ""
 			],
 			"consume": [
-"memory_sequence+Memory_4",
-"memory_sequence+Memory_4",
-"memory_sequence+Memory_4",
-"memory_sequence+Memory_4",
+"memory_sequence+Memory_4.txt",
+"memory_sequence+Memory_4.txt",
+"memory_sequence+Memory_4.txt",
+"memory_sequence+Memory_4.txt",
 ""
 			],
 			"grab": [

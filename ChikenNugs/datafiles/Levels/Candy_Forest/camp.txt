@@ -1,6 +1,6 @@
 {
 	"name":"camp",
-	"commands": ["consume","inspect","use","grab"],
+	"commands": ["consume", "drop","inspect","use","grab"],
 	"objects": ["joe", "jill","jim","cauldron","eyes","flute","dirt","nugget","cane","forest"],
 	"story":  "In the heart of a sweet forest's sugary glade,
 \nThus rests a clearing, a magical space.

@@ -1,0 +1,36 @@
+{
+	"other": [],
+	"Candy_Forest": {
+		"camp": {
+			"state": "default",
+			"inspect": [
+"Licorice <3>flute<0> <2>dances,<0>\n<2>Floating<0> 'round the encampment,\nRaspy whistling sounds.",
+"Licorice <3>flute<0> <2>dances,<0>\n<2>Floating<0> 'round the encampment,\nRaspy whistling sounds.",
+"Licorice <3>flute<0> <2>dances,<0>\n<2>Floating<0> 'round the encampment,\nRaspy whistling sounds.",
+"Licorice <3>flute<0> <2>dances,<0>\n<2>Floating<0> 'round the encampment,\nRaspy whistling sounds.",
+""
+			],
+			"use": [
+"\n<2>Diddle<0> on the <3>flute<0>,\nGiants can't seem to notice,\nYour efforts misplaced...",
+"\n<2>Diddle<0> on the <3>flute<0>,\nGiants can't seem to notice,\nYour efforts misplaced...",
+"\n<2>Diddle<0> on the <3>flute<0>,\nGiants can't seem to notice,\nYour efforts misplaced...",
+"\n<2>Diddle<0> on the <3>flute<0>,\nGiants can't seem to notice,\nYour efforts misplaced...",
+""
+			],
+			"grab": [
+"<3>Flute<0> in your pocket!\nYet, its tune continues playing,\nThe dancing persists!",
+"<3>Flute<0> in your pocket!\nYet, its tune continues playing,\nThe dancing persists!",
+"<3>Flute<0> in your pocket!\nYet, its tune continues playing,\nThe dancing persists!",
+"<3>Flute<0> in your pocket!\nYet, its tune continues playing,\nThe dancing persists!",
+""
+			],
+			"consume": [
+"<3>Flute<0> placed in your beak,\nA bitter licorice smell\nFills up your nostrils",
+"<3>Flute<0> placed in your beak,\nA bitter licorice smell\nFills up your nostrils",
+"<3>Flute<0> placed in your beak,\nA bitter licorice smell\nFills up your nostrils",
+"<3>Flute<0> placed in your beak,\nA bitter licorice smell\nFills up your nostrils",
+""
+			]
+		}
+	}
+}

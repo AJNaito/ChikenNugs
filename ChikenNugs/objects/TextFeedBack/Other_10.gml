@@ -38,12 +38,8 @@ if (global.result != false) {
 			interaction = Conditional_Interact(interaction)
 		}
 		
-		if (string_starts_with(interaction, "play_music")) {
-			interaction = Play_Music(interaction)
-		}
-		
-		if (string_starts_with(interaction, "return_story")) {
-			interaction = global.curRoom.description
+		if (string_starts_with(interaction, "use")) {
+			interaction = Use_Item(interaction)
 		}
 
 		if (string_starts_with(interaction, "move_room")) {
@@ -53,7 +49,6 @@ if (global.result != false) {
 		if (string_starts_with(interaction, "talk:")) {
 			interaction = Talk(interaction, global.result[1])
 		}
-	
 
 		if (string_starts_with(interaction, "change_state")) {
 			interaction = Change_State(interaction, global.result[1])
@@ -70,13 +65,20 @@ if (global.result != false) {
 		if (string_starts_with(interaction, "change_level")) {
 			interaction = Change_Level(interaction)
 		}
-	
-		if (string_starts_with(interaction, "memory_sequence")) {
-			interaction = Memory(interaction, true)
+		
+		if (string_starts_with(interaction, "play_music")) {
+			interaction = Play_Music(interaction)
 		}
 		
-		if (string_starts_with(interaction, "use")) {
-			interaction = Use_Item(interaction)
+		if (string_starts_with(interaction, "return_story")) {
+			interaction = global.curRoom.description
+		}
+	
+		if (string_starts_with(interaction, "memory_sequence")) {
+			interaction = Memory(interaction)
+			with (Mem_Cutscene)
+				event_user(0)
+			break
 		}
 	}
 } else {
@@ -88,21 +90,4 @@ if (global.result != false) {
 	// activate a visual effect (eyeball?)
 }
 
-if (interaction != "") {
-	if (ds_list_size(interaction_history) == 10) {
-		history_length -= string_length(ds_list_find_value(interaction_history, 0))
-		ds_list_delete(interaction_history, 0)
-	}
-	char = history_length + 2 *  ds_list_size(interaction_history)
-	
-	for (var i = 0; i < ds_list_size(interaction_history); i++) {
-		whole_interaction += ds_list_find_value(interaction_history, i) + "\n\n"
-		show_debug_message( string_count("\n",ds_list_find_value(interaction_history, i)))
-		
-		pos_y -= charHeight * string_count("\n", ds_list_find_value(interaction_history, i))
-	}
-	
-	ds_list_add(interaction_history, interaction)
-	history_length += string_length(interaction)
-	whole_interaction += interaction
-}
+event_user(1)

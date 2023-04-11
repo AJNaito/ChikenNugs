@@ -25,10 +25,10 @@
 				"<1>You're not supposed to be here<0>"
 			],
 			"use": [
-				"use:flute:default:change_state:used",
-				"use:flute:default:change_state:used",
-				"use:flute:default:change_state:used",
-				"use:flute:default:change_state:used",
+				"use:flute:default:change_state:flute:used:<5>SLURRRRRRRPPPPP!!<0>\n You slurp up the contents of the <3>cauldron<0> and you spy something on the bottom!",
+				"use:flute:default:change_state:flute:used:<5>SLURRRRRRRPPPPP!!<0>\n You slurp up the contents of the <3>cauldron<0> and you spy something on the bottom!",
+				"use:flute:default:change_state:flute:used:<5>SLURRRRRRRPPPPP!!<0>\n You slurp up the contents of the <3>cauldron<0> and you spy something on the bottom!",
+				"use:flute:default:change_state:flute:used:<5>SLURRRRRRRPPPPP!!<0>\n You slurp up the contents of the <3>cauldron<0> and you spy something on the bottom!",
 				""
 			]
 		}

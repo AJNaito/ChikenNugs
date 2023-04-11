@@ -1,7 +1,7 @@
 {
 	"other": [],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state":"default",
 			"inspect": ["A dark metal door,
 with
@@ -12,35 +12,35 @@ nugget    shaped
 
 inlaid into the center",
 			"A dark metal door,
-with
+with\n
 
-	four
-nugget    shaped
-   gemstones
+	four\n
+nugget    shaped\n
+   gemstones\n
 
 inlaid into the center, one is glowing",
 			"A dark metal door,
-with
+with\n
 
-	four
-nugget    shaped
-   gemstones
+	four\n
+nugget    shaped\n
+   gemstones\n
 
 inlaid into the center, two are glowing",
 			"A dark metal door,
-with
+with\n
 
-	four
-nugget    shaped
-   gemstones
+	four\n
+nugget    shaped\n
+   gemstones\n
 
 inlaid into the center, three are glowing",
 			"A dark metal door,
-with
+with\n
 
-	four
-nugget    shaped
-   gemstones
+	four\n
+nugget    shaped\n
+   gemstones\n
 
 inlaid into the center, all four are glowing"],
 			

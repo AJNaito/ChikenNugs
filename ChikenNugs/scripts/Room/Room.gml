@@ -23,6 +23,13 @@ function Room(name, commands, objs, story) constructor {
 		}
 		
 		var obj = global.objects[? instruction[1]]
+		if (instruction[1] == "nugget") {
+			obj = obj[? global.level]
+			obj = obj[? room_name]
+			if (obj[? instruction[0]] == undefined)
+				return  "<1>You can't do this<0>"
+			return ds_list_find_value(obj[? instruction[0]], global.nuggets_eaten)
+		}
 		return obj.interact(instruction[0], room_name)
 	}
 	

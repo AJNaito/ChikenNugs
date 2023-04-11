@@ -10,7 +10,7 @@
 				"It's just a weird desk",
 				""],
 			"use": [
-				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
+				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<0>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
 				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt still fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
 				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
 				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",

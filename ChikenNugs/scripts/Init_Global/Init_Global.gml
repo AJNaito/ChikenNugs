@@ -3,6 +3,8 @@
 
 /// initialize all objects 
 function Init_Global(){
+	
+	
 	global.world = ds_map_create()
 	global.object_association = ds_map_create()
 	
@@ -26,6 +28,16 @@ function Init_Global(){
 		}
 		ds_map_add(global.commands, word, word)
 	}
+	
+	var obj_json = import_json("Objects/" +  "nugget.txt", json_decode)
+	var object = new Object(
+					"nugget", 
+					obj_json
+				)
+	ds_map_add(global.object_association, "nug", "nugget")
+	
+	ds_map_add(global.objects, "nugget", obj_json)
+	
 	
 	global.music = jsonWorld[? "music"]
 	global.help = jsonWorld[? "help_text"]
