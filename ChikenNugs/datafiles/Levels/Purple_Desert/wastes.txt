@@ -1,7 +1,7 @@
 {
 	"name":"wastes",
 	"commands": ["consume", "inspect", "use", "grab"],
-	"objects": ["desert", "signpost","potato","nugget","rooster","sand","tomato","whale","table","bengal","cloudpin"],
+	"objects": ["desert", "signpost","potato","nugget","rooster","tomato","whale","table","bengal","cloudpin"],
 	"story":"An endless sea of purple sand unfurled - <3>a wastes<0>,
 \nA sight so vast, it takes your breath away.
 \nA barren land that stretches 'cross the world,

@@ -1,5 +1,5 @@
 {
-	"others": ["skull", "cranium"],
+	"other": ["skull", "cranium"],
 	"Chickenville": {
 		"lobby": {
 			"state":"default",

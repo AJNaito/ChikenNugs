@@ -10,6 +10,13 @@
 				"A glowing nugget.\nIt whispers faintly to you.\nFamiliar voice?",
 				"It's time to go... <1>WAKE UP<0>"
 			],
+			"consume": [
+"conditional:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+"conditional:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+"conditional:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+"conditional:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
+""
+			],
 			
 			"use": [
 				"conditional:nugget:eaten:You look at the nugget fondly... and with slight hunger:memory_sequence+Memory_1",
@@ -73,9 +80,9 @@
 			],
 			"consume": [
 				"memory_sequence+Memory_3.txt",
-"memory_sequence+Memory_3.txt",
-"memory_sequence+Memory_3.txt",
-"memory_sequence+Memory_3.txt",
+"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
+"memory_sequence+Memory_3",
 ""
 			],
 			"use": [
@@ -99,10 +106,10 @@
 ""
 			],
 			"consume": [
-"memory_sequence+Memory_4.txt",
-"memory_sequence+Memory_4.txt",
-"memory_sequence+Memory_4.txt",
-"memory_sequence+Memory_4.txt",
+"memory_sequence+Memory_4",
+"memory_sequence+Memory_4",
+"memory_sequence+Memory_4",
+"memory_sequence+Memory_4",
 ""
 			],
 			"grab": [

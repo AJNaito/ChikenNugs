@@ -16,6 +16,21 @@
 				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
 				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
 				""
+			],
+			"consume": [
+"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\n<3>You smell something sweet?<3>",
+				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
+				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
+				"conditional:candy:eaten:You look at the sweet with recognition:change_level+Candy_Forest+The room spirals and goes dark...\nYou smell something sweet?",
+				""
+			],
+			"grab": [
+"false:Candy phases through your hand... NO TOUCH!",
+"false:Candy phases through your hand... NO TOUCH!",
+"false:Candy phases through your hand... NO TOUCH!",
+"false:Candy phases through your hand... NO TOUCH!",
+""
+
 			]
 		}
 	}

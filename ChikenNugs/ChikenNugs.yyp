@@ -183,6 +183,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Memory_4.txt","CopyToMask":-1,"filePath":"datafiles/Memory",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Memory_5.txt","CopyToMask":-1,"filePath":"datafiles/Memory",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Introduction.txt","CopyToMask":-1,"filePath":"datafiles/Memory",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sand.txt","CopyToMask":-1,"filePath":"datafiles/Objects",},
   ],
   "MetaData": {
     "IDEVersion": "2022.11.1.56",

@@ -15,21 +15,21 @@ nugget    shaped
    gemstones
 
 inlaid into the center of door
-A single one <3>shines<0> from the rest."			
+A single one <5>shines<0> from the rest."			
 ,
 "	four
 nugget    shaped
    gemstones
 
 inlaid into the center of door
-Half of them <3>shine<0>."			
+Half of them <5>shine<0>."			
 ,
 "	four
 nugget    shaped
    gemstones
 
 inlaid into the center of door
-A three of them <3>shine<0>."			
+A three of them <5>shine<0>."			
 ,
 			"All four nuggets are <3>shining<0>. You can leave"],
 

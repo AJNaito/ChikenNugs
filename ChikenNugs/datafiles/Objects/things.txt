@@ -1,13 +1,13 @@
 {
 	"other": ["objects"],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state":"default",
 			"inspect": [
 				"Upon the ground now lies four varied objects.
-First, a nugget, scattered afar from a toe.
-Then there's some candy, yes, edible trinkets.
-Amidst all an hourglass, courtesy of sentient plateau.",
+\nFirst, a nugget, scattered afar from a toe.
+\nThen there's some candy, yes, edible trinkets.
+\nAmidst all an hourglass, courtesy of sentient plateau.",
 				"",
 				"",
 				"",

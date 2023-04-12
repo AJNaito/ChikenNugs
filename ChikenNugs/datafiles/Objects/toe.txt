@@ -3,19 +3,33 @@
 	"start_level": {
 		"home": {
 			"state": "default",
-			"interact": [
-				"condition:toe:eaten:You look at the toe strangly:change_level+Chickenville+The room spirals and goes dark! *sniff*... *SNIFFFFFF*... is that CHICKEN!?",
-				"condition:toe:eaten:You look at the toe strangly:change_level+Chickenville+The room spirals and goes dark! *sniff*... *SNIFFFFFF*... is that CHICKEN!?",
-				"condition:toe:eaten:You look at the toe strangly:change_level+Chickenville+The room spirals and goes dark! *sniff*... *SNIFFFFFF*... is that CHICKEN!?",
-				"condition:toe:eaten:You look at the toe strangly:change_level+Chickenville+The room spirals and goes dark! *sniff*... *SNIFFFFFF*... is that CHICKEN!?",
+			"inspect": [
+				"conditional:toe:eaten:You look at the toe strangly:Yup... That's a severed toe... gross",
+				"conditional:toe:eaten:You look at the toe strangly:Yup... That's a severed toe... gross",
+				"conditional:toe:eaten:You look at the toe strangly:Yup... That's a severed toe... gross",
+				"conditional:toe:eaten:You look at the toe strangly:Yup... That's a severed toe... gross",
 				"it's time to go"
 			],
 			"use": [
-				"condition:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
-				"condition:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
-				"condition:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
-				"condition:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
+				"conditional:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
+				"conditional:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
+				"conditional:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
+				"conditional:toe:eaten:That was the experience of all time:It's a big toe!\nThe digit presents tag.\nStates, 'Henry Flavored.'",
 				""
+			],
+			"consume": [
+				"conditional:toe:eaten:That was the toe of all time:change_level+Chickenville+The room spirals and... is that chicken?",
+"conditional:toe:eaten:That was the toe of all time:change_level+Chickenville+The room spirals and... is that chicken?",
+"conditional:toe:eaten:That was the toe of all time:change_level+Chickenville+The room spirals and... is that chicken?",
+"conditional:toe:eaten:That was the toe of all time:change_level+Chickenville+The room spirals and... is that chicken?",
+""
+			],
+			"grab": [
+"false:... gross",
+"false:... gross",
+"false:... gross",
+"false:... gross",
+""
 			]
 		}
 	}

@@ -11,17 +11,17 @@
 ""
 			],
 			"grab": [
-"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
-"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
-"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
-"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!"<0> it taunts you.",
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!<0> it taunts you.",
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!<0> it taunts you.",
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!<0> it taunts you.",
+"false:Bursting away fast,\nLeaving you behind in dust.\n<6>"Ketchup!<0> it taunts you.",
 ""
 			],
 			"use": [
-"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
-"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
-"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
-"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6>"<3>Tomato<0>! To-MA-To!"<0>",
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6><3>Tomato<0>! To-MA-To!<0>",
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6><3>Tomato<0>! To-MA-To!<0>",
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6><3>Tomato<0>! To-MA-To!<0>",
+"<3>Tomato<0> disco!\n<5>Spinning<0> in the air, it yells,\n<6><3>Tomato<0>! To-MA-To!<0>",
 ""
 			],
 			"consume": [

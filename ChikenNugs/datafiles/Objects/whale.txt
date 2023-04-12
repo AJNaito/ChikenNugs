@@ -1,5 +1,5 @@
 {
-	"other": [blue-whale],
+	"other": ["blue-whale"],
 	"Purple_Desert": {
 		"wastes": {
 			"state":"default",
@@ -26,7 +26,7 @@
 				"talk:3",
 				"talk:3",
 				"talk:3",
-				"Fucking hell, discuss if you want a feature before shoving it in"
+				""
 			],
 			"talk" [
 "<2>“Y'all come on over here now and listen up,\n'cause I got a tale to tell ya.\n See, I'm a whale from the southern countryside,\nand we do things a little different down there.\n\nI remember swimmin' in the warm waters of the Gulf,\nand the sun beatin' down on my back.\nThe shrimp boats would come out in the morning,\nand we'd follow 'em 'round,\njust waitin' for a scrap or two.\n\nBut one day, things changed.\nThe water started gettin' hotter, and the shrimp started disappearin'.\nWe didn't know what was happenin', but we knew it wasn't good.”<0>\n\nListen to more?",

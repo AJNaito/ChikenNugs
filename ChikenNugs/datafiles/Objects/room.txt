@@ -53,6 +53,27 @@
 "<1>WAKE <4>UP!<0>",
 "<1>WAKE <4>UP!<0>",
 "<1>WAKE <4>UP!<0>"
+			],
+			"consume": [
+"There's nothing to eat... maybe except for <3>YOURSELF<0>",
+"There's nothing to eat... maybe except for <3>YOURSELF<0>",
+"There's nothing to eat... maybe except for <3>YOURSELF<0>",
+"There's nothing to eat... maybe except for <3>YOURSELF<0>",
+""
+			],
+			"use": [
+"There's nothing but space, darkness, and <1>YOURSELF<0>",
+"There's nothing but space, darkness, and <1>YOURSELF<0>",
+"There's nothing but space, darkness, and <1>YOURSELF<0>",
+"There's nothing but space, darkness, and <1>YOURSELF<0>",
+""
+			],
+			"grab": [
+"false:There's nothing here... nothing put <3>you<0> and <1> yourself<0>",
+"false:There's nothing here... nothing put <3>you<0> and <1> yourself<0>",
+"false:There's nothing here... nothing put <3>you<0> and <1> yourself<0>",
+"false:There's nothing here... nothing put <3>you<0> and <1> yourself<0>",
+"false:There's nothing here... nothing put <3>you<0> and <1> yourself<0>"
 			]
 		}
 	}

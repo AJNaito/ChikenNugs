@@ -4,10 +4,10 @@
 		"lobby": {
 			"state":"default",
 			"inspect": [
-"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
-"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
-"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
-"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, "DREAM ON!"",
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, 'DREAM ON!'",
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, 'DREAM ON!'",
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, 'DREAM ON!'",
+"<3>Octopus<0> eats with glee,\nTentacles blur with fervor!\nShirt exclaims, 'DREAM ON!'",
 ""
 			],
 			"consume": [
@@ -25,10 +25,10 @@
 ""
 			],
 			"use": [
-"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
-"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
-"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
-"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>"
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>",
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>",
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>",
+"TRAINING TO EAT FAST! \n VICTOR GETS FULL-SIZED HUMAN!\nMUST... BEAT... MY RECORD!\n\n<1>ARMGAGAGARGHAHHHHHHGHGHGH!%#@!!<0>",
 ""
 			]
 		}

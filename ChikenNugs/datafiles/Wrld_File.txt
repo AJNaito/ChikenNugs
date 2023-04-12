@@ -15,9 +15,10 @@
 	"drop": ["\\/"],
 	"use": ["interact", "->", "talk", "'>'","'<'"],
 
-	"help_text": "Base verbs: interact and inspect\n
+	"help_text": "Base verbs: consume, drop, help, inspect, use, grab\n
 You can put commands however you like but put objects after the verbs! (i.e inspect room, inspect self)\n
-Press Escape to skip text (write whole text)" ,
+Press Escape to skip text (write whole text)\nAlternative ways can work as well -- explore~ the possibilities!(i.e >.> is inspect)\n
+Hey Greg! So, some known bugs, the status of Chickenville and Purple Desert is unknown (untested) so they may or may not break.\n You can consume the nugget in those levels to escape them, DO NOT CONSUME THE NUGGET IN THE START AREA, it broken :(" ,
 	
 	"intro": "Blanketed in <1>darkness<0>, you find yourself sinking.\n
 \n
