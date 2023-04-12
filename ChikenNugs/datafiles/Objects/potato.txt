@@ -11,24 +11,24 @@
 ""
 			],
 			"consume": [
-"A bite of spud,\nResets the desert's expanse,\nThis world is <6>reborn<0>.",
-"A bite of spud,\nResets the desert's expanse,\nThis world is <6>reborn<0>.",
-"A bite of spud,\nResets the desert's expanse,\nThis world is <6>reborn<0>.",
-"A bite of spud,\nResets the desert's expanse,\nThis world is <6>reborn<0>.",
+"A bite of spud,\nResets the deserts expanse,\nThis world is <6>reborn<0>.",
+"A bite of spud,\nResets the deserts expanse,\nThis world is <6>reborn<0>.",
+"A bite of spud,\nResets the deserts expanse,\nThis world is <6>reborn<0>.",
+"A bite of spud,\nResets the deserts expanse,\nThis world is <6>reborn<0>.",
 ""
 			],
 			"grab": [
-"false:Wing dissolves fast,\nInside the 'tato's brown flesh,\A bizarre instance.",
-"false:Wing dissolves fast,\nInside the 'tato's brown flesh,\A bizarre instance.",
-"false:Wing dissolves fast,\nInside the 'tato's brown flesh,\A bizarre instance.",
-"false:Wing dissolves fast,\nInside the 'tato's brown flesh,\A bizarre instance.",
+"false:Wing dissolves fast,\nInside the tatos brown flesh,\nA bizarre instance.",
+"false:Wing dissolves fast,\nInside the tatos brown flesh,\nA bizarre instance.",
+"false:Wing dissolves fast,\nInside the tatos brown flesh,\nA bizarre instance.",
+"false:Wing dissolves fast,\nInside the tatos brown flesh,\nAbizarre instance.",
 ""
 			],
 			"use": [
-"Rainbow's your guide,\nIf you do struggle, though, well-\nI provide fresh start!.",
-"Rainbow's your guide,\nIf you do struggle, though, well-\nI provide fresh start!.",
-"Rainbow's your guide,\nIf you do struggle, though, well-\nI provide fresh start!.",
-"Rainbow's your guide,\nIf you do struggle, though, well-\nI provide fresh start!.",
+"Rainbow's your guide,\nIf you do struggle, though, well\nI provide fresh start!.",
+"Rainbow's your guide,\nIf you do struggle, though, well\nI provide fresh start!.",
+"Rainbow's your guide,\nIf you do struggle, though, well\nI provide fresh start!.",
+"Rainbow's your guide,\nIf you do struggle, though, well\nI provide fresh start!.",
 ""
 			]
 		}

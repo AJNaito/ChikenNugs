@@ -1,7 +1,7 @@
 {
 	"other": [],
 	"start_level": {
-		"Base_Room": {
+		"home": {
 			"state": "default",
 			"inspect": [
 				"conditional:hourglass:eaten:The hourglass glows with a warm light:A clear wood hourglass\nFilled with clumps of purple sand\nGrains of time seem still.",

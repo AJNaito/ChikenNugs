@@ -1,5 +1,5 @@
 {
-	"other":[],
+	"other":["cock"],
 	"Purple_Desert": {
 		"wastes": {
 			"state":"default",
@@ -18,12 +18,12 @@
 ""
 			],
 			"grab": [
-"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
-"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
-"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
-"Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+"false:Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+"false:Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+"false:Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
+"false:Efforts prove useless,\nThe giant <3>rooster<0> won't budge,\nImmovable force.",
 ""
-			]
+			],
 
 			"use": [
 "conditional:tomato:eaten:whale:eaten:table:eaten:bengal:eaten:<3>Rooster<0> opens wide,\nOn its tongue, a golden prize,\nCrispy chicken <4>nugget<0>.:<2>Taste<0> the rainbow first,\nThen come back, and we shall talk!"\nRooster says with pride.",
