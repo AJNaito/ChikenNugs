@@ -9,12 +9,25 @@
 				"",
 				"",
 				""],
-			"interact": [
+			"use": [
 				"You peck at the glass\naltar's alter pecks in turn\nNeedless, tragic war.",
 				"",
 				"",
 				"",
-				""]
+				""],
+			"consume": [
+				"That's much too large for your tiny beak!",
+				"Much too heavy to lift with your arms!",
+				"You're kirby!!! Not, you fail to eat the stove",
+				"That's a stove..."
+			],
+			"grab": [
+"false:AND HEAVE!! Oh... it's bolted to the ground",
+"false:You got chicken legs, you're not lifting this up!",
+"false:AND HEAVE!! <1>ARGH!<0> Your back!",
+"false:<1>LIFTTTTTTTT<0>.... whew, you still failed",
+""
+			]
 		}
 	}
 }
