@@ -21,6 +21,15 @@ switch (shader) {
 		var wave_effect = shader_get_uniform(sh_color_ripple, "wave_effect")
 		var mouse_pos = shader_get_uniform(sh_color_ripple, "mouse_position")
 		var time = shader_get_uniform(sh_color_ripple, "time")
+		var offset_x = shader_get_uniform(sh_color_skew, "offset_x");
+		var offset_y = shader_get_uniform(sh_color_skew, "offset_y");
+		
+		shader_set_uniform_f(offset_x, 5, -5);
+		shader_set_uniform_f(offset_y, 5, -5);
+		shader_set_uniform_f(time, _time)
+		shader_set_uniform_f(mouse_pos, mouse_x, mouse_y)
+		shader_set_uniform_f(wave_effect, .03 * (global.nuggets_eaten + 1))
+		shader_set_uniform_f(resolution, room_width, room_height)
 		
 		
 	break;
@@ -29,18 +38,39 @@ switch (shader) {
 		var offset_x = shader_get_uniform(sh_color_skew, "offset_x");
 		var offset_y = shader_get_uniform(sh_color_skew, "offset_y");
 		
-		shader_set_uniform_f(offset_x, 5, -5);
+		shader_set_uniform_f(offset_x, (5 * (1/time)), -5);
 		shader_set_uniform_f(offset_y, 5, -5);
 	break
 	case "pulsing":
 		shader_set(sh_pulsing)
+		var resolution = shader_get_uniform(sh_ripple, "room_size")
+		var time = shader_get_uniform(sh_ripple,"time")
+		
+		shader_set_uniform_f(resolution, room_width, room_height)
+		shader_set_uniform_f(time, _time)
 	break
 	case "warp":
 		shader_set(sh_warp);
 		
+		var room_size = shader_get_uniform(sh_warp, "room_size")
+		var mouse_pos = shader_get_uniform(sh_warp, "mouse_position")
+		var warp_power = shader_get_uniform(sh_warp, "power")
+		
+		shader_set_uniform_f(warp_power, 0.25)
+		shader_set_uniform_f(mouse_pos, mouse_x, mouse_y)
+		shader_set_uniform_f(room_size, room_width, room_height)
 	break
 	case "Texture_Skew":
-	
+		shader_set(sh_skew)
+		var left_skew = shader_get_uniform(sh_warp, "l_skew")
+		var right_skew = shader_get_uniform(sh_warp, "r_skew")
+		var time = shader_get_uniform(sh_warp, "time")
+		var room_size = shader_get_uniform(sh_warp, "room_size")
+		
+		shader_set_uniform_f(left_skew, 5 * 1/(global.nuggets_eaten + 1))
+		shader_set_uniform_f(right_skew, 5 * 1/(global.nuggets_eaten + 1))
+		shader_set_uniform_f(time, _time)
+		shader_set_uniform_f(room_size, room_width, room_height)
 	break;
 	case "ascii":
 		shader_set(sh_ascii)
