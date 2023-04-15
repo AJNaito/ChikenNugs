@@ -2,8 +2,7 @@
 // You can write your code in this editor
 scene_name = ""
 dialogue_data = undefined
-effect_data = undefined
-cur_effect = 0;
+effect_data = ""
 cur_dialogue = 0;
 
 callOnce = false;

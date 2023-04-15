@@ -10,7 +10,8 @@ switch (scene_name) {
 	case "Memory_1":
 		array_push(global.levels_cleared, "nugget");
 		var obj = global.objects[? "nugget"]
-		obj = obj.interaction[? "home"]
+		obj = obj.interaction[? "start_level"]
+		obj = obj[? "home"]
 		ds_map_replace(obj, "state", "eaten")
 		file = "Memory_1.txt"
 	break;
@@ -52,4 +53,3 @@ TextFeedBack.interaction = ds_list_find_value(dialogue_data, 0)
 ds_list_clear(TextFeedBack.interaction_history)
 
 cur_dialogue = 1;
-curEffect = 0;

@@ -36,7 +36,7 @@ function Init_Global(){
 				)
 	ds_map_add(global.object_association, "nug", "nugget")
 	
-	ds_map_add(global.objects, "nugget", obj_json)
+	ds_map_add(global.objects, "nugget", object)
 	
 	
 	global.music = jsonWorld[? "music"]

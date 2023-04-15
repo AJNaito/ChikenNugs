@@ -8,7 +8,12 @@ function Conditional_Interact(interaction){
 	
 	for (var i = 1; i < size; i+=2) {
 		var obj = global.objects[? array_get(split_interaction, i)] 
-		obj = obj.interaction[? global.curRoom.room_name]
+		if ( array_get(split_interaction, i) == "nugget") {
+			obj = obj.interaction[? global.level]
+			obj = obj[? global.curRoom.room_name]
+		} else {
+			obj = obj.interaction[? global.curRoom.room_name]
+		}
 		
 		if (obj[? "state"] != array_get(split_interaction, i + 1)) {
 			return split_interaction[size + 1]

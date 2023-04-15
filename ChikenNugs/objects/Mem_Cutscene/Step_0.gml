@@ -37,23 +37,8 @@ if (keyboard_check(vk_enter)) {
 	callOnce = false
 	TextFeedBack.interaction = ""
 }
-// set 
-if (ds_list_size(effect_data) != 0) {
-	var effect = string_split(ds_list_find_value(effect_data, cur_effect), ":", false)
-	var effect_dur = string_split(effect[1], "-", false)
 
-	// effect shouldn't start yet
-	if (effect_dur[0] > curEffect)
-		return ;
-
-	if (effect_dur[0] <= curEffect && effect_dur[1] >= curEffect) {
-		with(ScreenShader) {
-			shader = effect[0]
-		}
-	} else {
-		// go to next effect
-		curEffect++;
-	}
-}
+// set effect
+ScreenShader.shader = effect_data
 
 

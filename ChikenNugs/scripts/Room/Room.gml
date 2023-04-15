@@ -24,7 +24,7 @@ function Room(name, commands, objs, story) constructor {
 		
 		var obj = global.objects[? instruction[1]]
 		if (instruction[1] == "nugget") {
-			obj = obj[? global.level]
+			obj = obj.interaction[? global.level]
 			obj = obj[? room_name]
 			if (obj[? instruction[0]] == undefined)
 				return  "<1>You can't do this<0>"
