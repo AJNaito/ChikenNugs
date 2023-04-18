@@ -4,7 +4,7 @@ function Talk(interaction, obj_name) {
 	var object = global.objects[? obj_name]
 	
 	var split_interaction = string_split(interaction, ":" , false)
-	var obj = object.interaction[? global.curRoom]
+	var obj = object.interaction[? global.curRoom.room_name]
 	var objectInteraction = ds_list_find_value(obj[? "talk"], object.talk)
 	
 	object.talk = (object.talk + 1) % real(split_interaction[1])
