@@ -46,7 +46,7 @@ function Text_Parser(user_message){
 	}
 	
 	if (obj == "" || command == "") {
-		if (command == "help" || command == "drop") {
+		if (command == "help" || command == "drop" || command = "credits") {
 			return [command, ""]
 		}
 		
