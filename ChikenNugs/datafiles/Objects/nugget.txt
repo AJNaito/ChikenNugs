@@ -79,7 +79,7 @@
 ""
 			],
 			"consume": [
-				"memory_sequence+Memory_3.txt",
+				"memory_sequence+Memory_3",
 "memory_sequence+Memory_3",
 "memory_sequence+Memory_3",
 "memory_sequence+Memory_3",

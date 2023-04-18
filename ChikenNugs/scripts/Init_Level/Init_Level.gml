@@ -39,8 +39,8 @@ function Init_Level(currentLevel){
 		}
 		
 	}
-	
-	for (var k = ds_map_find_first(global.objects); !is_undefined(k); k = ds_map_find_next(global.objects, k)) {
+	var k = ds_map_find_first(global.objects)
+	while (!is_undefined(k)) {
 		var persistent_objects = ["candy", "hourglass", "toe", "desk", "gemstones","hand","microwave","nugget","self","stove","things"]
 		var skip = false;
 		for (var i = 0; i < array_length(persistent_objects); i++) {
@@ -50,17 +50,23 @@ function Init_Level(currentLevel){
 			}
 		}
 		
-		if (skip == true)
+		if (skip == true){ 
+			k = ds_map_find_next(global.objects, k)
+
 			continue;
+		}
 		// don't delete objects from start_room -- want to keep persistant
 		
 		var _object = global.objects[? k];
+		k = ds_map_find_next(global.objects, k)
+
+		ds_map_delete(global.objects, _object.obj_name)
+
 		
 		with (Object) {
 			_object.Destroy()
 			delete(_object)
 		}
-		ds_map_delete(global.objects, k)
 	}
 	
 	ds_map_destroy(global.world)

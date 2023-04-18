@@ -7,6 +7,7 @@ function Init_Global(){
 	
 	global.world = ds_map_create()
 	global.object_association = ds_map_create()
+	global.credits = ""
 	
 	// base commands - for searching purposes
 	global.commands = ds_map_create()
@@ -38,6 +39,8 @@ function Init_Global(){
 	
 	ds_map_add(global.objects, "nugget", object)
 	
+	var jsonCredit = import_json("Credits.txt", json_decode)
+	global.credits = jsonCredit[? "credits"]
 	
 	global.music = jsonWorld[? "music"]
 	global.help = jsonWorld[? "help_text"]

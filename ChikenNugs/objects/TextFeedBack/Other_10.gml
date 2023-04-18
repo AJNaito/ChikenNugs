@@ -11,7 +11,9 @@ if (global.result != false) {
 		event_user(1)
 		return
 	} else if (global.result[0] == "credits") {
-		
+		interaction = global.credits
+		event_user(1)
+		return
 	} else if (global.result[0] == "move") {
 		interaction = global.curRoom.Move(global.result[1])
 	} else if (global.result[0] == "drop") { 
