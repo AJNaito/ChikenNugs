@@ -23,5 +23,5 @@ void main()
 	float green = texture2D(gm_BaseTexture, uv).y;
 	float blue = texture2D(gm_BaseTexture, vec2(uv.x + offset_x.y, uv.y + offset_y.y)).z;
 	
-    gl_FragColor = vec4(red, green, blue, 1.);
+    gl_FragColor = vec4(red + 10., green, blue + 10., 1.);
 }

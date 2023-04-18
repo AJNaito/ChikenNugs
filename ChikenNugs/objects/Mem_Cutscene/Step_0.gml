@@ -1,6 +1,8 @@
 /// @description Check for Enter Button 
 // You can write your code in this editor
-if (keyboard_check(vk_enter)) {
+if (keyboard_check(vk_enter) || increment) {
+	auto = false
+	increment = false
 	if (!callOnce) {
 	callOnce = true
 	// dialogue is finished, go to main room again
@@ -32,6 +34,8 @@ if (keyboard_check(vk_enter)) {
 	}
 	// increment the dialogue
 	cur_dialogue++;
+	alarm[0] = 2000
+	auto = true
 	}
 } else {
 	callOnce = false

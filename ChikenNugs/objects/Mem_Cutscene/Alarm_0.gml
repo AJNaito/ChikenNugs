@@ -1,4 +1,5 @@
-/// @description Insert description here
+/// @description Auto-increment the text
 // You can write your code in this editor
-ScreenShader.shader = ""
+if (auto)
+	increment = true
 

@@ -16,9 +16,10 @@
 	"use": ["interact", "->", "talk", "'>'","'<'"],
 
 	"help_text": "Base verbs: consume, drop, help, inspect, use, grab\n
+Alternatively you can use faces to the same effect, :o = consume, \\/ = drop, ? = help, -> = use/interact, \\o/ = grab \n
+Feel free to explore more!\n
 You can put commands however you like but put objects after the verbs! (i.e inspect room, inspect self)\n
-Press Escape to skip text (write whole text)\nAlternative ways can work as well -- explore~ the possibilities!(i.e >.> is inspect)\n
-Hey Greg! So, some known bugs, the status of Chickenville and Purple Desert is unknown (untested) so they may or may not break.\n You can consume the nugget in those levels to escape them, DO NOT CONSUME THE NUGGET IN THE START AREA, it broken :(" ,
+Press Escape to skip text (write whole text)\nAll interactables are highlighted multi-colored" ,
 	
 	"intro": "Blanketed in <1>darkness<0>, you find yourself sinking.\n
 \n
@@ -38,5 +39,27 @@ Fading.\n
 \n
 <2>Feathers rustle now.<0>\n 
 A room materializes.\n
+Where are you? (Type help if you need help)"
+}
+
+	
+	"intro": "Blanketed in <1>darkness<0>, you find yourself sinking. \n
+\n
+Fading. \n
+\n
+                <7>slow  ly \n
+                                Driftin \n
+                                          g \n
+                                                 a \n
+                                                    w \n
+                                                         a \n
+                                                             y \n <0>
+\n
+. . . \n
+. .  \n
+. \n
+ \n
+<2>Feathers rustle now.<0> \n 
+A room materializes. \n
 Where are you? (Type help if you need help)"
 }

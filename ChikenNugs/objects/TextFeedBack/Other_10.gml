@@ -8,6 +8,10 @@ t = 0
 if (global.result != false) {
 	if (global.result[0] == "help") {
 		interaction = global.help
+		event_user(1)
+		return
+	} else if (global.result[0] == "credits") {
+		
 	} else if (global.result[0] == "move") {
 		interaction = global.curRoom.Move(global.result[1])
 	} else if (global.result[0] == "drop") { 

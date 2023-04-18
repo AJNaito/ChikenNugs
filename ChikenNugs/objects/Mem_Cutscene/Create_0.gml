@@ -6,5 +6,7 @@ effect_data = ""
 cur_dialogue = 0;
 
 callOnce = false;
+auto = true
+increment = false
 
 instance_deactivate_object(Mem_Cutscene)

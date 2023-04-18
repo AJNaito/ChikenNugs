@@ -65,6 +65,9 @@ if (char < string_length(whole_interaction) && !pause) {
 			}
 		}
 		
+		if (curY > room_height || curY < 0)
+			break
+		
 		#region draw the effects
 		switch (curEffect) {
 			case 0: // normal -- nothing special 

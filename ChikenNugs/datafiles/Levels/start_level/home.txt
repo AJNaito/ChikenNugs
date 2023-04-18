@@ -3,21 +3,21 @@
   "commands": ["consume","drop","inspect","use", "grab"],
   "objects": ["candy","chest", "cupboards", "door", "desk", "feathers", "fridge", "gemstones","hand", "hourglass", "toe","microwave","nugget","self","stove","things", "room"], 
   "story": "First, you take careful note of your surroundings,
-\nSpawned at the center of a simple, familiar home!
+\nSpawned at the center of a simple, familiar <3>room<0>!
 \nA barren studio apartment, though with leviathan furnishings
 \nAs you stand at the height of a gnome!
 \n
 \nSimple green paint strikes towering walls,
-\nCupboards stretch, atop a maple-rugged floor.
+\n<3>Cupboards<0> stretch, atop a maple-rugged floor.
 \nTrotting around, you can confirm there’s no halls
-\nYet one end of the room presents an iron-clad door!
-
+\nYet one end of the room presents an iron-clad <3>door<0>!
+\n
 \nAcross from the door is but a nice, homely kitchen,
-\nBearing a fridge, microwave and glass-protected stove.
+\nBearing a <3>fridge<0>, <3>microwave<0> and glass-protected <3>stove<0>.
 \nAnd off to the side, somewhat out of place in this den,
-\nIs an oversized chest, nestled neat in an alcove!
-
-\nThe room’s centerpiece: a mahogany desk, 
+\nIs an oversized <3>chest<0>, nestled neat in an alcove!
+n
+\nThe room’s centerpiece: a mahogany <3>desk<0>, 
 \nFar too tall to ascend, climb or conquer!
 \nIts size, like the rest, is simply elephant-esque,
 \nIf only you were simply just slightly taller!
