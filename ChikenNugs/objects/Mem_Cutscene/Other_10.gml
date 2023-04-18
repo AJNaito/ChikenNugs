@@ -43,7 +43,6 @@ switch (scene_name) {
 		file = "Memory_5.txt"
 	break
 }
-show_debug_message(file_exists("Memory/" + file))
 var json_scene = import_json("Memory/"+file,json_decode)
 
 dialogue_data = json_scene[? "story"]

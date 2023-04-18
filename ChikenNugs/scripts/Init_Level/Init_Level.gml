@@ -6,6 +6,7 @@ function Init_Level(currentLevel){
 	global.level = currentLevel
 	
 	// level sound
+	audio_stop_all()
 	switch(currentLevel) {
 		case "start_level":
 			audio_play_sound(Intro, 20, true) 
@@ -17,6 +18,7 @@ function Init_Level(currentLevel){
 			audio_play_sound(Abyss, 20, true)
 		break;
 		case "Purple_Desert":
+			show_debug_message("HERE")
 			audio_play_sound(Purple_Desert, 20, true)
 		break;
 		case "Chickenville":

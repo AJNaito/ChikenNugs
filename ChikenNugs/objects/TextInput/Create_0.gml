@@ -10,3 +10,5 @@ callOnce = false
 can_type = true
 
 alarm[0] = delay
+
+depth = -1

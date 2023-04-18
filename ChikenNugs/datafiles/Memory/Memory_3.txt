@@ -1,11 +1,11 @@
 {
 	"story":["<4>Nugget<0> sunset falls,\nSea of light swells in your mouth,\nAll turns to white.",
 "I remember... tripping",
-			"Away from the lights, away from the sounds, away from the real.",
+			"Away from the lights, away from the sounds, away from the real.\n",
 			"Sand danced on my skin to swiriling cacophony of the stars above.\nThe heated earth and cooled night air battled over my prone figure as I looked on from afar.",
-			"Peaceful.",
-			"Shrubs consoled me, tender and caring unlike anyone I had ever known.
-			"In the box of chicken nuggets accompanying me that night, only one remained.\nIts fallen brethren lost along the way. ah...",
+			"\nPeaceful.\n",
+			"Shrubs consoled me, tender and caring unlike anyone I had ever known.\n",
+			"In the box of chicken nuggets accompanying me that night, only one remained.\nIts fallen brethren lost along the way. ah...\n",
 			"<1>At Least tONight went...<0>" ],
-	"effects":[]
+	"effects":"color_skew"
 }

@@ -2,8 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function import_json(_fileName, _func){
 	if (file_exists(_fileName)) {
-			show_debug_message("in import")
-
 		var _file, json_string
 		_file = file_text_open_read(_fileName)
 		json_string = ""

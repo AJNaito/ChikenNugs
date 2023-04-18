@@ -4,10 +4,10 @@
 		"wastes": {
 			"state":"default",
 			"inspect": [
-"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn."
-"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn."
-"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn."
-"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn."
+"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn.",
+"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn.",
+"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn.",
+"Giant <3>blue whale<0> soars high,\nSinging ancient melodies,\nA cultural hymn.",
 ""
 			],
 			"grab": [
@@ -19,6 +19,9 @@
 			],
 			"consume": [
 				"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
+"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
+"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
+"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
 ""
 			],
 			"use": [
@@ -28,10 +31,10 @@
 				"talk:3",
 				""
 			],
-			"talk" [
-"<2>“Y'all come on over here now and listen up,\n'cause I got a tale to tell ya.\n See, I'm a whale from the southern countryside,\nand we do things a little different down there.\n\nI remember swimmin' in the warm waters of the Gulf,\nand the sun beatin' down on my back.\nThe shrimp boats would come out in the morning,\nand we'd follow 'em 'round,\njust waitin' for a scrap or two.\n\nBut one day, things changed.\nThe water started gettin' hotter, and the shrimp started disappearin'.\nWe didn't know what was happenin', but we knew it wasn't good.”<0>\n\nListen to more?",
-"<2>“So, we started swimmin' north,\nhopin' to find cooler waters and more food.\nAnd that's how I ended up in this dream of yours.\n\nBut let me tell ya, even in a dream, it ain't easy bein' a whale.\nSometimes, I feel like I'm stuck in this here purple desert,\nwith no way out.\n\nBut then, I remember that I'm from the southern countryside,\nand we don't give up so easy.”<0>\n\nListen to more?",,
-"<2>“So, I keep swimmin',\nlookin' for new adventures and new opportunities.\nAnd maybe,\n    just maybe,\nI'll find my way back home one day.\n\nUntil then, I'll keep on singin' my whale songs,\nand enjoyin' this dreamland of yours.”<0>\n\nListen to more?"
+			"talk": [
+"<2>Y'all come on over here now and listen up,\n'cause I got a tale to tell ya.\n See, I'm a whale from the southern countryside,\nand we do things a little different down there.\n\nI remember swimmin' in the warm waters of the Gulf,\nand the sun beatin' down on my back.\nThe shrimp boats would come out in the morning,\nand we'd follow 'em 'round,\njust waitin' for a scrap or two.\n\nBut one day, things changed.\nThe water started gettin' hotter, and the shrimp started disappearin'.\nWe didn't know what was happenin', but we knew it wasn't good.<0>\n\nListen to more?",
+"<2>So, we started swimmin' north,\nhopin' to find cooler waters and more food.\nAnd that's how I ended up in this dream of yours.\n\nBut let me tell ya, even in a dream, it ain't easy bein' a whale.\nSometimes, I feel like I'm stuck in this here purple desert,\nwith no way out.\n\nBut then, I remember that I'm from the southern countryside,\nand we don't give up so easy.<0>\n\nListen to more?",
+"<2>So, I keep swimmin',\nlookin' for new adventures and new opportunities.\nAnd maybe,\n    just maybe,\nI'll find my way back home one day.\n\nUntil then, I'll keep on singin' my whale songs,\nand enjoyin' this dreamland of yours.<0>\n\nListen to more?"
 			]
 		}
 	}

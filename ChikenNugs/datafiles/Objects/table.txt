@@ -25,7 +25,11 @@
 ""
 			],
 			"consume": [
-"change_state:table:eaten/conditional:tomato:eaten:whale:default:bengal:default:Wintermelon taste,\nFruity stickers manifest,\nThumbs-ups all over.:default:tomato:whale:bengal:The <3>table<0> wails loud,\nWrong order it cried out loud,\nIts fate now certain."
+"change_state:table:eaten/conditional:tomato:eaten:whale:default:bengal:default:Wintermelon taste,\nFruity stickers manifest,\nThumbs-ups all over.:default:tomato:whale:bengal:The <3>table<0> wails loud,\nWrong order it cried out loud,\nIts fate now certain.",
+"change_state:table:eaten/conditional:tomato:eaten:whale:default:bengal:default:Wintermelon taste,\nFruity stickers manifest,\nThumbs-ups all over.:default:tomato:whale:bengal:The <3>table<0> wails loud,\nWrong order it cried out loud,\nIts fate now certain.",
+"change_state:table:eaten/conditional:tomato:eaten:whale:default:bengal:default:Wintermelon taste,\nFruity stickers manifest,\nThumbs-ups all over.:default:tomato:whale:bengal:The <3>table<0> wails loud,\nWrong order it cried out loud,\nIts fate now certain.",
+"change_state:table:eaten/conditional:tomato:eaten:whale:default:bengal:default:Wintermelon taste,\nFruity stickers manifest,\nThumbs-ups all over.:default:tomato:whale:bengal:The <3>table<0> wails loud,\nWrong order it cried out loud,\nIts fate now certain.",
+""
 			]
 		}
 	}
