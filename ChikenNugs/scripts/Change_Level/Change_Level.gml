@@ -7,6 +7,7 @@ function Change_Level(interaction){
 	ds_list_clear(TextFeedBack.interaction_history )
 	TextFeedBack.char = 0
 	TextFeedBack.whole_interaction = ""
+	TextFeedBack.history_length = 0
 	
 	return split_interaction[2] + "\n" + global.curRoom.description
 }

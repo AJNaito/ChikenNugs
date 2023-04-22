@@ -9,6 +9,7 @@ uniform vec2 room_size;
 uniform vec2 mouse_position;
 uniform float power;
 
+/// fix dis faka up latahs
 void main()
 {
 	vec2 normalized = gl_FragCoord.xy/room_size.xy;

@@ -7,5 +7,5 @@
 			"My parents ignored it saying she was strong, like their parents had been.",
 "I felt a lump in my pocket. It was a <4>solitary, stale, chicken nugget<0>, saved from some day passed for a rainy now. <7>HAHAHAHAHAHAHAHAHAHAHA!<0>",
 	"<1>aT le@St iT waS...<0>" ],
-	"effects":[]
+	"effects": "ripple"
 }

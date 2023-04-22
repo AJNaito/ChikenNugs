@@ -7,7 +7,9 @@ history_length = 0
 whole_interaction = ""
 
 char = 0
-char_speed = 0.5
+
+// increase this variable if you wanna have a faster text speed
+char_speed = 1.5
 pause = false
 skip = false
 

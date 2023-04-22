@@ -22,10 +22,8 @@ switch (shader) {
 		var mouse_pos = shader_get_uniform(sh_color_ripple, "mouse_position")
 		var time = shader_get_uniform(sh_color_ripple, "time")
 		var offset_x = shader_get_uniform(sh_color_skew, "offset_x");
-		var offset_y = shader_get_uniform(sh_color_skew, "offset_y");
 		
-		shader_set_uniform_f(offset_x, 5, -5);
-		shader_set_uniform_f(offset_y, 5, -5);
+		shader_set_uniform_f(offset_x, 1., -1.);
 		shader_set_uniform_f(time, _time)
 		shader_set_uniform_f(mouse_pos, mouse_x, mouse_y)
 		shader_set_uniform_f(wave_effect, .03 * (global.nuggets_eaten + 1))
@@ -56,10 +54,11 @@ switch (shader) {
 		var mouse_pos = shader_get_uniform(sh_warp, "mouse_position")
 		var warp_power = shader_get_uniform(sh_warp, "power")
 		
-		shader_set_uniform_f(warp_power, 0.25)
+		shader_set_uniform_f(warp_power, 0.02)
 		shader_set_uniform_f(mouse_pos, mouse_x, mouse_y)
 		shader_set_uniform_f(room_size, room_width, room_height)
 	break
+	/// texture skew not working
 	case "Texture_Skew":
 		shader_set(sh_skew)
 		var left_skew = shader_get_uniform(sh_warp, "l_skew")
