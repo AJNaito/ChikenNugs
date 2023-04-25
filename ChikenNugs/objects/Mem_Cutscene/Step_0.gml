@@ -1,10 +1,11 @@
 /// @description Check for Enter Button 
 // You can write your code in this editor
-if (keyboard_check(vk_enter) || increment) {
-	auto = false
-	increment = false
+if (increment || keyboard_check(vk_enter)) {
+	show_debug_message("RUNNNN")
 	if (!callOnce) {
-	callOnce = true
+		callOnce = true
+		auto = false
+		increment = false
 	// dialogue is finished, go to main room again
 	if (cur_dialogue == ds_list_size(dialogue_data)) {
 		effect_data = ""
@@ -30,14 +31,15 @@ if (keyboard_check(vk_enter) || increment) {
 		
 		return;
 	}
-	TextFeedBack.interaction = ds_list_find_value(dialogue_data, cur_dialogue)
-	with(TextFeedBack) {
-		event_user(1)
-	}
-	// increment the dialogue
-	cur_dialogue++;
-	alarm[0] = 150
-	auto = true
+		TextFeedBack.interaction = ds_list_find_value(dialogue_data, cur_dialogue)
+		with(TextFeedBack) {
+			event_user(1)
+		}
+		// increment the dialogue
+		cur_dialogue++;
+		auto = true
+		show_debug_message(auto)
+		alarm[0] = 5 * room_speed
 	}
 } else {
 	callOnce = false

@@ -53,4 +53,5 @@ TextFeedBack.interaction = ds_list_find_value(dialogue_data, 0)
 ds_list_clear(TextFeedBack.interaction_history)
 
 cur_dialogue = 1;
-alarm[0] = 150
+auto = true
+alarm[0] = 5 * room_speed

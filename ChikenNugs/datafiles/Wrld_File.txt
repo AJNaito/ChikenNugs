@@ -20,7 +20,8 @@
 Alternatively you can use faces to the same effect, :o = consume, \\/ = drop, ? = help, -> = use/interact, \\o/ = grab \n
 Feel free to explore more!\n
 You can put commands however you like but put objects after the verbs! (i.e inspect room, inspect self)\n
-Press Escape to skip text (write whole text)\nAll interactables are highlighted multi-colored" ,
+Press Escape to skip text (write whole text)\nAll interactables are highlighted multi-colored\n
+During the memory sequences, use enter to proceed faster" ,
 	
 	"intro": "Blanketed in <1>darkness<0>, you find yourself sinking.\n
 \n
