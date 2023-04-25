@@ -17,7 +17,14 @@ Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\n
 			"",
 			"",
 			"",
-			""]
+			""],
+			"consume": [
+				"You peck at the hand... It flips you off",
+				"You peck at the hand... It flips you off harder",
+				"You attempt to eat the hand... but you stop... cause that's gross",
+				"... Gross....",
+				""
+			]
 		}
 	}
 }
