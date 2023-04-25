@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "ScreenShader",
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite26",
+    "path": "sprites/Sprite26/Sprite26.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

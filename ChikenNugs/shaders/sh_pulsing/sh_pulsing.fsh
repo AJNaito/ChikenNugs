@@ -36,7 +36,7 @@ void main()
 	}
 	
 	// get color
-	color = texture2D(gm_BaseTexture, uv_coord).rgb * r_a;// + r_a  - d;
+	color = v_vColour.rgb  * r_a + r_a  - d;
 	
 	gl_FragColor = vec4(color, 1.);
 }

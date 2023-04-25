@@ -12,14 +12,11 @@ uniform vec2 offset_y;
 
 void main()
 {
-	// normalized coords
-	vec2 uv = gl_FragCoord.xy/room_size;
-	
 	// offset color
-	float red = texture2D(gm_BaseTexture, uv - vec2(offset_x.x, offset_y.x)).r;
-	float blue = texture2D(gm_BaseTexture, uv).b;
-	float green = texture2D(gm_BaseTexture, uv + vec2(offset_x.y, offset_y.y)).g;
+	vec4 red = texture2D(gm_BaseTexture,vec2( v_vTexcoord.x - 2., v_vTexcoord.y));
+	vec4 blue = texture2D(gm_BaseTexture, v_vTexcoord);
+	vec4 green = texture2D(gm_BaseTexture, v_vTexcoord + vec2(2., 0.));
 	
 	// display color
-    gl_FragColor = vec4(red, blue, green, 1.);
+    gl_FragColor = vec4(red.r, blue.b, green.g, 1.);
 }

@@ -34,7 +34,7 @@ if (keyboard_check(vk_enter) || increment) {
 	}
 	// increment the dialogue
 	cur_dialogue++;
-	alarm[0] = 2000
+	alarm[0] = 150
 	auto = true
 	}
 } else {

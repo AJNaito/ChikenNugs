@@ -11,11 +11,11 @@ uniform vec2 room_size;
 
 void main()
 {
-	vec2 uv = gl_FragCoord.xy / room_size.xy;
+	vec2 uv = v_vTexcoord;
 	vec2 uv2 = uv;
 	// sine wave
 	float tl = (0.5 + sin(time) * 0.5) * l_skew;
-	float tR = (0.5 + sin(time) * 0.5) * r_skew;
+	float tR = (0.5 + cos(time) * 0.5) * r_skew;
 	
 	// warp in x dir
 	float dx_l = tl * uv.y;

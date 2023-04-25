@@ -19,9 +19,10 @@ void main()
 	
 	// normalize coords 
 	vec2 uv = gl_FragCoord.xy / room_size.xy + ((center_point/cl) * wave_effect) * cos(cl * 12. - time * 4.) * 0.02;
-	float red = texture2D(gm_BaseTexture, vec2(uv.x + 1.5, uv.y)).x;
-	float green = texture2D(gm_BaseTexture, uv).y;
-	float blue = texture2D(gm_BaseTexture, vec2(uv.x - 1.5, uv.y)).z;
+	vec4 red = texture2D(gm_BaseTexture,vec2( v_vTexcoord.x - 2., v_vTexcoord.y));
+	vec4 blue = texture2D(gm_BaseTexture, v_vTexcoord);
+	vec4 green = texture2D(gm_BaseTexture, v_vTexcoord + vec2(2., 0.));
 	
-    gl_FragColor = vec4(red, green, blue, 1.);
+	// display color
+    gl_FragColor = vec4(red.r, blue.b, green.g, 1.);
 }
