@@ -7,6 +7,7 @@ if (keyboard_check(vk_enter) || increment) {
 	callOnce = true
 	// dialogue is finished, go to main room again
 	if (cur_dialogue == ds_list_size(dialogue_data)) {
+		effect_data = ""
 		
 		ds_list_clear( TextFeedBack.interaction_history)
 		

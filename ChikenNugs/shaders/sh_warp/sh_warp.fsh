@@ -9,33 +9,27 @@ uniform vec2 room_size;
 uniform vec2 mouse_position;
 uniform float power;
 
-float fishEye(float fov, vec2 uv) {
-	float x = uv.x;
-	float y = uv.y;
-	float z = 1./tan(fov/2.);
-	
-	float xy_dist = length(uv);
-	
-	float _b = atan(xy_dist, z);
-	float k = 2. * _b / (xy_dist*fov);
-	
-	return k;
-}
-
 /// fix dis faka up latahs
 void main()
 {
-	float fov = 120.0;
-	vec2 uv = gl_FragCoord.xy / room_size.xy - (mouse_position.xy / room_size.xy);
+	// normalize uv and center around mouse
+	vec2 uv = (gl_FragCoord.xy - mouse_position.xy) / room_size.xy;
+	uv += .5;
 	
-	float aspect = room_size.x / room_size.y;
-	uv.y /= aspect;
+	// fish eye
+	vec2 fisheye_uv;
+	float fisheye = (0.1 + 0.1) * power;
+	fisheye_uv.x = (1.0 - uv.y*uv.y) * fisheye * uv.x;
+    fisheye_uv.y = (1.0 - uv.x*uv.x) * fisheye * uv.y;
 	
-	float k = fishEye(fov, uv);
+	vec3 col = texture2D(gm_BaseTexture, uv - fisheye_uv).rgb;
 	
-	vec2 new_UV = vec2(uv.x*k, uv.y * k);
+	// Vignetting
+    float uvMagSqrd = dot(uv,uv);
+    float vignette = 1.0 - uvMagSqrd * fisheye;
+    col *= vignette;
 	
-	vec3 col = texture2D(gm_BaseTexture, (new_UV + 1.)/2.).rgb;
+	
 	
 	gl_FragColor = vec4(col, 1.);
 	

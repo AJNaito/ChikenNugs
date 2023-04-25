@@ -11,7 +11,7 @@ uniform vec2 room_size;
 
 void main()
 {
-	vec2 uv = v_vTexcoord;
+	vec2 uv = gl_FragCoord.xy / room_size.xy;
 	vec2 uv2 = uv;
 	// sine wave
 	float tl = (0.5 + sin(time) * 0.5) * l_skew;
@@ -26,6 +26,8 @@ void main()
 	float dy_l = tl * (1. - uv.x);
 	float dy_r = tR * uv.x;
 	uv2.y = uv2.y * (1. + dy_l) * (1. + dy_r);
+	
+//	uv2 = clamp(uv2, 0.0, 1.);
 	
 	vec3 col = texture2D(gm_BaseTexture, uv2).rgb;
 	

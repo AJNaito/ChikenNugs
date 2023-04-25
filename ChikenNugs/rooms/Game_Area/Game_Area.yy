@@ -18,6 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A31ABD8","properties":[],"isDnd":false,"objectId":{"name":"ScreenShader","path":"objects/ScreenShader/ScreenShader.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A2A09B8","properties":[],"isDnd":false,"objectId":{"name":"Pulsing_Shader","path":"objects/Pulsing_Shader/Pulsing_Shader.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7FB7DEA2","properties":[],"isDnd":false,"objectId":{"name":"TextFeedBack","path":"objects/TextFeedBack/TextFeedBack.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_22BBF88C","properties":[],"isDnd":false,"objectId":{"name":"TextInput","path":"objects/TextInput/TextInput.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45C4453D","properties":[],"isDnd":false,"objectId":{"name":"Mem_Cutscene","path":"objects/Mem_Cutscene/Mem_Cutscene.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,},
@@ -32,6 +33,7 @@
     {"name":"inst_4A31ABD8","path":"rooms/Game_Area/Game_Area.yy",},
     {"name":"inst_45C4453D","path":"rooms/Game_Area/Game_Area.yy",},
     {"name":"inst_7FB7DEA2","path":"rooms/Game_Area/Game_Area.yy",},
+    {"name":"inst_5A2A09B8","path":"rooms/Game_Area/Game_Area.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
