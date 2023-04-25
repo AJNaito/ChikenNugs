@@ -6,5 +6,5 @@
 "...",
 "Blanketed in <1>darkness<0>, you find yourself sinking..."
 ],
-	"effects":"color_ab"
+	"effects":"pulsing"
 }
