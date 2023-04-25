@@ -8,5 +8,8 @@
 \n
 \n <4>Code Credits<0>
 \n----------------
-\n"
+\n Warp Shader - ddoodm on ShaderToy
+\n Pulsing Shader - jairoandre on ShaderToy
+\n Ripple Shader - bitbandit on ShaderToy
+\n Skew Shader - Did on ShaderToy"
 }

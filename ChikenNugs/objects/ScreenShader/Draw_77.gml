@@ -38,8 +38,6 @@ switch (shader) {
 		
 		draw_surface(application_surface, 0 ,0)
 		shader_reset()
-
-
 	break;
 	case "color_skew":
 	application_surface_draw_enable(false)
@@ -119,6 +117,6 @@ shader_reset()
 
 
 if (shader != "") {
-	_time += (1./room_speed) * 2
+	_time += (2./room_speed)
 }
 
