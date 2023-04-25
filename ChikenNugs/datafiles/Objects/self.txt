@@ -40,7 +40,15 @@
 				"",
 				"",
 				"I've just been running, I have to <3>swallow<0> my fear... Drastic measures must be taken",
-				""
+				"I've just been running, I have to <3>swallow<0> my fear... Drastic measures must be taken"
+			],
+
+			"consume": [
+				"",
+				"",
+				"",
+				"memory_sequence+Memory_5",
+				"memory_sequence+Memory_5"
 			]
 		}
 	}

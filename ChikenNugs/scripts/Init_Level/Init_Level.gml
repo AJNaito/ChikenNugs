@@ -41,7 +41,7 @@ function Init_Level(currentLevel){
 	}
 	var k = ds_map_find_first(global.objects)
 	while (!is_undefined(k)) {
-		var persistent_objects = ["candy", "hourglass", "toe", "desk", "gemstones","hand","microwave","nugget","self","stove","things"]
+		var persistent_objects = ["candy", "hourglass", "toe", "desk", "gemstones","hand","microwave","nugget","stove","things"]
 		var skip = false;
 		for (var i = 0; i < array_length(persistent_objects); i++) {
 			if (k == persistent_objects[i]) {
