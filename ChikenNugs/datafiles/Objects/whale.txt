@@ -18,10 +18,10 @@
 ""
 			],
 			"consume": [
-				"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
-"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
-"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
-"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default:tomato:whale:bengal:table:1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
+				"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default+tomato+whale+bengal+table+1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
+"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default+tomato+whale+bengal+table+1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
+"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default+tomato+whale+bengal+table+1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
+"change_state:whale:eaten/conditional:tomato:eaten:table:eaten:bengal:default:Crispy <3>whale<0> skin bites,\nSweet blueberries underneath,\nSerenaded by song.:default+tomato+whale+bengal+table+1001 meals pass,\nBland meat brings disillusionment,\nLife's choices questioned.",
 ""
 			],
 			"use": [

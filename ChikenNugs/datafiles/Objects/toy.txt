@@ -36,7 +36,7 @@
 				"The <3>toy<0> transforms,\nA beaming white-feathered bird\nWith golden glasses.\n\nMy name is Colonel Cluck!\nHe proudly exclaimed aloud,\nEyes shining brightly.\n\nIt all started when\nOne day I was feeling famished,\nYearning for human!\n\nNothing, NOTHING, hits\nThe spot like some good ol' fried!\nJust like Mama's dish.",
 "Driven by hunger,\nI embarked on a mission!\nTo create a restaurant,\nThat shall serve my desires!\n\nThus, I opened the doors,\nTo offer a unique cuisine!\nWe welcome all who are willing,\nTo give our food a try!",
 "From that day,\nCFH has proudly served\nHuman meat fresh!\n\nDelivered from local farms,\nOur food is the best! There's nothing like it.\n\nYes, it's crispy-golden\nclaw lickin'\nChickenville\nFried\nHuman!\n\nAh, the thought makes me ravenous!",
-"use:leg:Your leg vanishes,\nSlipping down Cluck's hearty throat,\nHe coughs out <4>nugget<0>!\n\nBehold, take this,\n A token of my gratitude!\nA-haha ha ha!:Hm, you don't have what I need, come talk to me later, I need to get a <3>leg<0> up on the competition"
+"use:leg:default:Your leg vanishes,\nSlipping down Cluck's hearty throat,\nHe coughs out <4>nugget<0>!\n\nBehold, take this,\n A token of my gratitude!\nA-haha ha ha!:Hm, you don't have what I need, come talk to me later, I need to get a <3>leg<0> up on the competition"
 			]
 		}
 	}

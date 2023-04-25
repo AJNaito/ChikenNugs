@@ -11,7 +11,7 @@ function Object(name, _interactions) constructor {
 		var room_inter = interaction[? room_name]
 			
 		if (room_inter[? command] == undefined) {
-			return "<1>You can't do this<0>"
+			return "<1>HEY! You can't do that!<0>\n...\nWe didn't think of that"
 		}
 		return ds_list_find_value(room_inter[? command], global.nuggets_eaten)
 	}

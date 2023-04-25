@@ -33,7 +33,10 @@ if (global.result != false) {
 			if (array_length(split_int) != 1) {
 				interaction = split_int[1]
 			} else {
-				Pick_Up(global.result[1])
+				var temp = Pick_Up(global.result[1])
+				if (temp != "") {
+					interaction = temp
+				}
 			}
 			break;
 		}
@@ -44,6 +47,10 @@ if (global.result != false) {
 			interaction = Conditional_Interact(interaction)
 		}
 		
+		if (string_starts_with(interaction, "talk:")) {
+			interaction = Talk(interaction, global.result[1])
+		}
+		
 		if (string_starts_with(interaction, "use")) {
 			interaction = Use_Item(interaction)
 		}
@@ -51,13 +58,9 @@ if (global.result != false) {
 		if (string_starts_with(interaction, "move_room")) {
 			interaction = Move_Room(interaction)
 		}
-		
-		if (string_starts_with(interaction, "talk:")) {
-			interaction = Talk(interaction, global.result[1])
-		}
 
 		if (string_starts_with(interaction, "change_state")) {
-			interaction = Change_State(interaction, global.result[1])
+			interaction = Change_State(interaction)
 		}
 		
 		if (string_starts_with(interaction, "default")) {

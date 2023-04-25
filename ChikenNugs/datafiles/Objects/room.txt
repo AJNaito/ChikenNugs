@@ -1,5 +1,5 @@
 {
-	"other": ["chamber"],
+	"other": ["chamber", "lobby"],
 	"start_level": {
 		"home": {
 			"inspect": [

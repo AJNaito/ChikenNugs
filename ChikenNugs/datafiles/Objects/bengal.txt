@@ -25,10 +25,10 @@
 ""
 			],
 			"consume": [
-"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
-"conditional:tomato:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default:whale:bengal:tomato:table:Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:bengal:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default+whale+bengal+tomato+table+Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:bengal:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default+whale+bengal+tomato+table+Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:bengal:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default+whale+bengal+tomato+table+Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
+"conditional:bengal:eaten:whale:eaten:table:eaten:You have done me well,\nPurple <3>bengal<0> offers head.\nTastes like awesome!:default+whale+bengal+tomato+table+Fishing line thrown in.\nThe <3>bengal<0> is unamused.\nNo good meal today.",
 ""
 			]
 		}

@@ -1,8 +1,8 @@
 {
-	"story": ["You consume the nugget... You feel woozy, everything goes black","I remember... moving\n",
+	"story": ["You consume the nugget... You feel woozy, everything goes black","I remember... <2>moving<0>\n",
 			"Away from my parents, away from my hometown, away from my life",
-			"I opened up the door to the barren wooden box that would be my new home.", 			"Well… maybe home is too strong a word. I had a roof over my head at least, and I could play by my own rules here.", 
-			"I sat down on the hardwood floor and set my dinner down beside me, a box of four chicken nuggets.", 
+			"I opened up the door to the barren wooden box that would be my new home.", 			"Well… maybe <7>home is too strong a word<0>. I had a roof over my head at least, and I could play by my own rules here.", 
+			"I sat down on the hardwood floor and set my dinner down beside me, a box of <4>four chicken nuggets.<0>", 
 "Ha!", "<1>hahaha...<0>",         "<1>aT leASt TheY were...<0>"],
 	"effects":"warp"
 }

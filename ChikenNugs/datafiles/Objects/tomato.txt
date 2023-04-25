@@ -25,10 +25,10 @@
 ""
 			],
 			"consume": [
-"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
-"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
-"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
-"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:default+tomato+whale+bengal+table+<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:default+tomato+whale+bengal+table+<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:default+tomato+whale+bengal+table+<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
+"change_state:tomato:eaten/conditional:whale:default:bengal:default:table:default:Beak latches on tight,\nDevilish smile as you eat!\nAtta do it! it says:default+tomato+whale+bengal+table+<3>Tomato<0> pouting,\nFresh, dark red bite <7>dripping blood,<0>\nWrong, wrong, wrong, it moans!",
 ""
 
 			]

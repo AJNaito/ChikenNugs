@@ -18,10 +18,10 @@
 ""
 			],
 			"grab": [
-"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
-"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
-"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
-"false:<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+"<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+"<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+"<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
+"<3>Bert<0> placed on thine head,\nA furry hat, a unique sight,\nA chicken's fashion.",
 ""
 			],
 			"use": [

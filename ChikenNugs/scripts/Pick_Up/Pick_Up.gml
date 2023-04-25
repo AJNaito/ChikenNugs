@@ -6,5 +6,5 @@ function Pick_Up(object){
 	}
 	
 	global.item = object
-	return "You picked up" + object
+	return ""
 }
