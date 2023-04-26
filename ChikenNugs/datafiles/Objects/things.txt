@@ -8,10 +8,19 @@
 \nFirst, a nugget, scattered afar from a toe.
 \nThen there's some candy, yes, edible trinkets.
 \nAmidst all an hourglass, courtesy of sentient plateau.",
-				"",
-				"",
-				"",
-				""]
+				"Upon the ground now lies four varied objects.
+\nFirst, a nugget, scattered afar from a toe.
+\nThen there's some candy, yes, edible trinkets.
+\nAmidst all an hourglass, courtesy of sentient plateau.",
+				"Upon the ground now lies four varied objects.
+\nFirst, a <4>nugget<0>, scattered afar from a <4>toe<0>.
+\nThen there's some <4>candy<0>, yes, edible trinkets.
+\nAmidst all an <4>hourglass<0>, courtesy of sentient plateau.",
+				"Upon the ground now lies four varied objects.
+\nFirst, a nugget, scattered afar from a toe.
+\nThen there's some candy, yes, edible trinkets.
+\nAmidst all an hourglass, courtesy of sentient plateau.",
+				"OPEN THE DOOR"]
 		}
 	}
 }

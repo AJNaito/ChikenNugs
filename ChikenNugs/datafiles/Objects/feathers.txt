@@ -4,10 +4,10 @@
 		"home": {
 			"state": "default",
 			"inspect": ["You curiously prod and preen your feathers with a sharp beak. Fowl play is afoot.",
-				"",
-				"",
-				"",
-				""]
+				"You curiously prod and preen your feathers with a sharp beak. Fowl play is afoot",
+				"A significant less amount of feathers are on your body now",
+				"Your feathers litter the ground below",
+				"You're a person... you have to get out of here!"]
 				
 		}
 	}

@@ -8,7 +8,6 @@ switch (scene_name) {
 		Init_Global();
 	break;*/
 	case "Memory_1":
-		array_push(global.levels_cleared, "nugget");
 		var obj = global.objects[? "nugget"]
 		obj = obj.interaction[? "start_level"]
 		obj = obj[? "home"]
@@ -16,14 +15,12 @@ switch (scene_name) {
 		file = "Memory_1.txt"
 	break;
 	case "Memory_2":
-			array_push(global.levels_cleared, "Candy_Forest");
 		var obj = global.objects[? "candy"]
 		obj = obj.interaction[? "home"]
 		ds_map_replace(obj, "state", "eaten")
 		file = "Memory_2.txt"
 	break;
 	case "Memory_3":
-			array_push(global.levels_cleared, "Purple_Desert");
 
 		var obj = global.objects[? "hourglass"]
 		obj = obj.interaction[? "home"]
@@ -32,7 +29,6 @@ switch (scene_name) {
 		file = "Memory_3.txt"
 	break;
 	case "Memory_4":
-			array_push(global.levels_cleared, "Chickenville");
 			var obj = global.objects[? "toe"]
 			obj = obj.interaction[? "home"]
 		ds_map_replace(obj, "state", "eaten")

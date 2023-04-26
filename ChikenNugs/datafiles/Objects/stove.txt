@@ -5,15 +5,15 @@
 			"state":"default",
 			"inspect": [
 				"Trotting steadily\nTo pose before reflective altar\nBehold! Is Chicken",
-				"",
-				"",
-				"",
-				""],
+				"Trotting steadily\nTo pose before reflective altar\nBehold! Is Chicken",
+				"Trotting steadily\nTo pose before reflective altar\nBehold! Is Chicken",
+				"Trotting steadily\nTo pose before reflective altar\nBehold! Is Chicken",
+				"Trotting steadily\nTo pose before reflective altar\nBehold! Is Chicken"],
 			"use": [
 				"You peck at the glass\naltar's alter pecks in turn\nNeedless, tragic war.",
-				"",
-				"",
-				"",
+				"You peck at the glass\naltar's alter pecks in turn\nNeedless, tragic war.",
+				"You poke at the glass\naltar's alter pecks in turn\nNeedless, tragic war.",
+				"You touch at the glass\naltar's alter pecks in turn\nNeedless, tragic war.",
 				""],
 			"consume": [
 				"That's much too large for your tiny beak!",

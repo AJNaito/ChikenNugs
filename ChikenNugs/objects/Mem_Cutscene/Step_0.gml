@@ -1,7 +1,6 @@
 /// @description Check for Enter Button 
 // You can write your code in this editor
 if (increment || keyboard_check(vk_enter)) {
-	show_debug_message("RUNNNN")
 	if (!callOnce) {
 		callOnce = true
 		auto = false
@@ -9,6 +8,9 @@ if (increment || keyboard_check(vk_enter)) {
 	// dialogue is finished, go to main room again
 	if (cur_dialogue == ds_list_size(dialogue_data)) {
 		if (scene_name == "Memory_5") {
+			// restart
+			Restart()
+			room_goto(Menu)
 			return;
 		}
 		

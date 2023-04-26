@@ -5,17 +5,17 @@
 			"state": "default",
 			"inspect": [
 				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
-				"",
-				"",
-				"",
-				""
+				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
+				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
+				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
+				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano"
 			],
 			"interact": [
 				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
-				"",
-				"",
-				"",
-				""
+				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
+				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
+				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
+				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven"
 			]
 		}
 	}

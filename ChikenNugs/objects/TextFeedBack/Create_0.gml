@@ -31,6 +31,3 @@ freq = 2
 
 draw_set_halign(fa_center)
 draw_set_valign(fa_top)
-
-Init_Global()
-Init_Level("start_level")

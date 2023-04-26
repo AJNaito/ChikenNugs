@@ -35,10 +35,10 @@ A three of them <5>shine<0>."
 
 			"interact": [
 				"You reach out to them.\nAlas, keeps getting farther\nWhy is it like this?",
-				"1st nugget text",
-				"2nd nugget text",
-				"3rd nugget text",
-				"4th nugget text"]
+				"You can touch one of them... but the other seem to be avoiding you.\nMaybe if you interact with the other items?",
+				"Two in hand! WHOAAAAA YOU'RE HALF WAY THERE",
+				"How many licks does it take to get to the center of a toostie pop?\nA three! One more left!",
+				"The lock to the door clicks... you can leave"]
 		}
 	}
 }

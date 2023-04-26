@@ -14,16 +14,25 @@
 First, a nugget, scattered afar from a toe.\n
 Then there’s some candy, yes, edible trinkets.\n
 Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
-			"",
-			"",
-			"",
-			""],
+			"change_room:desk:touched:Upon the ground now lies four varied objects.\n
+First, a nugget, scattered afar from a toe.\n
+Then there’s some candy, yes, edible trinkets.\n
+Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
+			"change_room:desk:touched:Upon the ground now lies four varied objects.\n
+First, a nugget, scattered afar from a toe.\n
+Then there’s some candy, yes, edible trinkets.\n
+Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
+			"change_room:desk:touched:Upon the ground now lies four varied objects.\n
+First, a nugget, scattered afar from a toe.\n
+Then there’s some candy, yes, edible trinkets.\n
+Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
+			"WAKE UP"],
 			"consume": [
 				"You peck at the hand... It flips you off",
 				"You peck at the hand... It flips you off harder",
 				"You attempt to eat the hand... but you stop... cause that's gross",
 				"... Gross....",
-				""
+				"WAKE UP"
 			]
 		}
 	}

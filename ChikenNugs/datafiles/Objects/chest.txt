@@ -5,18 +5,18 @@
 			"state":"default",
 			"inspect": [
 				"You approach locked box.\nWhich passes the inspection.\nCertainly, needs key!",
-				"",
-				"",
-				"",
-				""
+				"You approach locked box.\nWhich passes the inspection.\nCertainly, needs key!",
+				"You approach locked box.\nWhich passes the inspection.\nCertainly, needs key!",
+				"You approach locked box.\nWhich passes the inspection.\nCertainly, needs key!",
+				"You approach locked box.\nWhich passes the inspection.\nCertainly, needs key!"
 			],
 			
 			"interact": [
-				"use:key:default:CHEST OPENED",
-				"",
-				"",
-				"",
-				""]
+				"You prod the chest lock with your beak... Ow",
+				"You prod the chest lock with your hand... Yo finga too big!",
+				"Maybe you can lift the chest? <1>ARHG<0> Your back!",
+				"Something's familar about that chest... like I've seen it before",
+				"WAKERKEKK UP"]
 		}
 	}
 }

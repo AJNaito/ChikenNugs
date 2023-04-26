@@ -11,5 +11,10 @@
 \n Warp Shader - ddoodm on ShaderToy
 \n Pulsing Shader - jairoandre on ShaderToy
 \n Ripple Shader - bitbandit on ShaderToy
-\n Skew Shader - Did on ShaderToy"
+\n Skew Shader - Did on ShaderToy
+\n
+\n <4> Sound Credits<0>
+\n--------------------
+\nMain Menu - spacydreamy on pixabay
+\nHome, Purple Desert, CFH, Candy Forest - Miles <- Goated"
 }

@@ -3,16 +3,21 @@
 	"start_level": {
 		"home": {
 			"state":"default",
+			"consume": [
+			"Your beak can't open that big silly",
+			"You still can't eat that up silly!",
+			"Even with your new found strength, you still can't eat this",
+			"WAKE UP"],
 			"inspect": [ "The microwave is\n Exactly as expected.\nEmpty, and dormant",
-			"",
-			"",
-			"",
-			""],
+			"The microwave is\n Exactly as expected.\nEmpty, and dormant",
+			"The microwave is\n Exactly as expected.\nEmpty, and dormant",
+			"The microwave is\n Exactly as expected.\nEmpty, and dormant",
+			"WAKE UP"],
 			"inspect": [ "You press buttons, yes!\n Congratulations. You win!\n...Not. It runs, then stops.",
-				"",
-				"",
-				"",
-				""]
+				"You press buttons, yes!\n Congratulations. You win!\n...Not. It runs, then stops.",
+				"You press buttons, yes!\n Congratulations. You win!\n...Not. You ought to have learned by now",
+				"You press... really you haven't learned yet???",
+				"GO!"]
 		}
 	}
 }
