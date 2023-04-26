@@ -51,3 +51,6 @@ ds_list_clear(TextFeedBack.interaction_history)
 cur_dialogue = 1;
 auto = true
 alarm[0] = 5 * room_speed
+
+
+display_mouse_set(display_get_gui_width()/2, display_get_gui_height()/2)

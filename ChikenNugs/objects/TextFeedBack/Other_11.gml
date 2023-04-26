@@ -12,7 +12,7 @@ if (interaction != "") {
 	char = history_length + 2 *  ds_list_size(interaction_history)
 	
 	for (var i = 0; i < ds_list_size(interaction_history); i++) {
-		whole_interaction += ds_list_find_value(interaction_history, i) + "\n\n"
+		whole_interaction += ds_list_find_value(interaction_history, i) + "\n \n"
 		show_debug_message( string_count("\n",ds_list_find_value(interaction_history, i)))
 		
 		pos_y -= charHeight * string_count("\n", ds_list_find_value(interaction_history, i))

@@ -12,9 +12,9 @@
 	"help": ["?"],
 	"inspect": [">.>", "o.o"],
 	"music": ["Intro", "","","",""],
-	"grab": ["pick-up", "\\o/"],
+	"grab": ["hold","pick-up", "\\o/"],
 	"drop": ["\\/"],
-	"use": ["interact", "->", "talk", "'>'","'<'"],
+	"use": ["touch","open", "interact", "->", "talk", "'>'","'<'"],
 
 	"help_text": "Base verbs: consume, drop, help, inspect, use, grab\n
 Alternatively you can use faces to the same effect, :o = consume, \\/ = drop, ? = help, -> = use/interact, \\o/ = grab \n

@@ -16,7 +16,15 @@
 				"You prod the chest lock with your hand... Yo finga too big!",
 				"Maybe you can lift the chest? <1>ARHG<0> Your back!",
 				"Something's familar about that chest... like I've seen it before",
-				"WAKERKEKK UP"]
+				"WAKERKEKK UP"],
+			"consume": [
+				"You peck at the chest... that's gonna take a while",
+				"You peck at the chest... that's gonna take a while",
+				"<1>YOU AIN'T KIRBY!!<0>",
+				"Why would you eat a chest?",
+				"Fine! You eat the chest... and immediately spit it back out"
+				
+			]
 		}
 	}
 }

@@ -33,6 +33,13 @@ Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\n
 				"You attempt to eat the hand... but you stop... cause that's gross",
 				"... Gross....",
 				"WAKE UP"
+			],
+			"grab": [
+				"false:The <3>hand<0> is touched that you want to hold it... but it's... you know holding a table",
+				"false:The <3>hand<0> is touched that you want to hold it... but it's... you know holding a table",
+				"false:The <3>hand<0> is touched that you want to hold it... but it's... you know holding a table",
+				"false:The <3>hand<0> is touched that you want to hold it... but it's... you know holding a table",
+				"false:It's time to go..."
 			]
 		}
 	}
