@@ -58,6 +58,7 @@ function Init_Level(currentLevel){
 		
 		// keep room persistant until last room
 		if (k == "room" && currentLevel != "Waking_Room") {
+			k = ds_map_find_next(global.objects, k)
 			continue;
 		}
 		

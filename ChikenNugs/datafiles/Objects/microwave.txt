@@ -17,7 +17,14 @@
 				"You press buttons, yes!\n Congratulations. You win!\n...Not. It runs, then stops.",
 				"You press buttons, yes!\n Congratulations. You win!\n...Not. You ought to have learned by now",
 				"You press... really you haven't learned yet???",
-				"GO!"]
+				"GO!"],
+			"grab": [
+"false:Your chicken arms can't possibly lift that up",
+"false:and <1>HEAVEEEE<0>... and you failed",
+"false:COME ON! LIFT WITH YOUR LEGS!!!! <7>ARGH!<0> Your back!",
+"false:and... <1>LIFT!!!<0> Oh... it's nailed down",
+"false:It's time to go..." 
+			]
 		}
 	}
 }

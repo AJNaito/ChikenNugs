@@ -2,7 +2,6 @@
 // You can write your code in this editor
 #region WRITING TEXT
 
-draw_set_font(Regular)
 if (char < string_length(whole_interaction) && !pause) {
 	if (skip) {
 		char = string_length(whole_interaction)

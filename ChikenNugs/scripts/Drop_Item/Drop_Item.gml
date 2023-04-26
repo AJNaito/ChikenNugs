@@ -6,5 +6,5 @@ function Drop_Item() {
 	}
 	global.item = ""
 	
-	return "PLUNK! Item dropped!"
+	return "PLUNK! You dropped the item in your hand"
 }

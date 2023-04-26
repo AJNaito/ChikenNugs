@@ -1,20 +1,17 @@
 {
-	"credits": "<4>CREDITS<0>
-\n-------
+	"credits": "<4>CREDITS---------<0> \n
 \n<3>Engineer<0> - Aidan Naito
 \n<3>Gameplay Designer<0> - Kimball Brooksby
 \n<3>Narrative Designer<0> - Erik Zhang
 \n<3>Producer / Writer<0> - Alex Moran
 \n
-\n <4>Code Credits<0>
-\n----------------
-\n Warp Shader - ddoodm on ShaderToy
-\n Pulsing Shader - jairoandre on ShaderToy
-\n Ripple Shader - bitbandit on ShaderToy
-\n Skew Shader - Did on ShaderToy
+\n<4>Code Credits----------------<0> \n
+\nWarp Shader - ddoodm on ShaderToy
+\nPulsing Shader - jairoandre on ShaderToy
+\nRipple Shader - bitbandit on ShaderToy
+\nSkew Shader - Did on ShaderToy
 \n
-\n <4> Sound Credits<0>
-\n--------------------
+\n<4>Sound Credits--------------------<0> \n
 \nMain Menu - spacydreamy on pixabay
 \nHome, Purple Desert, CFH, Candy Forest - Miles <- Goated"
 }
