@@ -4,23 +4,37 @@
 		"home": {
 			"state":"default",
 			"inspect": [
-				"Upon the ground now lies four varied objects.
+				"conditional:desk:touched:Upon the ground now lies four varied objects.
 \nFirst, a <3>nugget<0>, scattered afar from a <3>toe<0>.
 \nThen there's some <3>candy<0>, yes, edible trinkets.
-\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.",
-				"Upon the ground now lies four varied objects.
+\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.:Hm... nothing in particular in this room.\nI might need a <3>hand<0> with this (nudge nudge wink wink)",
+				"conditional:desk:touched:Upon the ground now lies four varied objects.
 \nFirst, a <3>nugget<0>, scattered afar from a <3>toe<0>.
 \nThen there's some <3>candy<0>, yes, edible trinkets.
-\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.",
-				"Upon the ground now lies four varied objects.
+\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.:Hm... nothing in particular in this room.\nI might need a <3>hand<0> with this (nudge nudge wink wink)",
+				"conditional:desk:touched:Upon the ground now lies four varied objects.
 \nFirst, a <3>nugget<0>, scattered afar from a <3>toe<0>.
 \nThen there's some <3>candy<0>, yes, edible trinkets.
-\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.",
-				"Upon the ground now lies four varied objects.
+\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.:Hm... nothing in particular in this room.\nI might need a <3>hand<0> with this (nudge nudge wink wink)",
+				"conditional:desk:touched:Upon the ground now lies four varied objects.
 \nFirst, a <3>nugget<0>, scattered afar from a <3>toe<0>.
 \nThen there's some <3>candy<0>, yes, edible trinkets.
-\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.",
-				"OPEN THE DOOR"]
+\nAmidst all an <3>hourglass<0>, courtesy of sentient plateau.:Hm... nothing in particular in this room.\nI might need a <3>hand<0> with this (nudge nudge wink wink)",
+				"OPEN THE DOOR"],
+			"grab": [
+"false:There's far too many <3>things<0> to grab!\nYour little chicken arms can't hold this much!",
+"false:There's still far too many <3>things<0> to grab!\nYour chicken legs can't support this much!",
+"false:Yes! You can lift the thi-... Oh they're covered in saliva... Ew",
+"false:The things have dried off, you can pick u-...\n... They are glued to the ground\nThe <3>desk<0> giggles in the background",
+"false:It's time to go..."
+			],
+			"use": [
+				"You can't use ALLL of the <3>things<0>! Only one!",
+				"You can't use ALLL of the <3>things<0>! Only one!",
+"You can't use ALLL of the <3>things<0>! Only one!",
+"You can't use ALLL of the <3>things<0>! Only one!",
+""
+			]
 		}
 	}
 }

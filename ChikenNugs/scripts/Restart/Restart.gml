@@ -3,7 +3,7 @@
 function Restart(){
 	// reset all global variables - prevent memory leaks
 	global.curRoom.Destroy()
-	ds_map_destroy(curRoom);
+	global.curRoom = undefined
 	
 	ds_map_destroy(global.commands)
 	ds_map_destroy(global.object_association)

@@ -4,16 +4,16 @@
 		"home": {
 			"state":"default",
 			"inspect": [
-				"The desk is odd!\nIt has three legs... and a hand?\nIt <1>rattles<0> above",
-				"A peculiar thing\nAn artisan made a table with a hand\nWhat a weird find",
+				"The desk is odd!\nIt has three legs... and a <3>hand<0>?\nIt <1>rattles<0> above",
+				"A peculiar thing\nAn artisan made a table with a <3>hand<0>\nWhat a weird find",
 				"I think it's a pollock",
 				"It's just a weird desk",
 				""],
 			"use": [
-				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<0>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
-				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt still fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
-				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
-				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <3>power<3>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
+				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <7>power<0>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
+				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt still fears your <7>power<0>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
+				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <7>power<0>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
+				"conditional:desk:touched:Table <1>convulses<0>\nIt reels back from your mere touch\nIt fears your <7>power<0>:You peck one desk leg!\nIt flinches, and coughs loud\nStrange creature, indeed.",
 				""]
 		}
 	}

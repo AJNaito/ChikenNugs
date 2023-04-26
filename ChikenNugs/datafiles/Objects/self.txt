@@ -7,7 +7,7 @@
 				"Your wings look like wings... but feel like human skin?",
 				"<1>AHHHH! I STILL GOT CHICKEN LE-<0>, oh nevermind, these are my legs",
 				"Flesh and skin where feathers once were, I am <1>@(#$*<0>",
-				"I am [Insert Name Here]"]
+				"I am [Insert Name Here]... That would've been cool right"]
 		}
 	},
 	"Candy_Forest": {
@@ -39,8 +39,8 @@
 				"",
 				"",
 				"",
-				"I've just been running, I have to <3>swallow<0> my fear... Drastic measures must be taken",
-				"I've just been running, I have to <3>swallow<0> my fear... Drastic measures must be taken"
+				"I've just been running, I have to <4>consume<0> my fear... Drastic measures must be taken.\nI must do something... to my<3>self<0>",
+				"I've just been running, I have to <4>swallow<0> my fear... Drastic measures must be taken.\nI must do something... to my<3>self<0>"
 			],
 
 			"consume": [

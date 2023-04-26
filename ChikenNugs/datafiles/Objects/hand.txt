@@ -11,21 +11,21 @@
 				"A peculiar table I bought, the hand stays still"],
 			"use": [
 				"change_room:desk:touched:Upon the ground now lies four varied objects.\n
-First, a nugget, scattered afar from a toe.\n
-Then there’s some candy, yes, edible trinkets.\n
-Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
+First, a <3>nugget<0>, scattered afar from a <3>toe<0>.\n
+Then there’s some <3>candy<0>, yes, edible trinkets.\n
+Amidst all, an <3>hourglass<0>, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits <3>things<0> into <3>room<0>.",
 			"change_room:desk:touched:Upon the ground now lies four varied objects.\n
-First, a nugget, scattered afar from a toe.\n
-Then there’s some candy, yes, edible trinkets.\n
-Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
+First, a <3>nugget<0>, scattered afar from a <3>toe<0>.\n
+Then there’s some <3>candy<0>, yes, edible trinkets.\n
+Amidst all, an <3>hourglass<0>, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits <3>things<0> into <3>room<0>.",
 			"change_room:desk:touched:Upon the ground now lies four varied objects.\n
-First, a nugget, scattered afar from a toe.\n
-Then there’s some candy, yes, edible trinkets.\n
-Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
+First, a <3>nugget<0>, scattered afar from a <3>toe<0>.\n
+Then there’s some <3>candy<0>, yes, edible trinkets.\n
+Amidst all, an <3>hourglass<0>, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits <3>things<0> into <3>room<0>.",
 			"change_room:desk:touched:Upon the ground now lies four varied objects.\n
-First, a nugget, scattered afar from a toe.\n
-Then there’s some candy, yes, edible trinkets.\n
-Amidst all, an hourglass, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits things into room.",
+First, a <3>nugget<0>, scattered afar from a <3>toe<0>.\n
+Then there’s some <3>candy<0>, yes, edible trinkets.\n
+Amidst all, an <3>hourglass<0>, courtesy of sentient plateau.:Table <1>convulses<0>!\nIt reels back, mouth opening!\nSpits <3>things<0> into <3>room<0>.",
 			"WAKE UP"],
 			"consume": [
 				"You peck at the hand... It flips you off",

@@ -8,14 +8,14 @@
 				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
 				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
 				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano",
-				"Certain cupboards.\nLook strange, in shape and placement\nAs like piano"
+				"It's time to go..."
 			],
-			"interact": [
+			"use": [
 				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
 				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
 				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
 				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven",
-				"You peck cupboards.\nThey ring out, melodic glee!\nYou are Beethoven"
+				"The <3>gemstones<0> are lit... GO!"
 			]
 		}
 	}

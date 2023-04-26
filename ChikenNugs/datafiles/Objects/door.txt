@@ -8,7 +8,7 @@ with
 
 	four
 nugget    shaped
-   gemstones
+   <3>gemstones<0>
 
 inlaid into the center",
 			"A dark metal door,
@@ -16,33 +16,33 @@ with\n
 
 	four\n
 nugget    shaped\n
-   gemstones\n
+   <3>gemstones<0>\n
 
-inlaid into the center, one is glowing",
+inlaid into the center, one is <6>glowing<0>",
 			"A dark metal door,
 with\n
 
 	four\n
 nugget    shaped\n
-   gemstones\n
+   <3>gemstones<0>\n
 
-inlaid into the center, two are glowing",
+inlaid into the center, two are <6>glowing<0>",
 			"A dark metal door,
 with\n
 
 	four\n
 nugget    shaped\n
-   gemstones\n
+   <3>gemstones<0>\n
 
-inlaid into the center, three are glowing",
+inlaid into the center, three are <6>glowing<0>",
 			"A dark metal door,
 with\n
 
 	four\n
 nugget    shaped\n
-   gemstones\n
+   <3>gemstones<0>\n
 
-inlaid into the center, all four are glowing"],
+inlaid into the center, all four are <6>glowing<0>"],
 			
 			"use": [
 				"You reach out to door\nAlas, Keeps getting farther\nImpossible path?",

@@ -7,7 +7,7 @@ draw_set_halign(fa_center)
 
 draw_set_color(c_white)
 draw_text(xx, yy, text[0])
-yy += 100
+yy += 50
 for (var i = 1; i <= y_max; i++) {
 	if (i == y_pos) draw_set_color(c_white);
 	else draw_set_color(c_gray);

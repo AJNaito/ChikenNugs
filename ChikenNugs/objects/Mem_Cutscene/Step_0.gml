@@ -20,7 +20,7 @@ if (increment || keyboard_check(vk_enter)) {
 		ds_list_clear( TextFeedBack.interaction_history)
 		
 		// set interaction
-		TextFeedBack.interaction = "You slowly drift back...\nYou're in the main room...\nThings are different"
+		TextFeedBack.interaction = "You slowly drift back...\nYou're in the main room...\n<3>Things<0> are still there... the <3>room<0> seems more familiar"
 		with(TextFeedBack) {
 			event_user(1)
 		}
