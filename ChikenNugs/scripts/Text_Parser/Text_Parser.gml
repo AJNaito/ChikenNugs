@@ -27,6 +27,12 @@ function Text_Parser(user_message){
 	for (; i < size; i++) {
 		var obj_name = array_get(split_elements,i)
 		var obj_res = global.objects[? obj_name]
+		
+		if (obj_name == global.curRoom.room_name) {
+			obj = obj_name
+			break;
+		}
+		
 
 		if (obj_res == undefined) {
 			obj_name = global.object_association[? obj_name]
