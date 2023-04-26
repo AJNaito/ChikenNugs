@@ -4,7 +4,7 @@ draw_set_font(Regular)
 user_msg = ""
 delay = 10
 char_limit = 256
-charSize = string_width("L")
+charSize = string_width("M")
 cursor = "|" // can possibly change based on character state
 callOnce = false
 

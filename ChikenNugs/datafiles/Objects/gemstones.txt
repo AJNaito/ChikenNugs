@@ -4,32 +4,32 @@
 		"home": {
 			"state":"default",
 			"inspect": [
-"	four
-nugget    shaped
-   gemstones
-
-inlaid into the center of door
-All are dormant.",
-"	four
-nugget    shaped
-   gemstones
-
-inlaid into the center of door
-A single one <5>shines<0> from the rest."			
+"	four\n
+nugget    shaped\n
+   gemstones\n
+\n
+inlaid into the center of door\n
+All are dormant.\n",
+"	four\n
+nugget    shaped\n
+   gemstones\n
+\n
+inlaid into the center of door\n
+A single one <5>shines<0> from the rest.\n"			
 ,
-"	four
-nugget    shaped
-   gemstones
-
-inlaid into the center of door
-Half of them <5>shine<0>."			
+"	four\n
+nugget    shaped\n
+   gemstones\n
+\n
+inlaid into the center of door\n
+Half of them <5>shine<0>.\n"			
 ,
-"	four
-nugget    shaped
-   gemstones
-
-inlaid into the center of door
-A three of them <5>shine<0>."			
+"	four\n
+nugget    shaped\n
+   gemstones\n
+\n
+inlaid into the center of door\n
+A three of them <5>shine<0>.\n"			
 ,
 			"All four nuggets are <3>shining<0>. You can leave"],
 
